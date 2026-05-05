@@ -70,8 +70,8 @@
         
         <div class="filters">
             <label>筛选：</label>
-            <button class="filter-btn active" data-filter="all">全部</button>
-            <button class="filter-btn" data-filter="high">高匹配 (≥3★)</button>
+            <button class="filter-btn" data-filter="all">全部</button>
+            <button class="filter-btn active" data-filter="high">高匹配 (≥3★)</button>
             <button class="filter-btn" data-filter="skao">SKAO</button>
             <button class="filter-btn" data-filter="un">UN系统</button>
         </div>
@@ -197,6 +197,17 @@
                         else if (filter === 'high') card.style.display = match >= 3 ? '' : 'none';
                         else if (filter === 'skao') card.style.display = org.includes('SKAO') ? '' : 'none';
                         else if (filter === 'un') card.style.display = org.includes('UN') || org.includes('联合国') ? '' : 'none';
+                    });
+                    // Update stats based on filter
+                    const visibleCards = document.querySelectorAll('.job-card:not([style*="display: none"])');
+                    // Count visible by category
+                    let vHigh = 0, vSkao = 0, vUn = 0;
+                    visibleCards.forEach(c => {
+                        const m = parseInt(c.dataset.match) || 0;
+                        const o = c.dataset.org || '';
+                        if (m >= 3) vHigh++;
+                        if (o.includes('SKAO')) vSkao++;
+                        if (o.includes('UN') || o.includes('联合国')) vUn++;
                     });
                 });
             });
