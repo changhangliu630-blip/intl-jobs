@@ -1,7 +1,12 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-06T08:30:00.000000",
-  "reported": ["UNGC-PE-COORD", "UNGC-PE-MANAGER", "UNGC-COMMS-SR", "UNGC-PROG-SR"],
+  "lastUpdated": "2026-05-07T23:30:14.783545",
+  "reported": [
+    "UNGC-PE-COORD",
+    "UNGC-PE-MANAGER",
+    "UNGC-COMMS-SR",
+    "UNGC-PROG-SR"
+  ],
   "jobs": [
     {
       "id": "UNGC-PE-COORD",
@@ -18,7 +23,10 @@
       "matchScore": 5,
       "matchNote": "完美匹配：P2级别+Partnership/Engagement方向+中国驻点，3年经验+招商引资+UN Job Fair统筹经验极度契合，竞争门槛适中",
       "requirements": "支持企业招募、潜在客户信息管理、价值主张推广，协助PE Manager开展招募活动",
-      "reported": true
+      "reported": true,
+      "applyMethod": "邮件投递",
+      "applyEmail": "ungc.china@unglobalcompact.org",
+      "applySubject": "Coordinator, Participant Engagement - 姓名-毕业年份"
     },
     {
       "id": "UNGC-PE-MANAGER",
@@ -35,7 +43,10 @@
       "matchScore": 4,
       "matchNote": "核心方向完全匹配：企业招募与参与（Partnership/Engagement），3年经验+招商引资背景高度相关，CSC国际人才项目经验加分，中国驻点无需 relocation",
       "requirements": "负责开发本地化价值主张、企业招募与维系、数字营销活动策划，需CRM/Salesforce经验",
-      "reported": true
+      "reported": true,
+      "applyMethod": "邮件投递",
+      "applyEmail": "ungc.china@unglobalcompact.org",
+      "applySubject": "Manager, Participant Engagement and Services - 姓名-毕业年份"
     },
     {
       "id": "UNGC-COMMS-SR",
@@ -52,7 +63,10 @@
       "matchScore": 3,
       "matchNote": "传播/媒体关系方向相关（External Relations范畴），但级别偏高（Senior Manager），需较多传播领域经验。CSC统筹UN Job Fair的传播经验可算加分",
       "requirements": "负责中国区传播与媒体关系策略，需资深传播领域经验",
-      "reported": true
+      "reported": true,
+      "applyMethod": "邮件投递",
+      "applyEmail": "ungc.china@unglobalcompact.org",
+      "applySubject": "Senior Manager, Communications - 姓名-毕业年份"
     },
     {
       "id": "UNGC-PROG-SR",
@@ -69,7 +83,10 @@
       "matchScore": 3,
       "matchNote": "项目开发方向部分相关（Programme类），但偏研究/可持续性方向，级别偏高。ESG证书是加分项",
       "requirements": "负责可持续发展项目开发、研究报告撰写、企业参与深化，需可持续性领域研究经验",
-      "reported": true
+      "reported": true,
+      "applyMethod": "邮件投递",
+      "applyEmail": "ungc.china@unglobalcompact.org",
+      "applySubject": "Senior Manager, Programs Development - 姓名-毕业年份"
     }
   ],
   "userProfile": {
