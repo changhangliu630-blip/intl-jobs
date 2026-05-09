@@ -1,11 +1,13 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-07T23:30:14.783545",
+  "lastUpdated": "2026-05-09T08:30:00.000000",
   "reported": [
     "UNGC-PE-COORD",
     "UNGC-PE-MANAGER",
     "UNGC-COMMS-SR",
-    "UNGC-PROG-SR"
+    "UNGC-PROG-SR",
+    "WIPO-TA-MANAGER-P4",
+    "UNFPA-COMMS-P3-IST"
   ],
   "jobs": [
     {
@@ -87,6 +89,46 @@
       "applyMethod": "邮件投递",
       "applyEmail": "ungc.china@unglobalcompact.org",
       "applySubject": "Senior Manager, Programs Development - 姓名-毕业年份"
+    },
+    {
+      "id": "WIPO-TA-MANAGER-P4",
+      "title": "人才获取经理",
+      "titleEn": "Talent Acquisition Manager",
+      "organization": "世界知识产权组织 (WIPO)",
+      "location": "瑞士日内瓦",
+      "contract": "固定期限合同 (FTA)",
+      "grade": "P4",
+      "salary": "约11.5万-13万瑞士法郎/年（待确认）",
+      "deadline": "2026-05-23",
+      "link": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl",
+      "source": "WIPO官方招聘系统",
+      "matchScore": 3,
+      "matchNote": "HR/招聘管理方向，与用户优先方向（partnership/external relations）不完全匹配，但用户有CSC国际人才项目经验和UN Job Fair统筹经验（4500+学生，133所高校，20+国际组织），与人才招聘领域有一定关联性。P4级别偏高（通常需5-7年经验），但值得尝试。日内瓦生活成本高，需考虑实际情况。",
+      "requirements": "负责组织招聘战略制定与执行，吸引并留住顶尖人才，推动知识产权领域全球人才发展。需人力资源管理经验、国际组织招聘经验、战略规划能力。",
+      "reported": true,
+      "applyMethod": "在线申请",
+      "applyEmail": null,
+      "applySubject": null
+    },
+    {
+      "id": "UNFPA-COMMS-P3-IST",
+      "title": "传播专员",
+      "titleEn": "Communications Specialist, P3, EECARO, FTA",
+      "organization": "联合国人口基金 (UNFPA)",
+      "location": "土耳其伊斯坦布尔",
+      "contract": "固定期限合同 (FTA)",
+      "grade": "P-3",
+      "salary": "未公开（P3约6.5-8万美元/年净薪）",
+      "deadline": "2026-05-20",
+      "link": "https://www.unfpa.org/jobs",
+      "source": "人社部国际组织人才信息服务网 / UNFPA官网",
+      "matchScore": 3,
+      "matchNote": "传播/Communications方向属于External Relations范畴，P3级别与3年经验基本匹配。CSC统筹UN Job Fair的传播/外联经验可作为加分。伊斯坦布尔为EECARO（东欧和中亚区域办公室），需适应跨文化环境。截止日期紧迫（5月20日），建议尽快申请。",
+      "requirements": "负责UNFPA东欧和中亚区域的传播策略制定与执行、媒体关系维护、宣传材料制作。需传播/新闻/国际关系相关背景，优秀的英文写作能力，国际组织传播经验优先。",
+      "reported": true,
+      "applyMethod": "在线申请",
+      "applyEmail": null,
+      "applySubject": null
     }
   ],
   "userProfile": {
@@ -103,7 +145,7 @@
       "programme officer - development cooperation"
     ],
     "currentOrg": "CSC（中国留学服务中心）",
-    "updatedAt": "2026-05-05",
+    "updatedAt": "2026-05-09",
     "note": "用户指出 CSC 作为重要资助方的背景非常有价值，partnership/external relations 方向应优先搜索；P5+ 因经验不足（仅3年）暂不推荐"
   },
   "exclusionRules": {
