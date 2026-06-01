@@ -1,13 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-09T19:46:00.000000",
+  "lastUpdated": "2026-06-01T09:20:00",
   "reported": [
     "UNGC-PE-COORD",
     "UNGC-PE-MANAGER",
     "UNGC-COMMS-SR",
     "UNGC-PROG-SR",
     "WIPO-TA-MANAGER-P4",
-    "UNFPA-COMMS-P3-IST"
+    "UNFPA-COMMS-P3-IST",
+    "UNICEF-PO-P2-SUDAN",
+    "UNICEF-ES-P3-GENEVA",
+    "UNICEF-FRS-P3-ROME",
+    "UNEP-APMO-P2-NAIROBI",
+    "UNIDO-ERO-P3-VIENNA",
+    "UNEP-IPBES-APIO-P2-BONN",
+    "IYF-PO-GUSP-REMOTE",
+    "IYF-PC-MXBRA",
+    "GATES-ASO-FSO-SEATTLE"
   ],
   "jobs": [
     {
@@ -28,7 +37,8 @@
       "reported": true,
       "applyMethod": "邮件投递",
       "applyEmail": "ungc.china@unglobalcompact.org",
-      "applySubject": "Coordinator, Participant Engagement - 姓名-毕业年份"
+      "applySubject": "Coordinator, Participant Engagement - 姓名-毕业年份",
+      "reportedDate": "2026-05-29"
     },
     {
       "id": "UNGC-PE-MANAGER",
@@ -48,7 +58,8 @@
       "reported": true,
       "applyMethod": "邮件投递",
       "applyEmail": "ungc.china@unglobalcompact.org",
-      "applySubject": "Manager, Participant Engagement and Services - 姓名-毕业年份"
+      "applySubject": "Manager, Participant Engagement and Services - 姓名-毕业年份",
+      "reportedDate": "2026-05-29"
     },
     {
       "id": "UNGC-COMMS-SR",
@@ -68,12 +79,13 @@
       "reported": true,
       "applyMethod": "邮件投递",
       "applyEmail": "ungc.china@unglobalcompact.org",
-      "applySubject": "Senior Manager, Communications - 姓名-毕业年份"
+      "applySubject": "Senior Manager, Communications - 姓名-毕业年份",
+      "reportedDate": "2026-05-29"
     },
     {
       "id": "UNGC-PROG-SR",
       "title": "项目开发与商业洞察高级经理",
-      "titleEn": "Senior Manager, Programs Development and Business Insights",
+      "titleEn": "Senior Manager, Programmes Development and Business Insights",
       "organization": "联合国全球契约组织 (UNGC)",
       "location": "中国上海",
       "contract": "正式员工",
@@ -88,7 +100,8 @@
       "reported": true,
       "applyMethod": "邮件投递",
       "applyEmail": "ungc.china@unglobalcompact.org",
-      "applySubject": "Senior Manager, Programs Development - 姓名-毕业年份"
+      "applySubject": "Senior Manager, Programmes Development - 姓名-毕业年份",
+      "reportedDate": "2026-05-29"
     },
     {
       "id": "WIPO-TA-MANAGER-P4",
@@ -100,6 +113,7 @@
       "grade": "P4",
       "salary": "约11.5万-13万瑞士法郎/年（待确认）",
       "deadline": "2026-05-23",
+      "expired": true,
       "link": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl",
       "source": "WIPO官方招聘系统",
       "matchScore": 3,
@@ -120,6 +134,7 @@
       "grade": "P-3",
       "salary": "未公开（P3约6.5-8万美元/年净薪）",
       "deadline": "2026-05-20",
+      "expired": true,
       "link": "https://www.unfpa.org/jobs",
       "source": "人社部国际组织人才信息服务网 / UNFPA官网",
       "matchScore": 3,
@@ -129,6 +144,189 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null
+    },
+    {
+      "id": "UNICEF-PO-P2-SUDAN",
+      "title": "合作干事 (Partnerships Officer)",
+      "titleEn": "Partnerships Officer, P-2, TA, #137088, National Team - Sudan, ESAR",
+      "organization": "联合国儿童基金会 (UNICEF)",
+      "location": "苏丹喀土穆 (部分团队在肯尼亚内罗毕)",
+      "contract": "临时任命 (TA, 364天)",
+      "grade": "P-2",
+      "salary": "未公开 (P2约5-6万美元/年净薪)",
+      "deadline": "2026-06-02",
+      "link": "https://jobs.unicef.org/cw/en-us/job/593316/partnerships-officer-p2-ta-364-days-137088-national-team-sudan-esar",
+      "source": "UNICEF招聘系统",
+      "matchScore": 4,
+      "matchNote": "P2级别完美匹配3年经验，岗位直接归属于Partnerships and Resource Mobilisation (PRM)团队，负责捐助方报告、资源动员和问责工作。Sudan管理UNICEF全球最大人道主义呼吁之一（接近10亿美元/年），PRM团队6人，是核心岗位。但苏丹为艰苦工作地点（部分团队在内罗毕），安全性需考量。",
+      "requirements": "负责捐助方报告撰写与质量保证、UNICEF苏丹人道主义情况报告(SitReps)编制、年度报告协调。需Partnership/Resource Mobilisation经验、出色的英文写作能力、人道主义/发展领域经验。",
+      "reported": true,
+      "reportedDate": "2026-05-31",
+      "applyMethod": "在线申请",
+      "applyEmail": null,
+      "applySubject": null
+    },
+    {
+      "id": "UNICEF-ES-P3-GENEVA",
+      "title": "应急合作专家 (Emergency Specialist - Standby Partners)",
+      "titleEn": "Emergency Specialist (Standby Partners), P-3, Fixed Term, Geneva, #00086056",
+      "organization": "联合国儿童基金会 (UNICEF)",
+      "location": "瑞士日内瓦",
+      "contract": "固定期限合同 (FTA)",
+      "grade": "P-3",
+      "salary": "未公开 (P3约6.5-8万美元/年净薪，日内瓦有岗位调整系数)",
+      "deadline": "2026-06-08",
+      "link": "https://jobs.unicef.org/cw/en-us/job/593303/emergency-specialist-standby-partners-p3-fixed-term-position-office-of-emergency-operations-op-to-geneva-switzerland-00086056",
+      "source": "UNICEF招聘系统",
+      "matchScore": 4,
+      "matchNote": "P3级别+日内瓦绝佳地点。岗位核心职能为'Nurturing Partnerships'，管理UNICEF与UN机构、国际组织、IASC、会员国和NGO网络的Standby Partnership安排，直接对口External Relations/Partnership方向。需5年经验略高但值得冲刺。CSC国际人才项目管理经验可作为加分。",
+      "requirements": "负责Standby Partnership的战略与运营领导、合作伙伴关系维护、紧急增援人员部署协调、数据分析与报告。需国际关系/社会科学/人道主义相关硕士，5年紧急人道主义或伙伴关系管理经验。",
+      "reported": true,
+      "reportedDate": "2026-05-31",
+      "applyMethod": "在线申请",
+      "applyEmail": null,
+      "applySubject": null
+    },
+    {
+      "id": "UNICEF-FRS-P3-ROME",
+      "title": "筹资专员 (Fund Raising Specialist)",
+      "titleEn": "Fund Raising Specialist, P-3, Temporary Position, Rome, #00137257",
+      "organization": "联合国儿童基金会 (UNICEF)",
+      "location": "意大利罗马",
+      "contract": "临时职位 (Temporary, 364天)",
+      "grade": "P-3",
+      "salary": "未公开 (P3约6.5-8万美元/年净薪)",
+      "deadline": "2026-06-07",
+      "link": "https://jobs.unicef.org/cw/en-us/job/593269/fund-raising-specialist-p3-temporary-position-rome-italy-364-days-private-fund-raising-and-partnerships-00137257",
+      "source": "UNICEF招聘系统",
+      "matchScore": 3,
+      "matchNote": "P3级别+罗马不错地点。属于Private Fund Raising and Partnerships (PSFP)部门，偏个人捐赠(Individual Giving)而非机构伙伴关系，与Resource Mobilization方向相关但侧重点不同。需private sector fundraising经验。",
+      "requirements": "负责关键募资市场的Individual Giving策略制定与执行、市场支持与发展、与总部/区域团队协调合作。需募资/市场营销经验、战略规划能力、国际化工作背景。",
+      "reported": true,
+      "reportedDate": "2026-05-31",
+      "applyMethod": "在线申请",
+      "applyEmail": null,
+      "applySubject": null
+    },
+    {
+      "id": "UNEP-APMO-P2-NAIROBI",
+      "title": "助理方案管理干事",
+      "titleEn": "Associate Programme Management Officer",
+      "organization": "联合国环境规划署 (UNEP)",
+      "location": "肯尼亚内罗毕",
+      "contract": "正式员工",
+      "grade": "P-2",
+      "salary": "未公开",
+      "deadline": "2026-06-26",
+      "link": "https://careers.un.org/jobSearchDescription/273426",
+      "source": "UN Careers",
+      "matchScore": 5,
+      "matchNote": "岗位直接支持 funding and partnerships，覆盖 communication、coordination、outreach 与 resource mobilization，和现有外联、说明会统筹、跨机构沟通经历高度契合。",
+      "requirements": "支持执行办公室的伙伴关系、知识管理、沟通、资源动员与协调工作。",
+      "reported": true,
+      "reportedDate": "2026-06-01",
+      "applyMethod": "在线申请",
+      "sourceCategory": "IGO/UN"
+    },
+    {
+      "id": "UNIDO-ERO-P3-VIENNA",
+      "title": "对外关系干事",
+      "titleEn": "External Relations Officer",
+      "organization": "联合国工业发展组织 (UNIDO)",
+      "location": "奥地利维也纳",
+      "contract": "Fixed Term - 100 series",
+      "grade": "P-3",
+      "salary": "未公开",
+      "deadline": "2026-06-12",
+      "link": "https://careers.unido.org/job/Vienna-External-Relations-Officer/1353173555/",
+      "source": "UNIDO Careers",
+      "matchScore": 4,
+      "matchNote": "覆盖 Member States engagement、stakeholder mapping、meeting programme、corporate outreach 与对外关系文稿支持，和 CSC 的国际组织协调及中英沟通材料经验高度相关。",
+      "requirements": "支持成员国和利益相关方关系、会议与活动协调、对外关系文稿和企业外联。",
+      "reported": true,
+      "reportedDate": "2026-06-01",
+      "applyMethod": "在线申请",
+      "sourceCategory": "IGO/UN"
+    },
+    {
+      "id": "UNEP-IPBES-APIO-P2-BONN",
+      "title": "助理公共信息干事",
+      "titleEn": "Associate Public Information Officer",
+      "organization": "联合国环境规划署 (UNEP) / IPBES Secretariat",
+      "location": "德国波恩",
+      "contract": "正式员工",
+      "grade": "P-2",
+      "salary": "未公开",
+      "deadline": "2026-06-10",
+      "link": "https://careers.un.org/jobSearchDescription/276081",
+      "source": "UN Careers",
+      "matchScore": 4,
+      "matchNote": "标准国际传播入口岗，可直接对接你现有的中英文宣传材料编辑、说明会传播、社媒推广与跨机构协调经验。",
+      "requirements": "支持公共信息、传播活动、内容制作与利益相关方沟通。",
+      "reported": true,
+      "reportedDate": "2026-06-01",
+      "applyMethod": "在线申请",
+      "sourceCategory": "IGO/UN"
+    },
+    {
+      "id": "IYF-PO-GUSP-REMOTE",
+      "title": "项目官员",
+      "titleEn": "Program Officer, Global and U.S. Programs",
+      "organization": "International Youth Foundation (IYF)",
+      "location": "美国远程",
+      "contract": "Full-time",
+      "grade": "Officer",
+      "salary": "未公开",
+      "deadline": null,
+      "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4161963",
+      "source": "IYF Careers",
+      "matchScore": 3,
+      "matchNote": "青年发展、教育和 donor-funded programs 方向很贴，3-4 年经验要求和当前年限基本重合。",
+      "requirements": "支持全球及美国项目实施、协调、报告与跨团队协作。",
+      "reported": true,
+      "reportedDate": "2026-06-01",
+      "applyMethod": "在线申请",
+      "sourceCategory": "UIA-discovered INGO"
+    },
+    {
+      "id": "IYF-PC-MXBRA",
+      "title": "项目协调员",
+      "titleEn": "Program Coordinator, Mexico & Brazil",
+      "organization": "International Youth Foundation (IYF)",
+      "location": "Mexico / Colombia / Brazil",
+      "contract": "Full-time",
+      "grade": "Coordinator",
+      "salary": "未公开",
+      "deadline": null,
+      "link": "https://recruiting.paylocity.com/recruiting/jobs/Details/4180583/International-Youth-Foundation/Program-Coordinator-Mexico-Brazil",
+      "source": "IYF Careers",
+      "matchScore": 3,
+      "matchNote": "youth employment、education、partner engagement、M&E support 与 grants/contracts tracking 方向相关。",
+      "requirements": "支持墨西哥和巴西项目、伙伴协调、监测评估与跨国团队协作。",
+      "reported": true,
+      "reportedDate": "2026-06-01",
+      "applyMethod": "在线申请",
+      "sourceCategory": "UIA-discovered INGO"
+    },
+    {
+      "id": "GATES-ASO-FSO-SEATTLE",
+      "title": "战略助理官员",
+      "titleEn": "Associate Strategy Officer, Foundation Strategy Office",
+      "organization": "Gates Foundation",
+      "location": "美国西雅图（hybrid）",
+      "contract": "Full-time, limited-term",
+      "grade": "Associate",
+      "salary": "未公开",
+      "deadline": "2026-06-08",
+      "link": "https://gatesfoundation.wd1.myworkdayjobs.com/en-US/Gates/job/Associate-Strategy-Officer--Foundation-Strategy-Office_B021576-1",
+      "source": "Gates Careers",
+      "matchScore": 3,
+      "matchNote": "可作为基金会生态入口，覆盖 education、gender equality、philanthropic partnerships 等议题。",
+      "requirements": "支持战略制定、洞察整合、利益相关方协作与项目推进。",
+      "reported": true,
+      "reportedDate": "2026-06-01",
+      "applyMethod": "在线申请",
+      "sourceCategory": "Foundation"
     }
   ],
   "userProfile": {
@@ -145,13 +343,56 @@
       "programme officer - development cooperation"
     ],
     "currentOrg": "CSC（中国留学服务中心）",
-    "updatedAt": "2026-05-09",
-    "note": "用户指出 CSC 作为重要资助方的背景非常有价值，partnership/external relations 方向应优先搜索；P5+ 因经验不足（仅3年）暂不推荐"
+    "updatedAt": "2026-05-31",
+    "note": "沟通方向为主（Partnership/External Relations/Donor Relations/Resource Mobilization），拓宽至IO+INGO+Foundation三类。UIA Yearbook (uia.org/ybio/) 收录的组织均可纳入。P2-P4，排除实习/JPO/顾问/志愿者/IT技术岗。CSC背景在国际组织中作为重要资助方有分量。",
+    "targetOrgs": [
+      "IO",
+      "INGO",
+      "Foundation"
+    ],
+    "searchChannels": [
+      "careers.un.org (IO)",
+      "UNDP/UNESCO/UNICEF careers",
+      "io.mohrss.gov.cn (人社部国际组织人才信息服务网)",
+      "reliefweb.int/jobs",
+      "impactpool.org",
+      "unjobs.org",
+      "UNGC中国官网",
+      "INGO官网招聘页（WWF, Oxfam, IRC, Save the Children, Plan International等）",
+      "基金会招聘页（Gates Foundation, Ford Foundation, Clinton Foundation, Rockefeller Foundation等）",
+      "UIA Yearbook收录组织官网"
+    ]
   },
   "exclusionRules": {
     "excludeIT": true,
     "excludeNationalityRequired": true,
     "minMatchScore": 3,
-    "updatedAt": "2026-05-05"
+    "updatedAt": "2026-05-31",
+    "note": "排除实习/顾问/JPO/志愿者/IT技术岗/要求当地国民的岗位。岗位类型放宽至IO+INGO+Foundation三大类。UIA Yearbook收录组织均可。"
+  },
+  "searchNotes": {
+    "2026-05-31-round1": {
+      "searchesPerformed": 5,
+      "channels": [
+        "careers.un.org (JS渲染)",
+        "io.mohrss.gov.cn (连接失败)",
+        "reliefweb.int API v1 (已废弃)",
+        "reliefweb.int API v2 (需appname)",
+        "unjobs.org (Cloudflare 403)",
+        "impactpool.org (JS渲染)",
+        "jobs.undp.org (JS渲染，无partnership岗位)",
+        "careers.who.int (JS渲染)",
+        "gatesfoundation.org/about/careers (JS渲染SPA)",
+        "oxfam.org.uk (JS渲染)",
+        "careers.rescue.org (JS渲染)",
+        "Bing搜索 (cn.bing.com, 英文返回词典结果)",
+        "DuckDuckGo Lite (无法连接)"
+      ],
+      "newJobsFound": 3,
+      "successChannels": [
+        "jobs.unicef.org (成功！curl+解析提取到partnership类岗位)"
+      ],
+      "summary": "仅UNICEF招聘系统（jobs.unicef.org）对curl友好，成功提取3个Partnership方向正式岗位。其余渠道均为JS渲染SPA或Cloudflare拦截。Bing在中国默认使用cn.bing.com，英文搜索返回词典而非岗位。"
+    }
   }
 }
