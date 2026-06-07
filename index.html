@@ -1,223 +1,94 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>国际组织岗位日报</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
-        .container { max-width: 1000px; margin: 0 auto; }
-        .header { background: white; border-radius: 16px; padding: 30px; margin-bottom: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
-        .header h1 { color: #1a1a2e; font-size: 28px; margin-bottom: 8px; }
-        .header .subtitle { color: #666; font-size: 14px; margin-bottom: 16px; }
-        .header .priority { background: #fff3e0; padding: 8px 14px; border-radius: 8px; font-size: 13px; color: #e65100; display: inline-block; margin-bottom: 10px; }
-        .stats { display: flex; gap: 16px; margin-top: 20px; flex-wrap: wrap; }
-        .stat { background: #f8f9fa; padding: 16px 24px; border-radius: 12px; text-align: center; flex: 1; min-width: 100px; }
-        .stat-num { font-size: 32px; font-weight: bold; color: #667eea; }
-        .stat-label { font-size: 12px; color: #666; margin-top: 4px; }
-        .filters { background: white; border-radius: 16px; padding: 16px 20px; margin-bottom: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-        .filters label { font-size: 14px; color: #666; margin-right: 4px; }
-        .filter-btn { padding: 8px 18px; border: 2px solid #e0e0e0; border-radius: 8px; background: white; cursor: pointer; font-size: 13px; transition: all 0.2s; }
-        .filter-btn:hover, .filter-btn.active { background: #667eea; color: white; border-color: #667eea; }
-        .job-list { display: grid; gap: 16px; }
-        .job-card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); transition: transform 0.2s; border-left: 5px solid #e0e0e0; }
-        .job-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.15); }
-        .job-card.match-5 { border-left-color: #4caf50; }
-        .job-card.match-4 { border-left-color: #8bc34a; }
-        .job-card.match-3 { border-left-color: #ffc107; }
-        .job-card.match-2 { border-left-color: #ff9800; }
-        .job-card.match-1 { border-left-color: #e0e0e0; }
-        .job-card.match-0 { border-left-color: #e0e0e0; }
-        .job-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; gap: 12px; }
-        .job-title { font-size: 18px; font-weight: 600; color: #1a1a2e; }
-        .job-title-en { font-size: 14px; color: #888; font-weight: 400; }
-        .job-org { font-size: 14px; color: #667eea; margin-top: 4px; }
-        .match-badge { display: inline-flex; align-items: center; gap: 2px; background: #f8f9fa; padding: 4px 10px; border-radius: 6px; font-size: 14px; white-space: nowrap; }
-        .match-badge .stars { color: #ffc107; }
-        .match-badge .score { color: #666; font-size: 12px; margin-left: 4px; }
-        .job-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 16px 0; }
-        .detail-item { font-size: 13px; }
-        .detail-label { color: #999; display: block; margin-bottom: 2px; }
-        .detail-value { color: #333; font-weight: 500; }
-        .deadline-urgent { color: #e53935; font-weight: 600; }
-        .deadline-soon { color: #ff9800; font-weight: 500; }
-        .match-note { background: #f0f4ff; padding: 10px 14px; border-radius: 8px; font-size: 13px; color: #3f51b5; margin-top: 12px; }
-        .match-note.low { background: #fff3e0; color: #e65100; }
-        .job-link { display: inline-block; background: #667eea; color: white; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-size: 13px; margin-top: 12px; transition: background 0.2s; }
-        .job-link:hover { background: #5a6fd6; }
-        .source-tag { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 3px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px; }
-        .empty-state { text-align: center; padding: 60px; color: white; font-size: 18px; }
-        .footer { text-align: center; color: rgba(255,255,255,0.7); font-size: 12px; margin-top: 30px; padding: 20px; }
-        .footer a { color: rgba(255,255,255,0.9); }
-        @media (max-width: 768px) {
-            .header h1 { font-size: 22px; }
-            .stats { flex-wrap: wrap; }
-            .stat { flex: 1; min-width: 80px; }
-            .job-details { grid-template-columns: repeat(2, 1fr); }
-            .job-header { flex-direction: column; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Jobs Radar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🌍 国际组织岗位日报</h1>
-            <p class="subtitle" id="updateTime">加载中...</p>
-            <div class="priority">🎯 优先方向：Partnership / External Relations / Donor Relations / Resource Mobilization</div>
-            <div class="stats" id="stats"></div>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">International Jobs Radar</p>
+        <h1>把“可投”与“已过期”分开，不再靠肉眼筛页面。</h1>
+        <p class="intro">
+          这是一版重做后的国际组织岗位站点。它把岗位审计结果直接写进数据层，默认只推仍可行动的岗位，同时保留过期与失效链接的完整痕迹。
+        </p>
+        <div class="hero-meta">
+          <span id="generatedAt">加载中</span>
+          <span id="auditDate">加载中</span>
         </div>
-        
-        <div class="filters">
-            <label>筛选：</label>
-            <button class="filter-btn" data-filter="all">全部</button>
-            <button class="filter-btn active" data-filter="high">高匹配 (≥3★)</button>
-            <button class="filter-btn" data-filter="skao">SKAO</button>
-            <button class="filter-btn" data-filter="un">UN系统</button>
-        </div>
-        
-        <div class="job-list" id="jobList"></div>
-        
-        <div class="footer">
-            <p>📌 数据来源：科技部 / 人社部 / SKAO官网 / UN招聘系统</p>
-            <p>如有疑问请联系 QClaw 助手</p>
-        </div>
-    </div>
+      </div>
+      <aside class="hero-panel">
+        <div class="panel-title">本次核查结论</div>
+        <div class="audit-grid" id="auditGrid"></div>
+      </aside>
+    </header>
 
-    <script>
-    const JOB_DATA_URL = 'jobs.json';
-    
-    function renderStars(score) {
-        return '★'.repeat(score) + '☆'.repeat(5 - score);
-    }
-    
-    function getDaysLeft(deadline) {
-        if (!deadline) return null;
-        const dl = new Date(deadline);
-        const now = new Date();
-        return Math.ceil((dl - now) / (1000 * 60 * 60 * 24));
-    }
-    
-    function formatDeadline(deadline) {
-        if (!deadline) return '未知';
-        const days = getDaysLeft(deadline);
-        const dateStr = deadline.substring(0, 10);
-        let extra = '';
-        if (days !== null) {
-            if (days < 0) extra = ' <span class="deadline-urgent">（已过期）</span>';
-            else if (days <= 3) extra = ` <span class="deadline-urgent">（仅剩${days}天！）</span>`;
-            else if (days <= 7) extra = ` <span class="deadline-soon">（还剩${days}天）</span>`;
-            else extra = ` （还剩${days}天）`;
-        }
-        return dateStr + extra;
-    }
-    
-    function renderJobCard(job) {
-        const days = getDaysLeft(job.deadline);
-        const isExpired = days !== null && days < 0;
-        const matchClass = `match-${job.matchScore || 0}`;
-        const noteClass = (job.matchScore || 0) <= 2 ? 'low' : '';
-        
-        return `
-        <div class="job-card ${matchClass}" data-match="${job.matchScore || 0}" data-org="${job.organization || ''}" style="${isExpired ? 'opacity:0.5;' : ''}">
-            <div class="job-header">
-                <div>
-                    <div class="job-title">${job.title || ''} <span class="job-title-en">${job.titleEn || ''}</span>${job.source ? `<span class="source-tag">${job.source}</span>` : ''}</div>
-                    <div class="job-org">${job.organization || ''}</div>
-                </div>
-                <div class="match-badge">
-                    <span class="stars">${renderStars(job.matchScore || 0)}</span>
-                    <span class="score">${job.matchScore || 0}/5</span>
-                </div>
-            </div>
-            <div class="job-details">
-                <div class="detail-item">
-                    <span class="detail-label">📍 地点</span>
-                    <span class="detail-value">${job.location || '未知'}</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">📋 合同</span>
-                    <span class="detail-value">${job.contract || '未知'}${job.grade ? ' | ' + job.grade : ''}</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">💰 薪酬</span>
-                    <span class="detail-value">${job.salary || '未知'}</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">⏰ 截止</span>
-                    <span class="detail-value">${formatDeadline(job.deadline)}</span>
-                </div>
-            </div>
-            ${job.requirements ? `<div style="font-size:12px;color:#666;margin-bottom:8px;"><b>要求：</b>${job.requirements.substring(0, 120)}${job.requirements.length > 120 ? '...' : ''}</div>` : ''}
-            ${job.matchNote ? `<div class="match-note ${noteClass}">💡 ${job.matchNote}</div>` : ''}
-            ${job.link ? `<a href="${job.link}" target="_blank" class="job-link">查看详情 →</a>` : ''}
-        </div>`;
-    }
-    
-    async function loadAndRender() {
-        try {
-            const resp = await fetch(JOB_DATA_URL);
-            const data = await resp.json();
-            const jobs = (data.jobs || []).filter(j => {
-                const days = getDaysLeft(j.deadline);
-                return days === null || days >= 0;
-            }).sort((a, b) => (b.matchScore || 0) - (a.matchScore || 0));
-            
-            const total = jobs.length;
-            const highMatch = jobs.filter(j => (j.matchScore || 0) >= 3).length;
-            const skaoCount = jobs.filter(j => (j.organization || '').includes('SKAO')).length;
-            
-            document.getElementById('updateTime').textContent = 
-                `每日更新 | ${data.lastUpdated ? '更新于 ' + data.lastUpdated.substring(0, 10) : new Date().toLocaleDateString('zh-CN')}`;
-            
-            document.getElementById('stats').innerHTML = `
-                <div class="stat"><div class="stat-num">${total}</div><div class="stat-label">有效岗位</div></div>
-                <div class="stat"><div class="stat-num">${highMatch}</div><div class="stat-label">高匹配 (≥3★)</div></div>
-                <div class="stat"><div class="stat-num">${skaoCount}</div><div class="stat-label">SKAO</div></div>
-                <div class="stat"><div class="stat-num">${total - skaoCount}</div><div class="stat-label">UN系统</div></div>
-            `;
-            
-            const jobList = document.getElementById('jobList');
-            if (jobs.length === 0) {
-                jobList.innerHTML = '<div class="empty-state">📭 今日暂无符合条件的岗位</div>';
-            } else {
-                jobList.innerHTML = jobs.map(renderJobCard).join('');
-            }
-            
-            // Setup filters
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-                    const filter = btn.dataset.filter;
-                    document.querySelectorAll('.job-card').forEach(card => {
-                        const match = parseInt(card.dataset.match) || 0;
-                        const org = card.dataset.org || '';
-                        if (filter === 'all') card.style.display = '';
-                        else if (filter === 'high') card.style.display = match >= 3 ? '' : 'none';
-                        else if (filter === 'skao') card.style.display = org.includes('SKAO') ? '' : 'none';
-                        else if (filter === 'un') card.style.display = org.includes('UN') || org.includes('联合国') ? '' : 'none';
-                    });
-                    // Update stats based on filter
-                    const visibleCards = document.querySelectorAll('.job-card:not([style*="display: none"])');
-                    // Count visible by category
-                    let vHigh = 0, vSkao = 0, vUn = 0;
-                    visibleCards.forEach(c => {
-                        const m = parseInt(c.dataset.match) || 0;
-                        const o = c.dataset.org || '';
-                        if (m >= 3) vHigh++;
-                        if (o.includes('SKAO')) vSkao++;
-                        if (o.includes('UN') || o.includes('联合国')) vUn++;
-                    });
-                });
-            });
-        } catch (err) {
-            document.getElementById('jobList').innerHTML = 
-                `<div class="empty-state">⚠️ 加载失败: ${err.message}<br><button onclick="loadAndRender()" style="margin-top:12px;padding:8px 20px;border-radius:8px;border:none;background:white;color:#667eea;cursor:pointer;">重试</button></div>`;
-        }
-    }
-    
-    loadAndRender();
-    </script>
+    <section class="highlights" id="highlights"></section>
+
+    <section class="toolbar">
+      <div class="toolbar-block">
+        <label for="searchInput">搜索</label>
+        <input id="searchInput" type="search" placeholder="岗位名 / 机构 / 地点 / 关键词">
+      </div>
+      <div class="toolbar-block">
+        <label for="statusFilter">状态</label>
+        <select id="statusFilter">
+          <option value="actionable">可申请中</option>
+          <option value="all">全部</option>
+          <option value="active">有效</option>
+          <option value="closing">今日截止</option>
+          <option value="expired">已过期</option>
+          <option value="unavailable">链接失效</option>
+        </select>
+      </div>
+      <div class="toolbar-block">
+        <label for="categoryFilter">类别</label>
+        <select id="categoryFilter">
+          <option value="all">全部类别</option>
+        </select>
+      </div>
+      <div class="toolbar-block">
+        <label for="sortBy">排序</label>
+        <select id="sortBy">
+          <option value="match">匹配度优先</option>
+          <option value="deadline">截止日期优先</option>
+          <option value="organization">机构名称</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="summary-bar" id="summaryBar"></section>
+
+    <main class="jobs-layout">
+      <section>
+        <div class="section-head">
+          <h2>岗位列表</h2>
+          <p id="resultCount"></p>
+        </div>
+        <div class="job-grid" id="jobGrid"></div>
+      </section>
+      <aside class="side-rail">
+        <div class="rail-card">
+          <h3>优先推进</h3>
+          <div id="priorityList"></div>
+        </div>
+        <div class="rail-card">
+          <h3>已发现的问题</h3>
+          <ul class="issue-list">
+            <li>旧站只展示一份过时的 jobs.json，缺少 2026-06-07 新增岗位。</li>
+            <li>旧站按前端脚本直接隐藏过期岗位，没有审计视图，难以复核历史记录。</li>
+            <li>旧站还保留 SKAO 旧筛选，已经不符合当前岗位范围。</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <script src="./app.js"></script>
 </body>
 </html>
