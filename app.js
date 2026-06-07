@@ -15,14 +15,37 @@ const state = {
 const userProfile = {
   name: "刘畅航",
   currentRole: "CSC 项目官员",
+  location: "Beijing, China",
   education: "MSc Education, Public Policy and Equity, University of Glasgow",
+  summary: "Project Officer with 3 years of experience in stakeholder engagement, partnerships, bilingual communications, and large-scale international career-development programming.",
   strengths: [
     "组织并推广 CSC 联合国岗位说明会，触达 4,500+ 学生、133 所高校",
     "协调 20+ 联合国机构和国际组织参与大型职业发展活动",
     "多方利益相关者沟通、伙伴拓展与维护、外联与活动项目管理",
     "中英文官方沟通材料编辑翻译、数字传播与社媒推广",
     "大学就业/国际组织职业发展培训与青年发展相关经验"
-  ]
+  ],
+  cvTracks: {
+    partnerships: [
+      "Lead enterprise and partner outreach for CSC's flagship annual United Nations Job Fair, a national-scale multi-stakeholder engagement platform reaching 4,500+ participants across 133 Chinese universities and coordinating participation from 20+ United Nations agencies and international organizations.",
+      "Serve as primary liaison between CSC and 20+ international organization partners, managing the full partnership lifecycle including prospect identification, outreach, onboarding, engagement tracking, and ongoing relationship maintenance.",
+      "Develop and implement targeted partner recruitment and retention strategies that expanded CSC's collaboration network to 20+ participating organizations through systematic outreach and value proposition communication.",
+      "Design and manage partner onboarding processes, including needs assessment, participation framework alignment, and service delivery coordination; conduct regular satisfaction check-ins and feedback collection.",
+      "Build and maintain a comprehensive partner database tracking engagement history, participation records, and relationship outcomes across all partner organizations."
+    ],
+    communications: [
+      "Lead communications and outreach strategy for CSC's annual United Nations Job Fair, a national-scale advocacy and stakeholder engagement campaign reaching 4,500+ students across 133 Chinese universities and coordinating participation from 20+ United Nations agencies and international organizations.",
+      "Design and produce multilingual promotional materials including web content, social media posts, and event collateral to engage diverse student audiences and international organization partners.",
+      "Manage stakeholder communications across multiple channels, serving as primary liaison between CSC and international organization partners; coordinate messaging, event logistics, and partnership development.",
+      "Edit and translate official communications materials between Chinese and English, ensuring messaging alignment with partner organizations' branding and communication guidelines.",
+      "Conceptualize and oversee digital promotion campaigns for CSC international talent programs; monitor campaign reach and engagement metrics to optimize outreach effectiveness."
+    ],
+    general: [
+      "Coordinate multi-stakeholder event logistics across 20+ international organizations with differing priorities and requirements, managing timelines, speaker coordination, venue arrangements, and post-event follow-up.",
+      "Provide capacity-building support and training to university career center staff on international organization engagement strategies and effective student counseling.",
+      "Manage external vendor relationships across design, translation, and event services; oversee procurement, quality control, and budget adherence for partner-facing deliverables."
+    ]
+  }
 };
 
 function el(id) {
@@ -45,8 +68,8 @@ function showToast(message) {
   showToast.timer = setTimeout(() => toast.classList.remove("show"), 2200);
 }
 
-function downloadTextFile(filename, content) {
-  const blob = new Blob([content], { type: "text/markdown;charset=utf-8" });
+function downloadWordFile(filename, content) {
+  const blob = new Blob([content], { type: "application/msword;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement("a");
   anchor.href = url;
@@ -57,12 +80,140 @@ function downloadTextFile(filename, content) {
   URL.revokeObjectURL(url);
 }
 
-function buildPSDraft(job) {
-  return `# Cover Letter Draft\n\n## Target Role\n- Position: ${job.titleEn || job.title}\n- Organization: ${job.organization || ""}\n- Location: ${job.location || "Unknown"}\n- Category: ${job.sourceCategory || "未分类"}\n- Deadline: ${job.deadline || "未写明"}\n\n## Opening Angle\nI am writing to apply for the ${job.titleEn || job.title} position at ${job.organization || "your organization"}. With three years of experience as a ${userProfile.currentRole}, ${userProfile.name} brings a track record in stakeholder engagement, international outreach, bilingual communications, and large-scale partnership coordination that aligns strongly with this role.\n\n## Why This Role Fits\n- ${job.matchNote || "This role aligns with partnerships, communications, and stakeholder engagement strengths."}\n- Relevant role focus: ${job.requirements || "Programme coordination, relationship management, and communications."}\n- Current value proposition: ${userProfile.strengths[0]}.\n\n## Evidence Paragraph Ideas\n- Partnerships: ${userProfile.strengths[1]}.\n- Communications: ${userProfile.strengths[3]}.\n- Capacity building / youth: ${userProfile.strengths[4]}.\n- Policy and education background: ${userProfile.education}.\n\n## Customization Notes\n- Mention this organization's mandate and why it matters.\n- Tie current CSC work to ${job.sourceCategory || "international organization"} ecosystem relevance.\n- Emphasize measurable coordination outcomes and bilingual communication.\n- Address experience gap directly if this is a stretch role.\n\n## Closing Paragraph Draft\nI would welcome the opportunity to contribute my experience in cross-sector coordination, stakeholder engagement, and communications to ${job.organization || "the organization"}. I would be glad to support its work through disciplined execution, strong relationship management, and high-quality bilingual materials.\n`;
+function escapeHtml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
-function buildCVBrief(job) {
-  return `# CV Tailoring Brief\n\n## Target Role\n- Position: ${job.titleEn || job.title}\n- Organization: ${job.organization || ""}\n- Location: ${job.location || "Unknown"}\n- Grade / Contract: ${job.grade || ""} ${job.contract || ""}\n\n## Priority Keywords To Weave In\n- stakeholder engagement\n- partnerships\n- external relations\n- programme coordination\n- bilingual communications\n- outreach\n- reporting\n- event management\n${(job.requirements || "").split(/[、,，。;]/).filter(Boolean).slice(0, 6).map((item) => `- ${item.trim()}`).join("\n")}\n\n## Experience Bullets To Emphasize\n- ${userProfile.strengths[0]}\n- ${userProfile.strengths[1]}\n- ${userProfile.strengths[2]}\n- ${userProfile.strengths[3]}\n- ${userProfile.strengths[4]}\n\n## Rewrite Guidance\n- Move the most relevant CSC bullets to the top of the experience section.\n- Rephrase bullets using the target role vocabulary from the vacancy.\n- Make every bullet outcome-driven and quantified where possible.\n- If the role is more senior, stress cross-institution coordination and ownership.\n- If the role is communications-heavy, foreground writing, translation, and campaign metrics.\n\n## Risks To Mitigate\n- Current site match note: ${job.matchNote || "No note provided."}\n- Audit status: ${job.statusLabel || "Unknown"}\n- Potential gap: clarify how current experience transfers to ${job.organization || "the target organization"}.\n`;
+function inferTrack(job) {
+  const text = [
+    job.title,
+    job.titleEn,
+    job.matchNote,
+    job.requirements,
+    job.sourceCategory
+  ].join(" ").toLowerCase();
+
+  if (/(communicat|media|public information|outreach|advocacy|campaign|content)/.test(text)) {
+    return "communications";
+  }
+  if (/(partnership|engagement|donor|resource mobilization|membership|external relations|stakeholder)/.test(text)) {
+    return "partnerships";
+  }
+  return "general";
+}
+
+function getSelectedBullets(job) {
+  const track = inferTrack(job);
+  const primary = userProfile.cvTracks[track] || [];
+  const secondary = track === "communications" ? userProfile.cvTracks.partnerships : userProfile.cvTracks.communications;
+  return [...primary.slice(0, 3), ...secondary.slice(0, 1), ...userProfile.cvTracks.general.slice(0, 1)];
+}
+
+function buildWordDocument(title, bodyHtml) {
+  return `
+  <html xmlns:o="urn:schemas-microsoft-com:office:office"
+        xmlns:w="urn:schemas-microsoft-com:office:word"
+        xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <meta charset="utf-8">
+    <title>${escapeHtml(title)}</title>
+    <style>
+      body { font-family: Calibri, 'Microsoft YaHei', sans-serif; color: #222; margin: 28px; line-height: 1.55; }
+      h1 { font-size: 18pt; margin: 0 0 8px; }
+      h2 { font-size: 12.5pt; margin: 18px 0 8px; color: #2f4154; }
+      p { margin: 0 0 10px; }
+      ul { margin: 6px 0 10px 20px; padding: 0; }
+      li { margin: 0 0 6px; }
+      .meta { color: #555; font-size: 10.5pt; }
+      .note { background: #f2f4f6; padding: 10px 12px; border-radius: 6px; }
+      .section { margin-top: 16px; }
+    </style>
+  </head>
+  <body>${bodyHtml}</body></html>`;
+}
+
+function buildPSDocument(job) {
+  const bullets = getSelectedBullets(job);
+  const position = escapeHtml(job.titleEn || job.title);
+  const organization = escapeHtml(job.organization || "");
+  const body = `
+    <h1>Cover Letter Draft</h1>
+    <p class="meta">Target role: ${position} | ${organization}</p>
+    <p class="meta">Generated from Liu Changhang's existing communications / partnerships CV baseline for WPS/Word editing.</p>
+
+    <div class="section">
+      <p>Dear Hiring Team,</p>
+      <p>I am writing to apply for the <strong>${position}</strong> position at <strong>${organization}</strong>. With three years of experience as a ${escapeHtml(userProfile.currentRole)} at the China Scholarship Council, I bring hands-on experience in stakeholder engagement, bilingual communications, international outreach, and cross-institution coordination that aligns closely with this role.</p>
+      <p>${escapeHtml(job.matchNote || "This role aligns strongly with my background in partnerships, communications, and programme coordination.")}</p>
+      <p>In my current role, I have built and maintained relationships across international organizations, universities, and external partners while translating strategy into concrete outreach, engagement, and delivery. Selected evidence from my existing CV that should be retained and refined for this application includes:</p>
+      <ul>${bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+      <p>These experiences have strengthened my ability to communicate across cultures, manage multiple stakeholders with competing priorities, and produce high-quality bilingual materials under deadline. They also position me to contribute to ${organization} through structured coordination, audience-sensitive messaging, and disciplined follow-through.</p>
+      <p class="note">Customization note for final editing: add one paragraph on why ${organization} specifically matters, and connect current CSC work to ${escapeHtml(job.requirements || "the role's core responsibilities")}.</p>
+      <p>Thank you for your time and consideration. I would welcome the opportunity to discuss how my background in partnership development, communications, and programme support could contribute to your team.</p>
+      <p>Sincerely,<br>${escapeHtml(userProfile.name)}</p>
+    </div>
+  `;
+  return buildWordDocument(`PS - ${job.titleEn || job.title}`, body);
+}
+
+function buildCVDocument(job) {
+  const bullets = getSelectedBullets(job);
+  const track = inferTrack(job);
+  const profileLine = track === "communications"
+    ? "Tailored toward communications, public information, outreach, and stakeholder-facing narrative work."
+    : track === "partnerships"
+      ? "Tailored toward partnerships, stakeholder engagement, external relations, and coordination work."
+      : "Tailored toward programme coordination and cross-functional delivery in international organizations.";
+
+  const keywords = [
+    "stakeholder engagement",
+    "partnership management",
+    "external relations",
+    "bilingual communications",
+    "programme coordination",
+    "event delivery",
+    "reporting",
+    "relationship management"
+  ];
+
+  const body = `
+    <h1>Tailored CV Draft</h1>
+    <p class="meta">${escapeHtml(userProfile.name)} | ${escapeHtml(userProfile.location)} | ${escapeHtml(userProfile.currentRole)}</p>
+    <p class="meta">Target role: ${escapeHtml(job.titleEn || job.title)} | ${escapeHtml(job.organization || "")}</p>
+
+    <div class="section">
+      <h2>Professional Profile</h2>
+      <p>${escapeHtml(userProfile.summary)} ${escapeHtml(profileLine)}</p>
+      <p>Education: ${escapeHtml(userProfile.education)}</p>
+    </div>
+
+    <div class="section">
+      <h2>Priority Keywords For This Application</h2>
+      <ul>${keywords.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+    </div>
+
+    <div class="section">
+      <h2>Core Experience To Move Up In The CV</h2>
+      <p><strong>Project Officer, China Scholarship Council (CSC) | Beijing | Sep 2022 – Present</strong></p>
+      <ul>${bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+    </div>
+
+    <div class="section">
+      <h2>Tailoring Notes</h2>
+      <ul>
+        <li>Keep bullets that match this role's emphasis: ${escapeHtml(job.requirements || "stakeholder engagement, coordination, and communication responsibilities")}.</li>
+        <li>Use the terminology of the vacancy in the top half of the CV.</li>
+        <li>Retain quantification: 4,500+ participants, 133 universities, 20+ international organizations.</li>
+        <li>Reduce or move down bullets that do not support this target role directly.</li>
+      </ul>
+      <p class="note">This file is a Word-compatible working draft derived from the existing partnership / communications CV versions, not a generic outline.</p>
+    </div>
+  `;
+  return buildWordDocument(`CV - ${job.titleEn || job.title}`, body);
 }
 
 function renderPills(counts) {
@@ -224,12 +375,12 @@ function bindControls() {
     if (!job) return;
     const slug = slugify(job.titleEn || job.title);
     if (button.dataset.action === "ps") {
-      downloadTextFile(`PS_${slug}.md`, buildPSDraft(job));
-      showToast(`已生成 ${job.title} 的 PS 草稿`);
+      downloadWordFile(`PS_${slug}.doc`, buildPSDocument(job));
+      showToast(`已生成 ${job.title} 的 PS Word 文档`);
     }
     if (button.dataset.action === "cv") {
-      downloadTextFile(`CV_${slug}.md`, buildCVBrief(job));
-      showToast(`已生成 ${job.title} 的 CV 定制提纲`);
+      downloadWordFile(`CV_${slug}.doc`, buildCVDocument(job));
+      showToast(`已生成 ${job.title} 的 CV Word 文档`);
     }
   });
 }
