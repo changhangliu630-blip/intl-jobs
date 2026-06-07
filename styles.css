@@ -1,19 +1,19 @@
 :root {
-  --bg: #f4f1eb;
-  --paper: #fbfaf7;
-  --paper-2: #f0ece5;
-  --ink: #161616;
-  --muted: #66615a;
-  --line: rgba(22, 22, 22, 0.12);
-  --accent-blue: #7f90a0;
-  --accent-blue-deep: #6d7f90;
-  --accent-blue-soft: #e4e9ed;
-  --sage: #8b948c;
-  --dusty-blue: #747d83;
-  --mauve: #9b8f88;
-  --sand: #a29587;
-  --clay: #8f8076;
-  --shadow: 0 18px 40px rgba(20, 16, 12, 0.06);
+  --bg: #e8e1d8;
+  --paper: #f7f3ee;
+  --paper-2: #efe7de;
+  --ink: #4e4a46;
+  --muted: #817a73;
+  --line: rgba(98, 90, 82, 0.14);
+  --accent-blue: #8ea0a8;
+  --accent-blue-deep: #7f9199;
+  --accent-blue-soft: #e8edf0;
+  --sage: #98a393;
+  --dusty-blue: #8ea0a8;
+  --mauve: #b8a8a0;
+  --sand: #cdbda7;
+  --clay: #a97d71;
+  --shadow: 0 18px 44px rgba(96, 84, 73, 0.10);
 }
 
 * {
@@ -25,8 +25,9 @@ body {
   font-family: "Manrope", "Noto Sans SC", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(125, 125, 125, 0.04), transparent 28%),
-    linear-gradient(180deg, #f7f4ef 0%, #f2eee8 46%, #ece7df 100%);
+    radial-gradient(circle at top left, rgba(184, 168, 160, 0.28), transparent 30%),
+    radial-gradient(circle at top right, rgba(142, 160, 168, 0.24), transparent 26%),
+    linear-gradient(180deg, #e5ddd3 0%, #ece5dd 48%, #f3eee8 100%);
 }
 
 .page-shell {
@@ -41,8 +42,8 @@ body {
   margin-bottom: 16px;
   padding: 24px 26px 20px;
   border-radius: 24px;
-  background: rgba(251, 250, 247, 0.94);
-  border: 1px solid rgba(22, 22, 22, 0.07);
+  background: rgba(255, 253, 248, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: var(--shadow);
 }
 
@@ -53,8 +54,8 @@ body {
 .hero-strip,
 .audit-chip,
 #highlights {
-  background: rgba(251, 250, 247, 0.96);
-  border: 1px solid rgba(22, 22, 22, 0.08);
+  background: rgba(255, 253, 248, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   box-shadow: var(--shadow);
 }
 
@@ -64,7 +65,7 @@ body {
   letter-spacing: 0.18em;
   font-size: 11px;
   font-weight: 800;
-  color: var(--accent-blue-deep);
+  color: var(--dusty-blue);
 }
 
 .hero-headline {
@@ -99,7 +100,7 @@ body {
 .hero-meta span {
   border-radius: 999px;
   padding: 8px 12px;
-  background: var(--accent-blue-soft);
+  background: rgba(98, 90, 82, 0.08);
   font-size: 11px;
   font-weight: 700;
   white-space: nowrap;
@@ -127,8 +128,8 @@ body {
   gap: 8px;
   padding: 9px 12px;
   border-radius: 999px;
-  background: #f3efe9;
-  border: 1px solid rgba(22, 22, 22, 0.08);
+  background: rgba(247, 243, 238, 0.84);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   min-height: 0;
 }
 
@@ -172,7 +173,7 @@ body {
 .toolbar select {
   width: 100%;
   border: 1px solid var(--line);
-  background: #fffdfa;
+  background: rgba(255, 255, 255, 0.72);
   border-radius: 14px;
   padding: 12px 14px;
   font: inherit;
@@ -182,8 +183,8 @@ body {
 .toolbar input:focus,
 .toolbar select:focus {
   outline: none;
-  border-color: rgba(127, 144, 160, 0.5);
-  box-shadow: 0 0 0 3px rgba(127, 144, 160, 0.12);
+  border-color: rgba(142, 160, 168, 0.45);
+  box-shadow: 0 0 0 3px rgba(142, 160, 168, 0.14);
 }
 
 .toolbar input::placeholder {
@@ -207,23 +208,23 @@ body {
 }
 
 .pill.active {
-  background: var(--accent-blue-deep);
-  color: #f7f4ef;
+  background: rgba(152, 163, 147, 0.2);
+  color: #5d6759;
 }
 
 .pill.closing {
-  background: #dcd6ce;
-  color: #161616;
+  background: rgba(205, 189, 167, 0.28);
+  color: #866f58;
 }
 
 .pill.expired {
-  background: #e8e1da;
-  color: #544a43;
+  background: rgba(169, 125, 113, 0.18);
+  color: #8d6257;
 }
 
 .pill.unavailable {
-  background: #ede9e2;
-  color: #5f5b56;
+  background: rgba(142, 160, 168, 0.18);
+  color: #647780;
 }
 
 .insight-row {
@@ -261,7 +262,7 @@ body {
   padding: 22px;
   position: relative;
   overflow: hidden;
-  background: #fffdfa;
+  background: rgba(255, 253, 248, 0.88);
 }
 
 .job-card::before {
@@ -309,7 +310,7 @@ body {
 
 .job-org {
   margin-top: 8px;
-  color: var(--accent-blue-deep);
+  color: var(--dusty-blue);
   font-weight: 700;
 }
 
@@ -325,27 +326,27 @@ body {
   padding: 7px 10px;
   font-size: 12px;
   font-weight: 800;
-  background: #f2eee7;
+  background: rgba(255, 255, 255, 0.74);
 }
 
 .chip.status-active {
-  background: var(--accent-blue-soft);
-  color: #36424d;
+  background: rgba(152, 163, 147, 0.2);
+  color: #5d6759;
 }
 
 .chip.status-closing {
-  background: #ddd7d0;
-  color: #161616;
+  background: rgba(205, 189, 167, 0.28);
+  color: #866f58;
 }
 
 .chip.status-expired {
-  background: #eee6df;
-  color: #5b5149;
+  background: rgba(169, 125, 113, 0.18);
+  color: #8d6257;
 }
 
 .chip.status-unavailable {
-  background: #ece8e2;
-  color: #5f5a55;
+  background: rgba(142, 160, 168, 0.18);
+  color: #647780;
 }
 
 .job-gridline {
@@ -400,31 +401,31 @@ body {
   justify-content: center;
   padding: 12px 16px;
   border-radius: 16px;
-  background: var(--accent-blue-deep);
+  background: var(--dusty-blue);
   color: #f8f5ef;
   text-decoration: none;
   font-weight: 800;
-  border: 1px solid var(--accent-blue-deep);
+  border: 1px solid var(--dusty-blue);
   cursor: pointer;
   font: inherit;
 }
 
 .job-link:hover,
 .job-button:hover {
-  background: #627485;
-  border-color: #627485;
+  background: #7f9199;
+  border-color: #7f9199;
 }
 
 .job-button.secondary {
-  background: #fffdfa;
-  color: #171717;
-  border-color: rgba(22, 22, 22, 0.14);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink);
+  border-color: rgba(98, 90, 82, 0.14);
 }
 
 .job-button.tertiary {
-  background: var(--accent-blue-soft);
-  color: #24313d;
-  border-color: rgba(127, 144, 160, 0.2);
+  background: rgba(184, 168, 160, 0.2);
+  color: #6e615c;
+  border-color: rgba(184, 168, 160, 0.18);
 }
 
 .verification {
@@ -476,7 +477,7 @@ body {
   padding: 32px;
   text-align: center;
   border-radius: 20px;
-  background: rgba(251, 250, 247, 0.86);
+  background: rgba(255, 253, 248, 0.82);
   border: 1px dashed var(--line);
   color: var(--muted);
 }
@@ -488,8 +489,8 @@ body {
   max-width: 320px;
   padding: 14px 16px;
   border-radius: 16px;
-  background: rgba(22, 22, 22, 0.96);
-  color: #f6f3ee;
+  background: rgba(78, 74, 70, 0.96);
+  color: #f7f3ee;
   box-shadow: var(--shadow);
   opacity: 0;
   transform: translateY(16px);
