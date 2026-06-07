@@ -1,16 +1,16 @@
 :root {
-  --bg: #e8e1d8;
-  --paper: #f7f3ee;
-  --paper-2: #efe7de;
-  --ink: #4e4a46;
-  --muted: #817a73;
-  --line: rgba(98, 90, 82, 0.14);
-  --sage: #98a393;
-  --dusty-blue: #8ea0a8;
-  --mauve: #b8a8a0;
-  --sand: #cdbda7;
-  --clay: #a97d71;
-  --shadow: 0 18px 44px rgba(96, 84, 73, 0.10);
+  --bg: #0f1419;
+  --paper: #171d24;
+  --paper-2: #1e252e;
+  --ink: #edf2f7;
+  --muted: #9aa5b1;
+  --line: rgba(255, 255, 255, 0.08);
+  --sage: #7f9389;
+  --dusty-blue: #7e93a6;
+  --mauve: #9a8086;
+  --sand: #a7917a;
+  --clay: #936e64;
+  --shadow: 0 18px 44px rgba(0, 0, 0, 0.32);
 }
 
 * {
@@ -22,9 +22,9 @@ body {
   font-family: "Manrope", "Noto Sans SC", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(184, 168, 160, 0.28), transparent 30%),
-    radial-gradient(circle at top right, rgba(142, 160, 168, 0.24), transparent 26%),
-    linear-gradient(180deg, #e5ddd3 0%, #ece5dd 48%, #f3eee8 100%);
+    radial-gradient(circle at top left, rgba(126, 147, 166, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(127, 147, 137, 0.12), transparent 24%),
+    linear-gradient(180deg, #0c1015 0%, #12181f 48%, #0d1217 100%);
 }
 
 .page-shell {
@@ -39,8 +39,8 @@ body {
   margin-bottom: 16px;
   padding: 24px 26px 20px;
   border-radius: 24px;
-  background: rgba(255, 253, 248, 0.84);
-  border: 1px solid rgba(255, 255, 255, 0.55);
+  background: rgba(20, 26, 33, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow: var(--shadow);
 }
 
@@ -51,8 +51,8 @@ body {
 .hero-strip,
 .audit-chip,
 #highlights {
-  background: rgba(255, 253, 248, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(23, 29, 36, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
 }
@@ -98,7 +98,7 @@ body {
 .hero-meta span {
   border-radius: 999px;
   padding: 8px 12px;
-  background: rgba(98, 90, 82, 0.08);
+  background: rgba(255, 255, 255, 0.05);
   font-size: 11px;
   font-weight: 700;
   white-space: nowrap;
@@ -126,8 +126,8 @@ body {
   gap: 8px;
   padding: 9px 12px;
   border-radius: 999px;
-  background: rgba(247, 243, 238, 0.92);
-  border: 1px solid rgba(98, 90, 82, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   min-height: 0;
 }
 
@@ -171,11 +171,15 @@ body {
 .toolbar select {
   width: 100%;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.04);
   border-radius: 14px;
   padding: 12px 14px;
   font: inherit;
   color: var(--ink);
+}
+
+.toolbar input::placeholder {
+  color: #7f8a96;
 }
 
 .summary-bar {
@@ -195,23 +199,23 @@ body {
 }
 
 .pill.active {
-  background: rgba(152, 163, 147, 0.2);
-  color: #5d6759;
+  background: rgba(127, 147, 137, 0.22);
+  color: #c8d5cd;
 }
 
 .pill.closing {
-  background: rgba(205, 189, 167, 0.28);
-  color: #866f58;
+  background: rgba(167, 145, 122, 0.24);
+  color: #e2d0bd;
 }
 
 .pill.expired {
-  background: rgba(169, 125, 113, 0.18);
-  color: #866459;
+  background: rgba(147, 110, 100, 0.24);
+  color: #ddc3bb;
 }
 
 .pill.unavailable {
-  background: rgba(142, 160, 168, 0.18);
-  color: #62717a;
+  background: rgba(126, 147, 166, 0.22);
+  color: #cad7e3;
 }
 
 .insight-row {
@@ -312,27 +316,27 @@ body {
   padding: 7px 10px;
   font-size: 12px;
   font-weight: 800;
-  background: rgba(98, 90, 82, 0.08);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .chip.status-active {
-  background: rgba(152, 163, 147, 0.2);
-  color: #5d6759;
+  background: rgba(127, 147, 137, 0.22);
+  color: #c8d5cd;
 }
 
 .chip.status-closing {
-  background: rgba(205, 189, 167, 0.28);
-  color: #866f58;
+  background: rgba(167, 145, 122, 0.24);
+  color: #e2d0bd;
 }
 
 .chip.status-expired {
-  background: rgba(169, 125, 113, 0.18);
-  color: #866459;
+  background: rgba(147, 110, 100, 0.24);
+  color: #ddc3bb;
 }
 
 .chip.status-unavailable {
-  background: rgba(142, 160, 168, 0.18);
-  color: #62717a;
+  background: rgba(126, 147, 166, 0.22);
+  color: #cad7e3;
 }
 
 .job-gridline {
@@ -356,7 +360,7 @@ body {
 }
 
 .job-copy {
-  color: #332d27;
+  color: #dbe2e9;
   line-height: 1.7;
   font-size: 14px;
 }
@@ -387,7 +391,7 @@ body {
   justify-content: center;
   padding: 12px 16px;
   border-radius: 16px;
-  background: #7f9088;
+  background: #5f776d;
   color: white;
   text-decoration: none;
   font-weight: 800;
@@ -402,11 +406,11 @@ body {
 }
 
 .job-button.secondary {
-  background: #b6a59d;
+  background: #886f77;
 }
 
 .job-button.tertiary {
-  background: #99a8af;
+  background: #627b8a;
 }
 
 .verification {
@@ -458,7 +462,7 @@ body {
   padding: 32px;
   text-align: center;
   border-radius: 20px;
-  background: rgba(255, 253, 248, 0.72);
+  background: rgba(23, 29, 36, 0.72);
   border: 1px dashed var(--line);
   color: var(--muted);
 }
@@ -470,8 +474,8 @@ body {
   max-width: 320px;
   padding: 14px 16px;
   border-radius: 16px;
-  background: rgba(78, 74, 70, 0.92);
-  color: #f7f3ee;
+  background: rgba(8, 11, 15, 0.94);
+  color: #edf2f7;
   box-shadow: var(--shadow);
   opacity: 0;
   transform: translateY(16px);
