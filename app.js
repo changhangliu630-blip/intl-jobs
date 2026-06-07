@@ -12,8 +12,57 @@ const state = {
   }
 };
 
+const userProfile = {
+  name: "刘畅航",
+  currentRole: "CSC 项目官员",
+  education: "MSc Education, Public Policy and Equity, University of Glasgow",
+  strengths: [
+    "组织并推广 CSC 联合国岗位说明会，触达 4,500+ 学生、133 所高校",
+    "协调 20+ 联合国机构和国际组织参与大型职业发展活动",
+    "多方利益相关者沟通、伙伴拓展与维护、外联与活动项目管理",
+    "中英文官方沟通材料编辑翻译、数字传播与社媒推广",
+    "大学就业/国际组织职业发展培训与青年发展相关经验"
+  ]
+};
+
 function el(id) {
   return document.getElementById(id);
+}
+
+function slugify(value) {
+  return (value || "job")
+    .toLowerCase()
+    .replace(/[^a-z0-9\u4e00-\u9fa5]+/gi, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
+
+function showToast(message) {
+  const toast = el("toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  clearTimeout(showToast.timer);
+  showToast.timer = setTimeout(() => toast.classList.remove("show"), 2200);
+}
+
+function downloadTextFile(filename, content) {
+  const blob = new Blob([content], { type: "text/markdown;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = filename;
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.remove();
+  URL.revokeObjectURL(url);
+}
+
+function buildPSDraft(job) {
+  return `# Cover Letter Draft\n\n## Target Role\n- Position: ${job.titleEn || job.title}\n- Organization: ${job.organization || ""}\n- Location: ${job.location || "Unknown"}\n- Category: ${job.sourceCategory || "未分类"}\n- Deadline: ${job.deadline || "未写明"}\n\n## Opening Angle\nI am writing to apply for the ${job.titleEn || job.title} position at ${job.organization || "your organization"}. With three years of experience as a ${userProfile.currentRole}, ${userProfile.name} brings a track record in stakeholder engagement, international outreach, bilingual communications, and large-scale partnership coordination that aligns strongly with this role.\n\n## Why This Role Fits\n- ${job.matchNote || "This role aligns with partnerships, communications, and stakeholder engagement strengths."}\n- Relevant role focus: ${job.requirements || "Programme coordination, relationship management, and communications."}\n- Current value proposition: ${userProfile.strengths[0]}.\n\n## Evidence Paragraph Ideas\n- Partnerships: ${userProfile.strengths[1]}.\n- Communications: ${userProfile.strengths[3]}.\n- Capacity building / youth: ${userProfile.strengths[4]}.\n- Policy and education background: ${userProfile.education}.\n\n## Customization Notes\n- Mention this organization's mandate and why it matters.\n- Tie current CSC work to ${job.sourceCategory || "international organization"} ecosystem relevance.\n- Emphasize measurable coordination outcomes and bilingual communication.\n- Address experience gap directly if this is a stretch role.\n\n## Closing Paragraph Draft\nI would welcome the opportunity to contribute my experience in cross-sector coordination, stakeholder engagement, and communications to ${job.organization || "the organization"}. I would be glad to support its work through disciplined execution, strong relationship management, and high-quality bilingual materials.\n`;
+}
+
+function buildCVBrief(job) {
+  return `# CV Tailoring Brief\n\n## Target Role\n- Position: ${job.titleEn || job.title}\n- Organization: ${job.organization || ""}\n- Location: ${job.location || "Unknown"}\n- Grade / Contract: ${job.grade || ""} ${job.contract || ""}\n\n## Priority Keywords To Weave In\n- stakeholder engagement\n- partnerships\n- external relations\n- programme coordination\n- bilingual communications\n- outreach\n- reporting\n- event management\n${(job.requirements || "").split(/[、,，。;]/).filter(Boolean).slice(0, 6).map((item) => `- ${item.trim()}`).join("\n")}\n\n## Experience Bullets To Emphasize\n- ${userProfile.strengths[0]}\n- ${userProfile.strengths[1]}\n- ${userProfile.strengths[2]}\n- ${userProfile.strengths[3]}\n- ${userProfile.strengths[4]}\n\n## Rewrite Guidance\n- Move the most relevant CSC bullets to the top of the experience section.\n- Rephrase bullets using the target role vocabulary from the vacancy.\n- Make every bullet outcome-driven and quantified where possible.\n- If the role is more senior, stress cross-institution coordination and ownership.\n- If the role is communications-heavy, foreground writing, translation, and campaign metrics.\n\n## Risks To Mitigate\n- Current site match note: ${job.matchNote || "No note provided."}\n- Audit status: ${job.statusLabel || "Unknown"}\n- Potential gap: clarify how current experience transfers to ${job.organization || "the target organization"}.\n`;
 }
 
 function renderPills(counts) {
@@ -107,7 +156,11 @@ function renderJob(job) {
       ${job.statusReason ? `<p class="job-copy"><strong>核查结论：</strong>${job.statusReason}</p>` : ""}
       ${job.requirements ? `<p class="job-copy"><strong>岗位重点：</strong>${job.requirements}</p>` : ""}
       <div class="job-actions">
-        <a class="job-link" href="${job.link}" target="_blank" rel="noreferrer">打开原岗位</a>
+        <div class="job-actions-left">
+          <a class="job-link" href="${job.link}" target="_blank" rel="noreferrer">打开原岗位</a>
+          <button class="job-button secondary" data-action="ps" data-id="${job.id}">生成 PS</button>
+          <button class="job-button tertiary" data-action="cv" data-id="${job.id}">生成 CV</button>
+        </div>
         <span class="verification">核查：${job.verification || "Source file"} · ${job.auditDate || ""}</span>
       </div>
     </article>
@@ -163,6 +216,21 @@ function bindControls() {
   el("sortBy").addEventListener("change", (event) => {
     state.filters.sortBy = event.target.value;
     applyFilters();
+  });
+  el("jobGrid").addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-action]");
+    if (!button) return;
+    const job = state.jobs.find((item) => item.id === button.dataset.id);
+    if (!job) return;
+    const slug = slugify(job.titleEn || job.title);
+    if (button.dataset.action === "ps") {
+      downloadTextFile(`PS_${slug}.md`, buildPSDraft(job));
+      showToast(`已生成 ${job.title} 的 PS 草稿`);
+    }
+    if (button.dataset.action === "cv") {
+      downloadTextFile(`CV_${slug}.md`, buildCVBrief(job));
+      showToast(`已生成 ${job.title} 的 CV 定制提纲`);
+    }
   });
 }
 
