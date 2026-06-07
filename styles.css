@@ -30,14 +30,14 @@ body {
 .page-shell {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 32px 20px 60px;
+  padding: 24px 20px 56px;
 }
 
 .hero {
   display: grid;
   grid-template-columns: 1.4fr 0.9fr;
-  gap: 24px;
-  margin-bottom: 24px;
+  gap: 18px;
+  margin-bottom: 18px;
 }
 
 .hero-copy,
@@ -55,7 +55,7 @@ body {
 
 .hero-copy {
   border-radius: 30px;
-  padding: 34px;
+  padding: 26px 28px;
   position: relative;
   overflow: hidden;
 }
@@ -71,54 +71,54 @@ body {
 }
 
 .eyebrow {
-  margin: 0 0 14px;
+  margin: 0 0 10px;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
   color: var(--dusty-blue);
 }
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(34px, 5vw, 58px);
-  line-height: 1.02;
-  max-width: 12ch;
+  font-size: clamp(28px, 4.2vw, 46px);
+  line-height: 1.08;
+  max-width: 10.5ch;
 }
 
 .intro {
-  margin: 18px 0 0;
-  max-width: 60ch;
-  font-size: 16px;
-  line-height: 1.7;
+  margin: 14px 0 0;
+  max-width: 52ch;
+  font-size: 15px;
+  line-height: 1.62;
   color: var(--muted);
 }
 
 .hero-meta {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-top: 24px;
+  margin-top: 18px;
 }
 
 .hero-meta span {
   border-radius: 999px;
-  padding: 10px 14px;
+  padding: 9px 13px;
   background: rgba(98, 90, 82, 0.08);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
 }
 
 .hero-panel {
   border-radius: 30px;
-  padding: 28px;
+  padding: 22px;
 }
 
 .panel-title,
 .section-head h2,
 .rail-card h3 {
   margin: 0 0 14px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 800;
 }
 
@@ -129,18 +129,18 @@ body {
 }
 
 .audit-tile {
-  padding: 16px;
-  border-radius: 22px;
+  padding: 14px;
+  border-radius: 18px;
   background: rgba(247, 243, 238, 0.8);
 }
 
 .audit-num {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 800;
 }
 
 .audit-label {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--muted);
 }
 
@@ -504,7 +504,7 @@ body {
 
 @media (max-width: 720px) {
   .page-shell {
-    padding: 20px 14px 40px;
+    padding: 16px 12px 34px;
   }
 
   .hero-copy,
@@ -524,5 +524,27 @@ body {
 
   .job-gridline {
     grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    padding: 20px 20px 18px;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+    max-width: 9.5ch;
+  }
+
+  .intro {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .hero-meta {
+    margin-top: 14px;
+  }
+
+  .hero-panel {
+    padding: 18px;
   }
 }
