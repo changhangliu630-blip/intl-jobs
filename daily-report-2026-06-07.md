@@ -1,6 +1,6 @@
 🌐 国际组织/INGO/基金会岗位日报 | 2026-06-07
 
-今日结论：今天有 4 个可报新增岗位，最值得优先推进的是 UNFCCC P-2、UNICEF Geneva P-3，以及 Mercy Corps Brussels donor-relations 岗；基金会方向有 1 个可作冲刺备选。另对 UIA Open Yearbook 范围内组织做了小规模人工式排查，今天未发现比下列岗位更适合且仍在开放的新增正式岗。
+今日结论：今天有 4 个主报新增岗位；此外，沿 UIA Open Yearbook 扩展组织池后，又在官方官网复核出 1 个仍开放且高度匹配的 Plan International 资源动员岗，值得并入后续跟进清单。
 
 ## 新增岗位
 
@@ -54,8 +54,22 @@
 
 ## 今日不纳入主报但已人工检查的方向
 
-- UIA/YBIO 发现入口校准后，抽样检查了 ICVA、Education International 等国际协会/网络官网；今天未找到比上面更匹配且仍在开放的正式岗位。
+- UIA/YBIO 发现入口校准后，抽样检查了 ICVA、Education International 等国际协会/网络官网；除下列增补岗位外，今天未找到更匹配且仍在开放的正式岗位。
 - Mercy Corps DRC 的 Business Development, Partnership and Reporting Manager 仍在 Current Openings 中，但官网页面未清楚显示截止日期；如你希望，我下轮可继续专项核实后再决定是否纳入正式主报。
+
+## UIA 扩展增补
+
+### 5) Local Resource Mobilization Specialist
+- 星级：★★★★★
+- 组织类型：UIA-discovered INGO
+- 组织：Plan International Pilipinas
+- 地点/远程：菲律宾 Makati City
+- 合同或雇佣类型：Fixed-term, one year
+- 截止日期：官网页面未写明；2026-06-07 仍显示 Apply now
+- 匹配说明：这是沿 UIA/Open Yearbook 扩展组织池后回到官方官网核到的岗位。职责直接覆盖 resource mobilization、partnerships、donor mapping、alumni engagement、fundraising materials 与跨团队协调，和你现有外联、伙伴维护、传播材料和青年/教育触达经历高度贴合。官方要求 3–5 年 fundraising / partnerships / business development / resource mobilization 经验，与你当前资历带宽匹配。
+- 风险/短板：偏菲律宾本地 donor/corporate ecosystem；是否接受国际候选人需在申请时谨慎判断。官网未展示明确截止日期，因此应尽快投递。
+- 申报链接：https://jobs.plan-international.org/job/Makati-City-Local-Resource-Mobilization-Specialist/1395296333/
+- 申请方式：官网 Apply now 在线申请
 
 ## 仍在有效期且最值得继续推进的既有岗位
 

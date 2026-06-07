@@ -1,14 +1,17 @@
 const DATA_URL = "./data/jobs.json";
+const APPLIED_STORAGE_KEY = "intlJobsApplied";
 
 const state = {
   jobs: [],
   filtered: [],
   categories: new Set(),
+  appliedJobs: new Set(),
   filters: {
     search: "",
     status: "actionable",
     category: "all",
-    sortBy: "match"
+    sortBy: "match",
+    application: "all"
   }
 };
 
@@ -45,6 +48,33 @@ function showToast(message) {
   toast.classList.add("show");
   clearTimeout(showToast.timer);
   showToast.timer = setTimeout(() => toast.classList.remove("show"), 2200);
+}
+
+function loadAppliedJobs() {
+  try {
+    const raw = localStorage.getItem(APPLIED_STORAGE_KEY);
+    const ids = raw ? JSON.parse(raw) : [];
+    return new Set(Array.isArray(ids) ? ids : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveAppliedJobs() {
+  localStorage.setItem(APPLIED_STORAGE_KEY, JSON.stringify([...state.appliedJobs]));
+}
+
+function isApplied(jobId) {
+  return state.appliedJobs.has(jobId);
+}
+
+function toggleApplied(jobId) {
+  if (state.appliedJobs.has(jobId)) {
+    state.appliedJobs.delete(jobId);
+  } else {
+    state.appliedJobs.add(jobId);
+  }
+  saveAppliedJobs();
 }
 
 function downloadWordFile(filename, content) {
@@ -234,7 +264,8 @@ function renderPills(counts) {
     `<span class="pill active">有效 ${counts.active || 0}</span>`,
     `<span class="pill closing">今日截止 ${counts.closing || 0}</span>`,
     `<span class="pill expired">已过期 ${counts.expired || 0}</span>`,
-    `<span class="pill unavailable">链接失效 ${counts.unavailable || 0}</span>`
+    `<span class="pill unavailable">链接失效 ${counts.unavailable || 0}</span>`,
+    `<span class="pill applied">已投递 ${counts.applied || 0}</span>`
   ].join("");
 }
 
@@ -296,8 +327,9 @@ function renderPriorityList(jobs) {
 
 function renderJob(job) {
   const category = job.sourceCategory || "未分类";
+  const applied = isApplied(job.id);
   return `
-    <article class="job-card ${job.status}" data-match="${job.matchScore || 0}">
+    <article class="job-card ${job.status} ${applied ? "applied" : ""}" data-match="${job.matchScore || 0}">
       <div class="job-top">
         <div>
           <h3 class="job-title">${job.title}<small>${job.titleEn || ""}</small></h3>
@@ -307,6 +339,7 @@ function renderJob(job) {
       </div>
       <div class="job-meta">
         <span class="chip status-${job.status}">${job.statusLabel}</span>
+        ${applied ? `<span class="chip chip-applied">已投递</span>` : ""}
         <span class="chip">${category}</span>
         ${job.source ? `<span class="chip">${job.source}</span>` : ""}
       </div>
@@ -322,6 +355,7 @@ function renderJob(job) {
       <div class="job-actions">
         <div class="job-actions-left">
           <a class="job-link" href="${job.link}" target="_blank" rel="noreferrer">打开原岗位</a>
+          <button class="job-button mark ${applied ? "is-applied" : ""}" data-action="toggle-applied" data-id="${job.id}">${applied ? "取消已投递" : "标记已投递"}</button>
           <button class="job-button secondary" data-action="ps" data-id="${job.id}">生成 PS</button>
           <button class="job-button tertiary" data-action="cv" data-id="${job.id}">生成 CV</button>
         </div>
@@ -338,6 +372,8 @@ function applyFilters() {
       if (state.filters.status === "actionable" && !["active", "closing"].includes(job.status)) return false;
       if (state.filters.status !== "actionable" && state.filters.status !== "all" && job.status !== state.filters.status) return false;
       if (state.filters.category !== "all" && (job.sourceCategory || "未分类") !== state.filters.category) return false;
+      if (state.filters.application === "applied" && !isApplied(job.id)) return false;
+      if (state.filters.application === "not_applied" && isApplied(job.id)) return false;
       if (!search) return true;
       const haystack = [
         job.title,
@@ -381,12 +417,23 @@ function bindControls() {
     state.filters.sortBy = event.target.value;
     applyFilters();
   });
+  el("applicationFilter").addEventListener("change", (event) => {
+    state.filters.application = event.target.value;
+    applyFilters();
+  });
   el("jobGrid").addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
     const job = state.jobs.find((item) => item.id === button.dataset.id);
     if (!job) return;
     const slug = slugify(job.titleEn || job.title);
+    if (button.dataset.action === "toggle-applied") {
+      toggleApplied(job.id);
+      renderPills(computeCounts(state.jobs));
+      applyFilters();
+      showToast(isApplied(job.id) ? `已标记 ${job.title} 为已投递` : `已取消 ${job.title} 的已投递标记`);
+      return;
+    }
     if (button.dataset.action === "ps") {
       downloadWordFile(`PS_${slug}.doc`, buildPSDocument(job));
       showToast(`已生成 ${job.title} 的 PS Word 文档`);
@@ -398,16 +445,48 @@ function bindControls() {
   });
 }
 
+function computeCounts(jobs) {
+  const counts = {
+    total: jobs.length,
+    active: 0,
+    closing: 0,
+    expired: 0,
+    unavailable: 0,
+    unknown: 0,
+    highMatchActive: 0,
+    applied: 0
+  };
+
+  jobs.forEach((job) => {
+    const status = job.status || "unknown";
+    if (counts[status] !== undefined) {
+      counts[status] += 1;
+    } else {
+      counts.unknown += 1;
+    }
+    if (["active", "closing"].includes(status) && (job.matchScore || 0) >= 4) {
+      counts.highMatchActive += 1;
+    }
+    if (isApplied(job.id)) {
+      counts.applied += 1;
+    }
+  });
+
+  return counts;
+}
+
 async function load() {
   const resp = await fetch(DATA_URL);
   const data = await resp.json();
   state.jobs = data.jobs;
+  state.appliedJobs = loadAppliedJobs();
 
   el("generatedAt").textContent = `站点生成时间：${data.generatedAt}`;
   el("auditDate").textContent = `岗位核查日期：${data.auditDate}`;
 
-  renderAuditGrid(data.counts);
-  renderPills(data.counts);
+  const counts = computeCounts(state.jobs);
+  renderAuditGrid(counts);
+  renderPills(counts);
   el("highlights").innerHTML = `<ul>${data.highlights.map((item) => `<li>${item}</li>`).join("")}</ul>`;
 
   const categories = [...new Set(state.jobs.map((job) => job.sourceCategory || "未分类"))].sort((a, b) => a.localeCompare(b, "zh-CN"));

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T17:40:00+08:00",
+  "generatedAt": "2026-06-07T19:35:18+08:00",
   "auditDate": "2026-06-07",
   "sourceLastUpdated": "2026-06-07T17:20:00",
   "counts": {
@@ -14,7 +14,9 @@
   "highlights": [
     "线上站点旧版 jobs.json 缺少 2026-06-07 新增的 4 个岗位。",
     "2 个 IYF 岗位没有截止日期，但原链接核查时均返回 404。",
-    "新版站点默认聚焦仍可申请岗位，同时保留过期和失效岗位的审计视图。"
+    "新版站点默认聚焦仍可申请岗位，同时保留过期和失效岗位的审计视图。",
+    "UIA Open Yearbook 公开入口当前展示 78,916 个国际组织；本站已开始吸收其中经官网复核的正式岗位。",
+    "UIA 扩展扫描本轮确认 1 个仍开放且高匹配的正式岗：Plan International 本地资源动员专员。"
   ],
   "jobs": [
     {
@@ -522,6 +524,32 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-06-12 尚未到期。",
       "verification": "Source file",
+      "auditDate": "2026-06-07"
+    },
+    {
+      "id": "PLAN-LRM-SPECIALIST-MAKATI",
+      "title": "本地资源动员专员",
+      "titleEn": "Local Resource Mobilization Specialist",
+      "organization": "Plan International Pilipinas",
+      "location": "Makati City, Philippines",
+      "contract": "Fixed-term (1 year)",
+      "grade": "Specialist",
+      "salary": "未公开",
+      "deadline": null,
+      "link": "https://jobs.plan-international.org/job/Makati-City-Local-Resource-Mobilization-Specialist/1395296333/",
+      "source": "Plan International Careers",
+      "sourceCategory": "UIA-discovered INGO",
+      "matchScore": 5,
+      "matchNote": "这条来自 UIA 扩展思路后的官网核查。职责直接覆盖 resource mobilization、partnerships、donor mapping、alumni engagement、fundraising materials 与跨团队协调，和你现有外联、伙伴维护、传播材料与青年/教育触达经历高度贴合。",
+      "requirements": "支持本地资源动员战略与年度计划，维护 donor/partner profiles，拓展 corporations、foundations、government agencies 与 networks，配合 individual giving、alumni engagement、materials 与 reporting。官方页面写明 3–5 年 fundraising/partnerships/business development/resource mobilization 经验。",
+      "reported": true,
+      "reportedDate": "2026-06-07",
+      "applyMethod": "在线申请",
+      "daysLeft": null,
+      "status": "active",
+      "statusLabel": "官网开放中",
+      "statusReason": "2026-06-07 官方 careers 页面仍显示 Apply now；页面未明确写出截止日期，因此按仍可申请处理，但建议尽快投递。",
+      "verification": "Official careers page",
       "auditDate": "2026-06-07"
     }
   ]
