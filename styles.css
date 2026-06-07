@@ -111,37 +111,44 @@ body {
 
 .hero-panel {
   border-radius: 30px;
-  padding: 22px;
+  padding: 16px 18px 18px;
 }
 
 .panel-title,
 .section-head h2,
 .rail-card h3 {
-  margin: 0 0 14px;
-  font-size: 17px;
+  margin: 0 0 10px;
+  font-size: 16px;
   font-weight: 800;
 }
 
 .audit-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 10px;
 }
 
 .audit-tile {
-  padding: 14px;
-  border-radius: 18px;
+  padding: 12px 14px;
+  border-radius: 16px;
   background: rgba(247, 243, 238, 0.8);
+  min-height: 102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .audit-num {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
 }
 
 .audit-label {
   font-size: 12px;
   color: var(--muted);
+  line-height: 1.35;
 }
 
 .highlights {
@@ -545,6 +552,24 @@ body {
   }
 
   .hero-panel {
-    padding: 18px;
+    padding: 14px;
+  }
+
+  .audit-grid {
+    gap: 8px;
+  }
+
+  .audit-tile {
+    min-height: 86px;
+    padding: 10px 12px;
+  }
+
+  .audit-num {
+    font-size: 19px;
+    margin-bottom: 6px;
+  }
+
+  .panel-title {
+    margin-bottom: 8px;
   }
 }
