@@ -81,7 +81,7 @@ function renderAuditGrid(counts) {
     ["高匹配有效岗", counts.highMatchActive || 0],
     ["失效/过期", (counts.expired || 0) + (counts.unavailable || 0)]
   ].map(([label, value]) => `
-    <div class="audit-tile">
+    <div class="audit-chip">
       <div class="audit-num">${value}</div>
       <div class="audit-label">${label}</div>
     </div>
