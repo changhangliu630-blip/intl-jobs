@@ -14,18 +14,18 @@
     <header class="hero">
       <p class="eyebrow">International Jobs Radar</p>
       <div class="hero-headline">
-        <h1>国际组织岗位雷达</h1>
-        <p class="intro">
-          把可投岗位、今日截止、历史过期和失效链接放到同一张清单里，不再靠肉眼筛页面。
-        </p>
-      </div>
-      <div class="hero-strip">
+        <div>
+          <h1>国际组织岗位雷达</h1>
+          <p class="intro">
+            把可投岗位、今日截止、历史过期和失效链接放到同一张清单里，不再靠肉眼筛页面。
+          </p>
+        </div>
         <div class="hero-meta" id="heroMeta">
           <span id="generatedAt">加载中</span>
           <span id="auditDate">加载中</span>
         </div>
-        <div class="audit-grid" id="auditGrid"></div>
       </div>
+      <div class="audit-grid" id="auditGrid"></div>
     </header>
 
     <section class="toolbar">
@@ -62,25 +62,24 @@
 
     <section class="summary-bar" id="summaryBar"></section>
 
-    <main class="jobs-layout">
-      <section>
-        <div class="section-head">
-          <h2>岗位列表</h2>
-          <p id="resultCount"></p>
-        </div>
-        <div class="job-grid" id="jobGrid"></div>
-      </section>
-      <aside class="side-rail">
-        <div class="rail-card">
-          <h3>优先推进</h3>
-          <div id="priorityList"></div>
-        </div>
-        <div class="rail-card">
-          <h3>站点说明</h3>
-          <div id="highlights"></div>
-        </div>
-      </aside>
-    </main>
+    <section class="insight-row">
+      <div class="rail-card">
+        <h3>优先推进</h3>
+        <div id="priorityList"></div>
+      </div>
+      <div class="rail-card">
+        <h3>站点说明</h3>
+        <div id="highlights"></div>
+      </div>
+    </section>
+
+    <section class="jobs-section">
+      <div class="section-head">
+        <h2>岗位列表</h2>
+        <p id="resultCount"></p>
+      </div>
+      <div class="job-grid" id="jobGrid"></div>
+    </section>
   </div>
   <div class="toast" id="toast"></div>
   <script src="./app.js"></script>

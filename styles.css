@@ -28,18 +28,18 @@ body {
 }
 
 .page-shell {
-  max-width: 1240px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 18px 20px 56px;
+  padding: 22px 20px 56px;
 }
 
 .hero {
   display: grid;
-  gap: 12px;
-  margin-bottom: 14px;
-  padding: 20px 22px 18px;
-  border-radius: 28px;
-  background: rgba(255, 253, 248, 0.78);
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 24px 26px 20px;
+  border-radius: 24px;
+  background: rgba(255, 253, 248, 0.84);
   border: 1px solid rgba(255, 255, 255, 0.55);
   box-shadow: var(--shadow);
 }
@@ -67,38 +67,32 @@ body {
 }
 
 .hero-headline {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 420px;
+  display: flex;
+  justify-content: space-between;
   gap: 18px;
-  align-items: end;
+  align-items: flex-start;
 }
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(26px, 3.1vw, 36px);
-  line-height: 1.04;
+  font-size: clamp(28px, 3.2vw, 38px);
+  line-height: 1.06;
 }
 
 .intro {
-  margin: 0;
-  max-width: 38ch;
-  justify-self: end;
+  margin: 10px 0 0;
+  max-width: 56ch;
   font-size: 14px;
-  line-height: 1.55;
+  line-height: 1.6;
   color: var(--muted);
-}
-
-.hero-strip {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 10px;
-  align-items: center;
 }
 
 .hero-meta {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 420px;
 }
 
 .hero-meta span {
@@ -122,7 +116,7 @@ body {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   min-width: 0;
 }
 
@@ -130,7 +124,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 10px;
+  padding: 9px 12px;
   border-radius: 999px;
   background: rgba(247, 243, 238, 0.92);
   border: 1px solid rgba(98, 90, 82, 0.08);
@@ -155,9 +149,9 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 14px;
-  border-radius: 24px;
-  padding: 16px;
-  margin-bottom: 18px;
+  border-radius: 20px;
+  padding: 14px;
+  margin-bottom: 14px;
 }
 
 .toolbar-block {
@@ -185,18 +179,18 @@ body {
 }
 
 .summary-bar {
-  border-radius: 20px;
-  padding: 14px 18px;
-  margin-bottom: 20px;
+  border-radius: 18px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
 .pill {
-  padding: 8px 12px;
+  padding: 7px 11px;
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -220,11 +214,11 @@ body {
   color: #62717a;
 }
 
-.jobs-layout {
+.insight-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 22px;
-  align-items: start;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
 }
 
 .section-head {
@@ -238,6 +232,11 @@ body {
 .section-head p {
   margin: 0;
   color: var(--muted);
+}
+
+.jobs-section {
+  display: grid;
+  gap: 12px;
 }
 
 .job-grid {
@@ -415,18 +414,13 @@ body {
   color: var(--muted);
 }
 
-.side-rail {
-  display: grid;
-  gap: 18px;
-}
-
 .rail-card {
-  border-radius: 24px;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 16px;
 }
 
 .priority-item {
-  padding: 12px 0;
+  padding: 10px 0;
   border-top: 1px solid var(--line);
 }
 
@@ -456,8 +450,8 @@ body {
   margin: 0;
   padding-left: 18px;
   color: var(--muted);
-  line-height: 1.65;
-  font-size: 14px;
+  line-height: 1.55;
+  font-size: 13px;
 }
 
 .empty {
@@ -493,27 +487,18 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .jobs-layout,
+  .toolbar,
+  .insight-row,
+  .hero-headline {
+    grid-template-columns: 1fr;
+  }
+
   .toolbar {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .hero-headline,
-  .hero-strip {
-    grid-template-columns: 1fr;
-  }
-
-  .intro {
-    justify-self: start;
-    max-width: 55ch;
-  }
-
-  .audit-grid {
-    justify-content: flex-start;
-  }
-
-  .side-rail {
-    order: -1;
+  .hero-headline {
+    display: grid;
   }
 }
 
@@ -530,8 +515,13 @@ body {
   }
 
   .hero {
-    padding: 16px 16px 14px;
+    padding: 18px 16px 16px;
     border-radius: 20px;
+  }
+
+  .toolbar,
+  .insight-row {
+    grid-template-columns: 1fr;
   }
 
   .job-top,
@@ -550,6 +540,11 @@ body {
   .intro {
     font-size: 14px;
     line-height: 1.55;
+  }
+
+  .hero-meta {
+    justify-content: flex-start;
+    max-width: none;
   }
 
   .audit-grid {
