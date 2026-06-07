@@ -1,19 +1,19 @@
 :root {
-  --bg: #e8e1d8;
-  --paper: #f7f3ee;
-  --paper-2: #efe7de;
-  --ink: #4e4a46;
-  --muted: #817a73;
-  --line: rgba(98, 90, 82, 0.14);
-  --accent-blue: #8ea0a8;
-  --accent-blue-deep: #7f9199;
-  --accent-blue-soft: #e8edf0;
-  --sage: #98a393;
-  --dusty-blue: #8ea0a8;
-  --mauve: #b8a8a0;
-  --sand: #cdbda7;
-  --clay: #a97d71;
-  --shadow: 0 18px 44px rgba(96, 84, 73, 0.10);
+  --bg: #7186ea;
+  --paper: rgba(247, 248, 255, 0.92);
+  --paper-2: rgba(235, 239, 255, 0.88);
+  --ink: #24304f;
+  --muted: #5e6990;
+  --line: rgba(62, 78, 136, 0.16);
+  --accent-blue: #6f83e5;
+  --accent-blue-deep: #5e71d4;
+  --accent-blue-soft: #dfe5ff;
+  --sage: #8ea0ef;
+  --dusty-blue: #6d80df;
+  --mauve: #9ba4ec;
+  --sand: #bcc6f5;
+  --clay: #8d96da;
+  --shadow: 0 18px 44px rgba(58, 73, 130, 0.16);
 }
 
 * {
@@ -25,9 +25,9 @@ body {
   font-family: "Manrope", "Noto Sans SC", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(184, 168, 160, 0.28), transparent 30%),
-    radial-gradient(circle at top right, rgba(142, 160, 168, 0.24), transparent 26%),
-    linear-gradient(180deg, #e5ddd3 0%, #ece5dd 48%, #f3eee8 100%);
+    radial-gradient(circle at top left, rgba(214, 222, 255, 0.38), transparent 30%),
+    radial-gradient(circle at top right, rgba(132, 149, 235, 0.34), transparent 28%),
+    linear-gradient(180deg, #7084e7 0%, #6e83e5 44%, #677dde 100%);
 }
 
 .page-shell {
@@ -42,8 +42,8 @@ body {
   margin-bottom: 16px;
   padding: 24px 26px 20px;
   border-radius: 24px;
-  background: rgba(255, 253, 248, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: var(--paper);
+  border: 1px solid rgba(255, 255, 255, 0.46);
   box-shadow: var(--shadow);
 }
 
@@ -54,8 +54,8 @@ body {
 .hero-strip,
 .audit-chip,
 #highlights {
-  background: rgba(255, 253, 248, 0.88);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: var(--paper);
+  border: 1px solid rgba(255, 255, 255, 0.46);
   box-shadow: var(--shadow);
 }
 
@@ -100,7 +100,7 @@ body {
 .hero-meta span {
   border-radius: 999px;
   padding: 8px 12px;
-  background: rgba(98, 90, 82, 0.08);
+  background: rgba(223, 229, 255, 0.92);
   font-size: 11px;
   font-weight: 700;
   white-space: nowrap;
@@ -128,8 +128,8 @@ body {
   gap: 8px;
   padding: 9px 12px;
   border-radius: 999px;
-  background: rgba(247, 243, 238, 0.84);
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(237, 241, 255, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.42);
   min-height: 0;
 }
 
@@ -173,7 +173,7 @@ body {
 .toolbar select {
   width: 100%;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.82);
   border-radius: 14px;
   padding: 12px 14px;
   font: inherit;
@@ -183,8 +183,8 @@ body {
 .toolbar input:focus,
 .toolbar select:focus {
   outline: none;
-  border-color: rgba(142, 160, 168, 0.45);
-  box-shadow: 0 0 0 3px rgba(142, 160, 168, 0.14);
+  border-color: rgba(95, 113, 212, 0.45);
+  box-shadow: 0 0 0 3px rgba(111, 131, 229, 0.16);
 }
 
 .toolbar input::placeholder {
@@ -208,23 +208,23 @@ body {
 }
 
 .pill.active {
-  background: rgba(152, 163, 147, 0.2);
-  color: #5d6759;
+  background: var(--accent-blue-deep);
+  color: #f7f9ff;
 }
 
 .pill.closing {
-  background: rgba(205, 189, 167, 0.28);
-  color: #866f58;
+  background: rgba(188, 198, 245, 0.6);
+  color: #43508d;
 }
 
 .pill.expired {
-  background: rgba(169, 125, 113, 0.18);
-  color: #8d6257;
+  background: rgba(155, 164, 236, 0.32);
+  color: #5661a8;
 }
 
 .pill.unavailable {
-  background: rgba(142, 160, 168, 0.18);
-  color: #647780;
+  background: rgba(223, 229, 255, 0.8);
+  color: #6070bb;
 }
 
 .insight-row {
@@ -262,7 +262,7 @@ body {
   padding: 22px;
   position: relative;
   overflow: hidden;
-  background: rgba(255, 253, 248, 0.88);
+  background: var(--paper);
 }
 
 .job-card::before {
@@ -326,27 +326,27 @@ body {
   padding: 7px 10px;
   font-size: 12px;
   font-weight: 800;
-  background: rgba(255, 255, 255, 0.74);
+  background: rgba(255, 255, 255, 0.76);
 }
 
 .chip.status-active {
-  background: rgba(152, 163, 147, 0.2);
-  color: #5d6759;
+  background: var(--accent-blue-soft);
+  color: #4a5aa5;
 }
 
 .chip.status-closing {
-  background: rgba(205, 189, 167, 0.28);
-  color: #866f58;
+  background: rgba(188, 198, 245, 0.6);
+  color: #43508d;
 }
 
 .chip.status-expired {
-  background: rgba(169, 125, 113, 0.18);
-  color: #8d6257;
+  background: rgba(155, 164, 236, 0.3);
+  color: #5661a8;
 }
 
 .chip.status-unavailable {
-  background: rgba(142, 160, 168, 0.18);
-  color: #647780;
+  background: rgba(223, 229, 255, 0.78);
+  color: #6070bb;
 }
 
 .job-gridline {
@@ -417,15 +417,15 @@ body {
 }
 
 .job-button.secondary {
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.82);
   color: var(--ink);
-  border-color: rgba(98, 90, 82, 0.14);
+  border-color: rgba(95, 113, 212, 0.16);
 }
 
 .job-button.tertiary {
-  background: rgba(184, 168, 160, 0.2);
-  color: #6e615c;
-  border-color: rgba(184, 168, 160, 0.18);
+  background: rgba(223, 229, 255, 0.82);
+  color: #5060ab;
+  border-color: rgba(111, 131, 229, 0.18);
 }
 
 .verification {
@@ -477,7 +477,7 @@ body {
   padding: 32px;
   text-align: center;
   border-radius: 20px;
-  background: rgba(255, 253, 248, 0.82);
+  background: rgba(244, 246, 255, 0.86);
   border: 1px dashed var(--line);
   color: var(--muted);
 }
@@ -489,8 +489,8 @@ body {
   max-width: 320px;
   padding: 14px 16px;
   border-radius: 16px;
-  background: rgba(78, 74, 70, 0.96);
-  color: #f7f3ee;
+  background: rgba(62, 76, 138, 0.96);
+  color: #f7f9ff;
   box-shadow: var(--shadow);
   opacity: 0;
   transform: translateY(16px);
