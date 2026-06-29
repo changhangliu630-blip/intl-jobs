@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>高质量外企岗位日报</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #64717c;
+      --line: #d8dee4;
+      --paper: #f7f8fa;
+      --accent: #0f766e;
+      --accent-2: #365b9c;
+      --low: #0f766e;
+      --medium: #9a6700;
+      --high: #b42318;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+    }
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 28px 0 18px;
+      display: grid;
+      gap: 10px;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(26px, 4vw, 40px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      max-width: 820px;
+    }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .stat {
+      border: 1px solid var(--line);
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 10px 12px;
+      min-width: 120px;
+    }
+    .stat strong {
+      display: block;
+      font-size: 22px;
+    }
+    main {
+      padding: 22px 0 40px;
+    }
+    section + section {
+      margin-top: 28px;
+    }
+    h2.section-title {
+      margin: 0 0 12px;
+      font-size: 20px;
+    }
+    .grid {
+      display: grid;
+      gap: 12px;
+    }
+    .job-card {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .job-topline {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .job-card h2 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+    .title-en {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .stars {
+      color: var(--accent-2);
+      white-space: nowrap;
+      font-weight: 700;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .meta span {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 8px;
+      background: #fbfcfd;
+    }
+    .risk {
+      border-left: 4px solid var(--medium);
+      background: #fff9eb;
+      padding: 8px 10px;
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    .risk.low { border-left-color: var(--low); background: #edf8f5; }
+    .risk.high { border-left-color: var(--high); background: #fff1f0; }
+    .job-card p {
+      margin: 10px 0;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .apply {
+      color: #ffffff;
+      background: var(--accent);
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 7px 10px;
+      white-space: nowrap;
+    }
+    .empty {
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background: #ffffff;
+      color: var(--muted);
+    }
+    footer {
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding: 18px 0 28px;
+      font-size: 13px;
+    }
+    @media (max-width: 640px) {
+      .job-topline, .card-footer { display: block; }
+      .stars { margin-top: 8px; }
+      .apply { display: inline-block; margin-top: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <h1>高质量外企岗位日报</h1>
+      <p class="subtitle">按候选人画像筛选跨国公司正式岗位，重点关注 partnership、public affairs、programme coordination、communications 与 sustainability/ESG，并逐条标注工签和地点风险。</p>
+      <div class="stats">
+        <div class="stat"><strong>4</strong>累计岗位</div>
+        <div class="stat"><strong>4</strong>有效岗位</div>
+        <div class="stat"><strong>2026-06-29</strong>最近更新</div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section>
+      <h2 class="section-title">仍在有效期</h2>
+      <div class="grid">
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>ESG 咨询与鉴证高级顾问</h2>
+          <div class="title-en">Assurance - Core CCaSS - ESG Advisory and Assurance - Senior Associate - Hong Kong</div>
+        </div>
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+      </div>
+      <div class="meta">
+        <span>EY</span>
+        <span>中国香港</span>
+        <span>香港办公室，可能需差旅</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 香港岗位，官方详情未写明必须已有香港工作许可，也未承诺sponsorship；申请前应向recruiter确认工作签证/高才/优才/输入内地人才计划等路径。
+      </div>
+      <p>高质量平台 + ESG/CSR/可持续报告方向，对候选人的公共政策、项目协调和ESG转向叙事有价值；短板是JD要求3-5年绿色鉴证、CSR/ESG报告、碳交易或环境社会影响评估经验，需要把现有CSC国际项目和ESG学习包装成转型动机而非硬经验。</p>
+      <div class="card-footer">
+        <span>发布：2026-06-14</span>
+        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-Assurance-Core-CCaSS-ESG-Advisory-and-Assurance-Senior-Associate-Hong-Kong-Hong/696384001/" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article>
+
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>战略传播与公共事务执行顾问</h2>
+          <div class="title-en">Executive</div>
+        </div>
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+      </div>
+      <div class="meta">
+        <span>Brunswick Group</span>
+        <span>新加坡</span>
+        <span>Singapore office</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 新加坡岗位，官方JD未写明right-to-work硬限制或签证支持；Brunswick为全球咨询公司，岗位匹配度高，值得申请前向recruiter确认EP/S Pass支持可能。
+      </div>
+      <p>非常贴合外企岗位日报的新主线：corporate communications、public affairs、consulting、stakeholder engagement、policy/media monitoring、pitch preparation、客户交付。1-3年相关经验门槛合理，能把CSC的国际组织沟通、UN Job Fair、多方协作、政策与教育背景转化成咨询型叙事。</p>
+      <div class="card-footer">
+        <span>日期待确认</span>
+        <a class="apply" href="https://job-boards.greenhouse.io/brunswickgroup/jobs/8570439002" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article>
+
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>渠道伙伴关系经理</h2>
+          <div class="title-en">Channel Partnerships Manager, SME &amp; Growth</div>
+        </div>
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+      </div>
+      <div class="meta">
+        <span>Airwallex</span>
+        <span>中国香港</span>
+        <span>Hong Kong SAR office</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 香港岗位，官方JD未写明签证支持或right-to-work限制；语言要求为Cantonese &amp; English mandatory，Chinese good-to-have。若粤语可工作沟通则值得优先问签证；若粤语不足，应降为观察。
+      </div>
+      <p>高成长全球化金融科技平台，岗位核心是招募、培育、维护合作伙伴，协调strategy/operations/finance等跨职能团队并推动partner buy-in，和候选人的项目协作、外联、stakeholder management能力相连。短板是归属Sales且有增长目标，需避免被纯销售化。</p>
+      <div class="card-footer">
+        <span>发布：2026-06-29</span>
+        <a class="apply" href="https://careers.airwallex.com/job/288d26cf-6dd4-4da9-912c-d082d388928f/channel-partnerships-manager-sme-growth/" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article>
+
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>金融服务气候变化与可持续发展高级顾问</h2>
+          <div class="title-en">FSO - Assurance - Climate Change and Sustainability Services - Senior Associate - Hong Kong</div>
+        </div>
+        <div class="stars" aria-label="3 stars">★★★☆☆</div>
+      </div>
+      <div class="meta">
+        <span>EY</span>
+        <span>中国香港</span>
+        <span>香港办公室，可能需差旅</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 香港岗位，官方详情未写明right-to-work硬限制或sponsorship承诺；需先确认签证支持，同时评估粤语、英语、普通话和绿色金融经验要求。
+      </div>
+      <p>方向落在绿色债券、碳、环境、HSE和可持续服务，是外企ESG转型的好入口；但金融服务/绿色金融和团队管理要求更强，候选人当前更适合作为拉伸选项，而不是第一优先。</p>
+      <div class="card-footer">
+        <span>发布：2026-06-14</span>
+        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-FSO-Assurance-Climate-Change-and-Sustainability-Services-Senior-Associate-Hong-Kong-Hong/742011201/" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article></div>
+    </section>
+    <section>
+      <h2 class="section-title">全部记录</h2>
+      <div class="grid">
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>ESG 咨询与鉴证高级顾问</h2>
+          <div class="title-en">Assurance - Core CCaSS - ESG Advisory and Assurance - Senior Associate - Hong Kong</div>
+        </div>
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+      </div>
+      <div class="meta">
+        <span>EY</span>
+        <span>中国香港</span>
+        <span>香港办公室，可能需差旅</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 香港岗位，官方详情未写明必须已有香港工作许可，也未承诺sponsorship；申请前应向recruiter确认工作签证/高才/优才/输入内地人才计划等路径。
+      </div>
+      <p>高质量平台 + ESG/CSR/可持续报告方向，对候选人的公共政策、项目协调和ESG转向叙事有价值；短板是JD要求3-5年绿色鉴证、CSR/ESG报告、碳交易或环境社会影响评估经验，需要把现有CSC国际项目和ESG学习包装成转型动机而非硬经验。</p>
+      <div class="card-footer">
+        <span>发布：2026-06-14</span>
+        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-Assurance-Core-CCaSS-ESG-Advisory-and-Assurance-Senior-Associate-Hong-Kong-Hong/696384001/" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article>
+
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>战略传播与公共事务执行顾问</h2>
+          <div class="title-en">Executive</div>
+        </div>
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+      </div>
+      <div class="meta">
+        <span>Brunswick Group</span>
+        <span>新加坡</span>
+        <span>Singapore office</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 新加坡岗位，官方JD未写明right-to-work硬限制或签证支持；Brunswick为全球咨询公司，岗位匹配度高，值得申请前向recruiter确认EP/S Pass支持可能。
+      </div>
+      <p>非常贴合外企岗位日报的新主线：corporate communications、public affairs、consulting、stakeholder engagement、policy/media monitoring、pitch preparation、客户交付。1-3年相关经验门槛合理，能把CSC的国际组织沟通、UN Job Fair、多方协作、政策与教育背景转化成咨询型叙事。</p>
+      <div class="card-footer">
+        <span>日期待确认</span>
+        <a class="apply" href="https://job-boards.greenhouse.io/brunswickgroup/jobs/8570439002" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article>
+
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>渠道伙伴关系经理</h2>
+          <div class="title-en">Channel Partnerships Manager, SME &amp; Growth</div>
+        </div>
+        <div class="stars" aria-label="4 stars">★★★★☆</div>
+      </div>
+      <div class="meta">
+        <span>Airwallex</span>
+        <span>中国香港</span>
+        <span>Hong Kong SAR office</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 香港岗位，官方JD未写明签证支持或right-to-work限制；语言要求为Cantonese &amp; English mandatory，Chinese good-to-have。若粤语可工作沟通则值得优先问签证；若粤语不足，应降为观察。
+      </div>
+      <p>高成长全球化金融科技平台，岗位核心是招募、培育、维护合作伙伴，协调strategy/operations/finance等跨职能团队并推动partner buy-in，和候选人的项目协作、外联、stakeholder management能力相连。短板是归属Sales且有增长目标，需避免被纯销售化。</p>
+      <div class="card-footer">
+        <span>发布：2026-06-29</span>
+        <a class="apply" href="https://careers.airwallex.com/job/288d26cf-6dd4-4da9-912c-d082d388928f/channel-partnerships-manager-sme-growth/" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article>
+
+    <article class="job-card">
+      <div class="job-topline">
+        <div>
+          <h2>金融服务气候变化与可持续发展高级顾问</h2>
+          <div class="title-en">FSO - Assurance - Climate Change and Sustainability Services - Senior Associate - Hong Kong</div>
+        </div>
+        <div class="stars" aria-label="3 stars">★★★☆☆</div>
+      </div>
+      <div class="meta">
+        <span>EY</span>
+        <span>中国香港</span>
+        <span>香港办公室，可能需差旅</span>
+        <span>Full-time</span>
+      </div>
+      <div class="risk medium">
+        <strong>工签：</strong>可验证 - 香港岗位，官方详情未写明right-to-work硬限制或sponsorship承诺；需先确认签证支持，同时评估粤语、英语、普通话和绿色金融经验要求。
+      </div>
+      <p>方向落在绿色债券、碳、环境、HSE和可持续服务，是外企ESG转型的好入口；但金融服务/绿色金融和团队管理要求更强，候选人当前更适合作为拉伸选项，而不是第一优先。</p>
+      <div class="card-footer">
+        <span>发布：2026-06-14</span>
+        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-FSO-Assurance-Climate-Change-and-Sustainability-Services-Senior-Associate-Hong-Kong-Hong/742011201/" target="_blank" rel="noreferrer">官方申请</a>
+      </div>
+    </article></div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">数据来源：本地外企岗位日报去重库。原始简历目录只读，不在站点中展示个人联系方式。</div>
+  </footer>
+</body>
+</html>
