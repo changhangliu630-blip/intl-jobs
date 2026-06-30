@@ -13,6 +13,7 @@
       --paper: #f7f8fa;
       --accent: #0f766e;
       --accent-2: #365b9c;
+      --applied: #6d4aff;
       --low: #0f766e;
       --medium: #9a6700;
       --high: #b42318;
@@ -86,6 +87,23 @@
       border-radius: 8px;
       padding: 16px;
     }
+    .job-card.applied {
+      border-color: color-mix(in srgb, var(--applied) 48%, var(--line));
+      background: #fbfaff;
+    }
+    .job-card.applied h2::after {
+      content: "已投递";
+      display: inline-block;
+      margin-left: 8px;
+      border: 1px solid color-mix(in srgb, var(--applied) 38%, #ffffff);
+      border-radius: 999px;
+      padding: 2px 7px;
+      color: var(--applied);
+      background: #f1edff;
+      font-size: 12px;
+      font-weight: 700;
+      vertical-align: 2px;
+    }
     .job-topline {
       display: flex;
       justify-content: space-between;
@@ -141,6 +159,35 @@
       color: var(--muted);
       font-size: 14px;
     }
+    .footer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    button.applied-toggle {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 7px 10px;
+      color: var(--ink);
+      background: #ffffff;
+      font: inherit;
+      line-height: 1.2;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    button.applied-toggle[aria-pressed="true"] {
+      border-color: var(--applied);
+      color: #ffffff;
+      background: var(--applied);
+    }
+    button.applied-toggle:focus-visible,
+    .apply:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent);
+      outline-offset: 2px;
+    }
     .apply {
       color: #ffffff;
       background: var(--accent);
@@ -165,7 +212,8 @@
     @media (max-width: 640px) {
       .job-topline, .card-footer { display: block; }
       .stars { margin-top: 8px; }
-      .apply { display: inline-block; margin-top: 10px; }
+      .footer-actions { justify-content: flex-start; margin-top: 10px; }
+      .apply { display: inline-block; }
     }
   </style>
 </head>
@@ -177,6 +225,7 @@
       <div class="stats">
         <div class="stat"><strong>15</strong>累计岗位</div>
         <div class="stat"><strong>15</strong>有效岗位</div>
+        <div class="stat"><strong id="applied-count">0</strong>已投递</div>
         <div class="stat"><strong>2026-06-30</strong>最近更新</div>
       </div>
     </div>
@@ -185,7 +234,7 @@
     <section>
       <h2 class="section-title">仍在有效期</h2>
       <div class="grid">
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-SG-GRADUATE-TRAINEE-744000134599769">
       <div class="job-topline">
         <div>
           <h2>B2B 展会业务管培生</h2>
@@ -205,11 +254,14 @@
       <p>Informa Markets 是FTSE 100旗下全球B2B展会与行业平台公司；该项目覆盖Sales、Marketing、Event Planning &amp; Operations轮岗，包含客户关系、外部stakeholder、供应商协调、现场活动交付和市场研究，能很好承接候选人的国际项目、活动组织、伙伴沟通和跨团队协作经验。短板是官方要求recent graduate within the past 1 year，需用毕业时间和职业转换叙事确认是否符合。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134599769-graduate-trainee" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-SG-GRADUATE-TRAINEE-744000134599769" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134599769-graduate-trainee" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-UK-MARKETING-ASSOCIATE-CLIENT-744000133401630">
       <div class="job-topline">
         <div>
           <h2>客户与赞助商营销助理</h2>
@@ -229,11 +281,14 @@
       <p>可再生能源B2B活动组合，职责包括client acquisition、sponsor engagement、lead generation、sales collateral、client communication、case studies、co-marketing和跨职能协作；这比纯ESG更贴近候选人当前的合作伙伴、外联、项目支持与机构关系能力。短板是需要2-3年B2B营销/活动营销经验和Salesforce/marketing automation，需把CSC活动、UN Job Fair和材料产出经验转译为campaign/project delivery。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133401630-marketing-associate-client" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-UK-MARKETING-ASSOCIATE-CLIENT-744000133401630" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133401630-marketing-associate-client" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="OGILVY-SG-PR-INFLUENCE-ASSOCIATE-4667231005">
       <div class="job-topline">
         <div>
           <h2>公关与影响力助理</h2>
@@ -253,11 +308,14 @@
       <p>Ogilvy/WPP 属于高质量全球传播与咨询平台；岗位要求1-2年agency经验，职责包括executive profiling、corporate communications、media relations、journalist relationships、项目排期、客户沟通和社媒内容，能把CSC的外联传播、会议活动、材料写作和stakeholder协调转成corporate affairs/PR桥梁经验。短板是agency节奏快，且部分工作偏品牌PR与社媒执行。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://www.ogilvy.com/careers/4667231005?gh_jid=4667231005" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="OGILVY-SG-PR-INFLUENCE-ASSOCIATE-4667231005" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://www.ogilvy.com/careers/4667231005?gh_jid=4667231005" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="EY-HK-CCASS-ESG-SA-696384001">
       <div class="job-topline">
         <div>
           <h2>ESG 咨询与鉴证高级顾问</h2>
@@ -277,11 +335,14 @@
       <p>高质量平台 + ESG/CSR/可持续报告方向，对候选人的公共政策、项目协调和ESG转向叙事有价值；短板是JD要求3-5年绿色鉴证、CSR/ESG报告、碳交易或环境社会影响评估经验，需要把现有CSC国际项目和ESG学习包装成转型动机而非硬经验。</p>
       <div class="card-footer">
         <span>发布：2026-06-14</span>
-        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-Assurance-Core-CCaSS-ESG-Advisory-and-Assurance-Senior-Associate-Hong-Kong-Hong/696384001/" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="EY-HK-CCASS-ESG-SA-696384001" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-Assurance-Core-CCaSS-ESG-Advisory-and-Assurance-Senior-Associate-Hong-Kong-Hong/696384001/" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="BRUNSWICK-SG-EXECUTIVE-8570439002">
       <div class="job-topline">
         <div>
           <h2>战略传播与公共事务执行顾问</h2>
@@ -301,11 +362,14 @@
       <p>非常贴合外企岗位日报的新主线：corporate communications、public affairs、consulting、stakeholder engagement、policy/media monitoring、pitch preparation、客户交付。1-3年相关经验门槛合理，能把CSC的国际组织沟通、UN Job Fair、多方协作、政策与教育背景转化成咨询型叙事。</p>
       <div class="card-footer">
         <span>日期待确认</span>
-        <a class="apply" href="https://job-boards.greenhouse.io/brunswickgroup/jobs/8570439002" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="BRUNSWICK-SG-EXECUTIVE-8570439002" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://job-boards.greenhouse.io/brunswickgroup/jobs/8570439002" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="AIRWALLEX-HK-CHANNEL-PARTNERSHIPS-288D26CF">
       <div class="job-topline">
         <div>
           <h2>渠道伙伴关系经理</h2>
@@ -325,11 +389,14 @@
       <p>高成长全球化金融科技平台，岗位核心是招募、培育、维护合作伙伴，协调strategy/operations/finance等跨职能团队并推动partner buy-in，和候选人的项目协作、外联、stakeholder management能力相连。短板是归属Sales且有增长目标，需避免被纯销售化。</p>
       <div class="card-footer">
         <span>发布：2026-06-29</span>
-        <a class="apply" href="https://careers.airwallex.com/job/288d26cf-6dd4-4da9-912c-d082d388928f/channel-partnerships-manager-sme-growth/" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="AIRWALLEX-HK-CHANNEL-PARTNERSHIPS-288D26CF" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://careers.airwallex.com/job/288d26cf-6dd4-4da9-912c-d082d388928f/channel-partnerships-manager-sme-growth/" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="FIGMA-SG-DISTRIBUTION-PARTNER-MANAGER-5756184004">
       <div class="job-topline">
         <div>
           <h2>APAC 渠道/分销伙伴经理</h2>
@@ -349,11 +416,14 @@
       <p>高成长全球化科技公司，岗位核心是APAC distribution partnerships、strategic alliances、partner program、co-marketing/co-selling和跨区域stakeholder关系，和候选人的多方协作、国际项目、活动及伙伴沟通主线相连。短板是商业增长和GTM属性较强，需要把CSC项目经历转译成partner enablement和生态运营。</p>
       <div class="card-footer">
         <span>发布：2026-01-12</span>
-        <a class="apply" href="https://boards.greenhouse.io/figma/jobs/5756184004?gh_jid=5756184004" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="FIGMA-SG-DISTRIBUTION-PARTNER-MANAGER-5756184004" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://boards.greenhouse.io/figma/jobs/5756184004?gh_jid=5756184004" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="FIGMA-UK-CUSTOMER-ENABLEMENT-6102903004">
       <div class="job-topline">
         <div>
           <h2>客户赋能经理</h2>
@@ -373,11 +443,14 @@
       <p>高成长全球化科技公司，岗位核心包含大型战略客户的enablement plan、培训交付、跨团队协作和多层级stakeholder关系维护，可把CSC项目协调、活动交付和沟通材料经验转译为客户教育/项目赋能叙事。短板是JD要求4年以上SaaS customer success/customer enablement/TAM等客户成功经验，且岗位更偏商业客户成功而非公共事务或伙伴关系主线。</p>
       <div class="card-footer">
         <span>发布：2026-06-29</span>
-        <a class="apply" href="https://boards.greenhouse.io/figma/jobs/6102903004?gh_jid=6102903004" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="FIGMA-UK-CUSTOMER-ENABLEMENT-6102903004" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://boards.greenhouse.io/figma/jobs/6102903004?gh_jid=6102903004" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-VN-EVENT-MANAGER-744000134232609">
       <div class="job-topline">
         <div>
           <h2>展会项目经理</h2>
@@ -397,11 +470,14 @@
       <p>岗位负责农业、畜牧、水产、医药、医疗器械等行业展会的event strategy、客户体验、销售/市场/运营协同、会议和seminar交付、供应商谈判与项目P&amp;L，是典型stakeholder/event/project management通道。短板是要求8年以上品牌/产品经验、3年以上管理经验，且在越南办公室全周到岗，适合作为行业方向观察或高阶拉伸岗位。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134232609-event-manager-exhibitions" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-VN-EVENT-MANAGER-744000134232609" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134232609-event-manager-exhibitions" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="FGS-SG-EQUITY-IR-SA-5166656007">
       <div class="job-topline">
         <div>
           <h2>资本市场与投资者关系高级顾问</h2>
@@ -421,11 +497,14 @@
       <p>FGS Global 是高质量战略传播/公共事务/资本市场咨询平台，岗位覆盖亚洲客户的investor relations、stakeholder coordination、IPO/融资/M&amp;A叙事、机构投资者和分析师关系，和候选人的政策沟通、材料写作、多方协作有交集。短板很明确：JD把1-3年投行ECM/M&amp;A或卖方研究经验列为essential，金融硬背景要求较高，只适合作为战略传播+IR方向的观察/拉伸岗位。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://job-boards.greenhouse.io/fgsglobal/jobs/5166656007" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="FGS-SG-EQUITY-IR-SA-5166656007" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://job-boards.greenhouse.io/fgsglobal/jobs/5166656007" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-SA-INVESTOR-PROGRAM-744000133377966">
       <div class="job-topline">
         <div>
           <h2>投资者项目经理（游戏产业活动）</h2>
@@ -445,11 +524,14 @@
       <p>岗位核心是设计投资者项目、VC/基金/创业者pipeline、闭门圆桌、matchmaking、投资者体验和跨活动portfolio支持，方向上非常接近partnership、donor/investor relations和项目交付。短板是要求4-5年投资者关系/VC/LP engagement及游戏投资网络，且是6个月合同，更适合作为方法论观察或极高阶拉伸。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133377966-investor-program-manager-kingdom-of-gaming-6-month-contract" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-SA-INVESTOR-PROGRAM-744000133377966" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133377966-investor-program-manager-kingdom-of-gaming-6-month-contract" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="COURSERA-IN-APAC-PR-MANAGER-6000017004">
       <div class="job-topline">
         <div>
           <h2>亚太公共关系经理</h2>
@@ -469,11 +551,14 @@
       <p>Coursera 是教育科技与全球技能平台，岗位覆盖APAC PR、大学/企业/政府业务叙事、thought leadership、媒体关系、跨职能协调、政策和高等教育记者关系，和候选人的教育公共政策、国际教育项目、英文传播材料经验有明显交集。短板是要求4年以上PR经验，并且岗位明确India-based，不适合作为第一优先。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://job-boards.greenhouse.io/coursera/jobs/6000017004" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="COURSERA-IN-APAC-PR-MANAGER-6000017004" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://job-boards.greenhouse.io/coursera/jobs/6000017004" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="MAVEN-REMOTE-EXPERT-PARTNERSHIPS-MANAGER-ED6CD798">
       <div class="job-topline">
         <div>
           <h2>专家伙伴关系经理</h2>
@@ -493,11 +578,14 @@
       <p>Maven 是 cohort-based learning / expert creator education 平台，岗位要求2-5年，核心是招募专家讲师、建立creator/operator/founder pipeline、维护深度关系、指导课程发布并反馈产品/营销策略，和候选人的国际教育、项目协作、外部伙伴拓展有连接。短板是JD明确写sales-focused、需要pitch/close instructors，商业开发属性较强，应作为教育科技partnership观察岗。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.ashbyhq.com/maven/ed6cd798-0123-460b-988c-1da89508359f" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="MAVEN-REMOTE-EXPERT-PARTNERSHIPS-MANAGER-ED6CD798" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.ashbyhq.com/maven/ed6cd798-0123-460b-988c-1da89508359f" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="EY-HK-FSO-CCASS-SA-742011201">
       <div class="job-topline">
         <div>
           <h2>金融服务气候变化与可持续发展高级顾问</h2>
@@ -517,11 +605,14 @@
       <p>方向落在绿色债券、碳、环境、HSE和可持续服务，是外企ESG转型的好入口；但金融服务/绿色金融和团队管理要求更强，候选人当前更适合作为拉伸选项，而不是第一优先。</p>
       <div class="card-footer">
         <span>发布：2026-06-14</span>
-        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-FSO-Assurance-Climate-Change-and-Sustainability-Services-Senior-Associate-Hong-Kong-Hong/742011201/" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="EY-HK-FSO-CCASS-SA-742011201" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-FSO-Assurance-Climate-Change-and-Sustainability-Services-Senior-Associate-Hong-Kong-Hong/742011201/" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="SGS-MY-MARKETING-CONTENT-ENGAGEMENT-744000134689929">
       <div class="job-topline">
         <div>
           <h2>内容与互动市场执行</h2>
@@ -541,14 +632,17 @@
       <p>SGS属于标准、检测、认证领域的高质量隐形冠军；岗位要求1-3年，覆盖内容日历、社媒、webinar、seminar、conference、trade show和corporate events，能承接候选人的活动组织和外联传播经验。短板是地点在马来西亚、要求Bahasa Malaysia工作能力，且岗位偏marketing执行而非partnership主线。</p>
       <div class="card-footer">
         <span>发布：2026-06-29</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/SGS/744000134689929-marketing-executive-content-engagement" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="SGS-MY-MARKETING-CONTENT-ENGAGEMENT-744000134689929" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/SGS/744000134689929-marketing-executive-content-engagement" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article></div>
     </section>
     <section>
       <h2 class="section-title">全部记录</h2>
       <div class="grid">
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-SG-GRADUATE-TRAINEE-744000134599769">
       <div class="job-topline">
         <div>
           <h2>B2B 展会业务管培生</h2>
@@ -568,11 +662,14 @@
       <p>Informa Markets 是FTSE 100旗下全球B2B展会与行业平台公司；该项目覆盖Sales、Marketing、Event Planning &amp; Operations轮岗，包含客户关系、外部stakeholder、供应商协调、现场活动交付和市场研究，能很好承接候选人的国际项目、活动组织、伙伴沟通和跨团队协作经验。短板是官方要求recent graduate within the past 1 year，需用毕业时间和职业转换叙事确认是否符合。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134599769-graduate-trainee" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-SG-GRADUATE-TRAINEE-744000134599769" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134599769-graduate-trainee" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-UK-MARKETING-ASSOCIATE-CLIENT-744000133401630">
       <div class="job-topline">
         <div>
           <h2>客户与赞助商营销助理</h2>
@@ -592,11 +689,14 @@
       <p>可再生能源B2B活动组合，职责包括client acquisition、sponsor engagement、lead generation、sales collateral、client communication、case studies、co-marketing和跨职能协作；这比纯ESG更贴近候选人当前的合作伙伴、外联、项目支持与机构关系能力。短板是需要2-3年B2B营销/活动营销经验和Salesforce/marketing automation，需把CSC活动、UN Job Fair和材料产出经验转译为campaign/project delivery。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133401630-marketing-associate-client" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-UK-MARKETING-ASSOCIATE-CLIENT-744000133401630" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133401630-marketing-associate-client" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="OGILVY-SG-PR-INFLUENCE-ASSOCIATE-4667231005">
       <div class="job-topline">
         <div>
           <h2>公关与影响力助理</h2>
@@ -616,11 +716,14 @@
       <p>Ogilvy/WPP 属于高质量全球传播与咨询平台；岗位要求1-2年agency经验，职责包括executive profiling、corporate communications、media relations、journalist relationships、项目排期、客户沟通和社媒内容，能把CSC的外联传播、会议活动、材料写作和stakeholder协调转成corporate affairs/PR桥梁经验。短板是agency节奏快，且部分工作偏品牌PR与社媒执行。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://www.ogilvy.com/careers/4667231005?gh_jid=4667231005" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="OGILVY-SG-PR-INFLUENCE-ASSOCIATE-4667231005" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://www.ogilvy.com/careers/4667231005?gh_jid=4667231005" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="EY-HK-CCASS-ESG-SA-696384001">
       <div class="job-topline">
         <div>
           <h2>ESG 咨询与鉴证高级顾问</h2>
@@ -640,11 +743,14 @@
       <p>高质量平台 + ESG/CSR/可持续报告方向，对候选人的公共政策、项目协调和ESG转向叙事有价值；短板是JD要求3-5年绿色鉴证、CSR/ESG报告、碳交易或环境社会影响评估经验，需要把现有CSC国际项目和ESG学习包装成转型动机而非硬经验。</p>
       <div class="card-footer">
         <span>发布：2026-06-14</span>
-        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-Assurance-Core-CCaSS-ESG-Advisory-and-Assurance-Senior-Associate-Hong-Kong-Hong/696384001/" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="EY-HK-CCASS-ESG-SA-696384001" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-Assurance-Core-CCaSS-ESG-Advisory-and-Assurance-Senior-Associate-Hong-Kong-Hong/696384001/" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="BRUNSWICK-SG-EXECUTIVE-8570439002">
       <div class="job-topline">
         <div>
           <h2>战略传播与公共事务执行顾问</h2>
@@ -664,11 +770,14 @@
       <p>非常贴合外企岗位日报的新主线：corporate communications、public affairs、consulting、stakeholder engagement、policy/media monitoring、pitch preparation、客户交付。1-3年相关经验门槛合理，能把CSC的国际组织沟通、UN Job Fair、多方协作、政策与教育背景转化成咨询型叙事。</p>
       <div class="card-footer">
         <span>日期待确认</span>
-        <a class="apply" href="https://job-boards.greenhouse.io/brunswickgroup/jobs/8570439002" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="BRUNSWICK-SG-EXECUTIVE-8570439002" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://job-boards.greenhouse.io/brunswickgroup/jobs/8570439002" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="AIRWALLEX-HK-CHANNEL-PARTNERSHIPS-288D26CF">
       <div class="job-topline">
         <div>
           <h2>渠道伙伴关系经理</h2>
@@ -688,11 +797,14 @@
       <p>高成长全球化金融科技平台，岗位核心是招募、培育、维护合作伙伴，协调strategy/operations/finance等跨职能团队并推动partner buy-in，和候选人的项目协作、外联、stakeholder management能力相连。短板是归属Sales且有增长目标，需避免被纯销售化。</p>
       <div class="card-footer">
         <span>发布：2026-06-29</span>
-        <a class="apply" href="https://careers.airwallex.com/job/288d26cf-6dd4-4da9-912c-d082d388928f/channel-partnerships-manager-sme-growth/" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="AIRWALLEX-HK-CHANNEL-PARTNERSHIPS-288D26CF" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://careers.airwallex.com/job/288d26cf-6dd4-4da9-912c-d082d388928f/channel-partnerships-manager-sme-growth/" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="FIGMA-SG-DISTRIBUTION-PARTNER-MANAGER-5756184004">
       <div class="job-topline">
         <div>
           <h2>APAC 渠道/分销伙伴经理</h2>
@@ -712,11 +824,14 @@
       <p>高成长全球化科技公司，岗位核心是APAC distribution partnerships、strategic alliances、partner program、co-marketing/co-selling和跨区域stakeholder关系，和候选人的多方协作、国际项目、活动及伙伴沟通主线相连。短板是商业增长和GTM属性较强，需要把CSC项目经历转译成partner enablement和生态运营。</p>
       <div class="card-footer">
         <span>发布：2026-01-12</span>
-        <a class="apply" href="https://boards.greenhouse.io/figma/jobs/5756184004?gh_jid=5756184004" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="FIGMA-SG-DISTRIBUTION-PARTNER-MANAGER-5756184004" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://boards.greenhouse.io/figma/jobs/5756184004?gh_jid=5756184004" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="FIGMA-UK-CUSTOMER-ENABLEMENT-6102903004">
       <div class="job-topline">
         <div>
           <h2>客户赋能经理</h2>
@@ -736,11 +851,14 @@
       <p>高成长全球化科技公司，岗位核心包含大型战略客户的enablement plan、培训交付、跨团队协作和多层级stakeholder关系维护，可把CSC项目协调、活动交付和沟通材料经验转译为客户教育/项目赋能叙事。短板是JD要求4年以上SaaS customer success/customer enablement/TAM等客户成功经验，且岗位更偏商业客户成功而非公共事务或伙伴关系主线。</p>
       <div class="card-footer">
         <span>发布：2026-06-29</span>
-        <a class="apply" href="https://boards.greenhouse.io/figma/jobs/6102903004?gh_jid=6102903004" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="FIGMA-UK-CUSTOMER-ENABLEMENT-6102903004" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://boards.greenhouse.io/figma/jobs/6102903004?gh_jid=6102903004" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-VN-EVENT-MANAGER-744000134232609">
       <div class="job-topline">
         <div>
           <h2>展会项目经理</h2>
@@ -760,11 +878,14 @@
       <p>岗位负责农业、畜牧、水产、医药、医疗器械等行业展会的event strategy、客户体验、销售/市场/运营协同、会议和seminar交付、供应商谈判与项目P&amp;L，是典型stakeholder/event/project management通道。短板是要求8年以上品牌/产品经验、3年以上管理经验，且在越南办公室全周到岗，适合作为行业方向观察或高阶拉伸岗位。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134232609-event-manager-exhibitions" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-VN-EVENT-MANAGER-744000134232609" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000134232609-event-manager-exhibitions" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="FGS-SG-EQUITY-IR-SA-5166656007">
       <div class="job-topline">
         <div>
           <h2>资本市场与投资者关系高级顾问</h2>
@@ -784,11 +905,14 @@
       <p>FGS Global 是高质量战略传播/公共事务/资本市场咨询平台，岗位覆盖亚洲客户的investor relations、stakeholder coordination、IPO/融资/M&amp;A叙事、机构投资者和分析师关系，和候选人的政策沟通、材料写作、多方协作有交集。短板很明确：JD把1-3年投行ECM/M&amp;A或卖方研究经验列为essential，金融硬背景要求较高，只适合作为战略传播+IR方向的观察/拉伸岗位。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://job-boards.greenhouse.io/fgsglobal/jobs/5166656007" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="FGS-SG-EQUITY-IR-SA-5166656007" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://job-boards.greenhouse.io/fgsglobal/jobs/5166656007" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="INFORMA-SA-INVESTOR-PROGRAM-744000133377966">
       <div class="job-topline">
         <div>
           <h2>投资者项目经理（游戏产业活动）</h2>
@@ -808,11 +932,14 @@
       <p>岗位核心是设计投资者项目、VC/基金/创业者pipeline、闭门圆桌、matchmaking、投资者体验和跨活动portfolio支持，方向上非常接近partnership、donor/investor relations和项目交付。短板是要求4-5年投资者关系/VC/LP engagement及游戏投资网络，且是6个月合同，更适合作为方法论观察或极高阶拉伸。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133377966-investor-program-manager-kingdom-of-gaming-6-month-contract" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="INFORMA-SA-INVESTOR-PROGRAM-744000133377966" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/InformaGroupPlc/744000133377966-investor-program-manager-kingdom-of-gaming-6-month-contract" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="COURSERA-IN-APAC-PR-MANAGER-6000017004">
       <div class="job-topline">
         <div>
           <h2>亚太公共关系经理</h2>
@@ -832,11 +959,14 @@
       <p>Coursera 是教育科技与全球技能平台，岗位覆盖APAC PR、大学/企业/政府业务叙事、thought leadership、媒体关系、跨职能协调、政策和高等教育记者关系，和候选人的教育公共政策、国际教育项目、英文传播材料经验有明显交集。短板是要求4年以上PR经验，并且岗位明确India-based，不适合作为第一优先。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://job-boards.greenhouse.io/coursera/jobs/6000017004" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="COURSERA-IN-APAC-PR-MANAGER-6000017004" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://job-boards.greenhouse.io/coursera/jobs/6000017004" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="MAVEN-REMOTE-EXPERT-PARTNERSHIPS-MANAGER-ED6CD798">
       <div class="job-topline">
         <div>
           <h2>专家伙伴关系经理</h2>
@@ -856,11 +986,14 @@
       <p>Maven 是 cohort-based learning / expert creator education 平台，岗位要求2-5年，核心是招募专家讲师、建立creator/operator/founder pipeline、维护深度关系、指导课程发布并反馈产品/营销策略，和候选人的国际教育、项目协作、外部伙伴拓展有连接。短板是JD明确写sales-focused、需要pitch/close instructors，商业开发属性较强，应作为教育科技partnership观察岗。</p>
       <div class="card-footer">
         <span>发布：2026-06-30</span>
-        <a class="apply" href="https://jobs.ashbyhq.com/maven/ed6cd798-0123-460b-988c-1da89508359f" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="MAVEN-REMOTE-EXPERT-PARTNERSHIPS-MANAGER-ED6CD798" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.ashbyhq.com/maven/ed6cd798-0123-460b-988c-1da89508359f" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="EY-HK-FSO-CCASS-SA-742011201">
       <div class="job-topline">
         <div>
           <h2>金融服务气候变化与可持续发展高级顾问</h2>
@@ -880,11 +1013,14 @@
       <p>方向落在绿色债券、碳、环境、HSE和可持续服务，是外企ESG转型的好入口；但金融服务/绿色金融和团队管理要求更强，候选人当前更适合作为拉伸选项，而不是第一优先。</p>
       <div class="card-footer">
         <span>发布：2026-06-14</span>
-        <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-FSO-Assurance-Climate-Change-and-Sustainability-Services-Senior-Associate-Hong-Kong-Hong/742011201/" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="EY-HK-FSO-CCASS-SA-742011201" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://careers.ey.com/ey/job/Hong-Kong-FSO-Assurance-Climate-Change-and-Sustainability-Services-Senior-Associate-Hong-Kong-Hong/742011201/" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article>
 
-    <article class="job-card">
+    <article class="job-card" data-job-id="SGS-MY-MARKETING-CONTENT-ENGAGEMENT-744000134689929">
       <div class="job-topline">
         <div>
           <h2>内容与互动市场执行</h2>
@@ -904,7 +1040,10 @@
       <p>SGS属于标准、检测、认证领域的高质量隐形冠军；岗位要求1-3年，覆盖内容日历、社媒、webinar、seminar、conference、trade show和corporate events，能承接候选人的活动组织和外联传播经验。短板是地点在马来西亚、要求Bahasa Malaysia工作能力，且岗位偏marketing执行而非partnership主线。</p>
       <div class="card-footer">
         <span>发布：2026-06-29</span>
-        <a class="apply" href="https://jobs.smartrecruiters.com/SGS/744000134689929-marketing-executive-content-engagement" target="_blank" rel="noreferrer">官方申请</a>
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="SGS-MY-MARKETING-CONTENT-ENGAGEMENT-744000134689929" aria-pressed="false">标记已投递</button>
+          <a class="apply" href="https://jobs.smartrecruiters.com/SGS/744000134689929-marketing-executive-content-engagement" target="_blank" rel="noreferrer">官方申请</a>
+        </div>
       </div>
     </article></div>
     </section>
@@ -912,5 +1051,51 @@
   <footer>
     <div class="wrap">数据来源：本地外企岗位日报去重库。原始简历目录只读，不在站点中展示个人联系方式。</div>
   </footer>
+  <script>
+    (() => {
+      const storageKey = "foreignJobsApplied:v1";
+      const readApplied = () => {
+        try {
+          return new Set(JSON.parse(localStorage.getItem(storageKey) || "[]"));
+        } catch {
+          return new Set();
+        }
+      };
+      const writeApplied = (applied) => {
+        localStorage.setItem(storageKey, JSON.stringify([...applied]));
+      };
+      const getKnownJobIds = () => [...new Set([...document.querySelectorAll(".job-card[data-job-id]")]
+        .map((card) => card.dataset.jobId)
+        .filter(Boolean))];
+      const renderAppliedState = () => {
+        const applied = readApplied();
+        document.querySelectorAll(".job-card[data-job-id]").forEach((card) => {
+          const isApplied = applied.has(card.dataset.jobId);
+          card.classList.toggle("applied", isApplied);
+        });
+        document.querySelectorAll(".applied-toggle[data-job-id]").forEach((button) => {
+          const isApplied = applied.has(button.dataset.jobId);
+          button.setAttribute("aria-pressed", String(isApplied));
+          button.textContent = isApplied ? "已投递" : "标记已投递";
+        });
+        const appliedCount = getKnownJobIds().filter((id) => applied.has(id)).length;
+        const counter = document.getElementById("applied-count");
+        if (counter) counter.textContent = String(appliedCount);
+      };
+      document.addEventListener("click", (event) => {
+        const button = event.target.closest(".applied-toggle[data-job-id]");
+        if (!button) return;
+        const applied = readApplied();
+        if (applied.has(button.dataset.jobId)) {
+          applied.delete(button.dataset.jobId);
+        } else {
+          applied.add(button.dataset.jobId);
+        }
+        writeApplied(applied);
+        renderAppliedState();
+      });
+      renderAppliedState();
+    })();
+  </script>
 </body>
 </html>

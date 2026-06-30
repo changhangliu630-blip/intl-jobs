@@ -64,11 +64,12 @@ function isActive(job) {
 function renderJobCard(job) {
   const title = escapeHtml(job.title);
   const titleEn = job.titleEn ? `<div class="title-en">${escapeHtml(job.titleEn)}</div>` : "";
+  const jobId = escapeHtml(job.id || `${job.company}-${job.titleEn || job.title}`);
   const link = job.link
     ? `<a class="apply" href="${escapeHtml(job.link)}" target="_blank" rel="noreferrer">官方申请</a>`
     : "";
   return `
-    <article class="job-card">
+    <article class="job-card" data-job-id="${jobId}">
       <div class="job-topline">
         <div>
           <h2>${title}</h2>
@@ -88,7 +89,10 @@ function renderJobCard(job) {
       <p>${escapeHtml(job.matchNote)}</p>
       <div class="card-footer">
         <span>${escapeHtml(job.deadline ? `截止：${job.deadline}` : job.postedDate ? `发布：${job.postedDate}` : "日期待确认")}</span>
-        ${link}
+        <div class="footer-actions">
+          <button class="applied-toggle" type="button" data-job-id="${jobId}" aria-pressed="false">标记已投递</button>
+          ${link}
+        </div>
       </div>
     </article>`;
 }
@@ -122,6 +126,7 @@ function renderHtml(payload) {
       --paper: #f7f8fa;
       --accent: #0f766e;
       --accent-2: #365b9c;
+      --applied: #6d4aff;
       --low: #0f766e;
       --medium: #9a6700;
       --high: #b42318;
@@ -195,6 +200,23 @@ function renderHtml(payload) {
       border-radius: 8px;
       padding: 16px;
     }
+    .job-card.applied {
+      border-color: color-mix(in srgb, var(--applied) 48%, var(--line));
+      background: #fbfaff;
+    }
+    .job-card.applied h2::after {
+      content: "已投递";
+      display: inline-block;
+      margin-left: 8px;
+      border: 1px solid color-mix(in srgb, var(--applied) 38%, #ffffff);
+      border-radius: 999px;
+      padding: 2px 7px;
+      color: var(--applied);
+      background: #f1edff;
+      font-size: 12px;
+      font-weight: 700;
+      vertical-align: 2px;
+    }
     .job-topline {
       display: flex;
       justify-content: space-between;
@@ -250,6 +272,35 @@ function renderHtml(payload) {
       color: var(--muted);
       font-size: 14px;
     }
+    .footer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    button.applied-toggle {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 7px 10px;
+      color: var(--ink);
+      background: #ffffff;
+      font: inherit;
+      line-height: 1.2;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    button.applied-toggle[aria-pressed="true"] {
+      border-color: var(--applied);
+      color: #ffffff;
+      background: var(--applied);
+    }
+    button.applied-toggle:focus-visible,
+    .apply:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent);
+      outline-offset: 2px;
+    }
     .apply {
       color: #ffffff;
       background: var(--accent);
@@ -274,7 +325,8 @@ function renderHtml(payload) {
     @media (max-width: 640px) {
       .job-topline, .card-footer { display: block; }
       .stars { margin-top: 8px; }
-      .apply { display: inline-block; margin-top: 10px; }
+      .footer-actions { justify-content: flex-start; margin-top: 10px; }
+      .apply { display: inline-block; }
     }
   </style>
 </head>
@@ -286,6 +338,7 @@ function renderHtml(payload) {
       <div class="stats">
         <div class="stat"><strong>${jobs.length}</strong>累计岗位</div>
         <div class="stat"><strong>${activeJobs.length}</strong>有效岗位</div>
+        <div class="stat"><strong id="applied-count">0</strong>已投递</div>
         <div class="stat"><strong>${updated}</strong>最近更新</div>
       </div>
     </div>
@@ -303,6 +356,52 @@ function renderHtml(payload) {
   <footer>
     <div class="wrap">数据来源：本地外企岗位日报去重库。原始简历目录只读，不在站点中展示个人联系方式。</div>
   </footer>
+  <script>
+    (() => {
+      const storageKey = "foreignJobsApplied:v1";
+      const readApplied = () => {
+        try {
+          return new Set(JSON.parse(localStorage.getItem(storageKey) || "[]"));
+        } catch {
+          return new Set();
+        }
+      };
+      const writeApplied = (applied) => {
+        localStorage.setItem(storageKey, JSON.stringify([...applied]));
+      };
+      const getKnownJobIds = () => [...new Set([...document.querySelectorAll(".job-card[data-job-id]")]
+        .map((card) => card.dataset.jobId)
+        .filter(Boolean))];
+      const renderAppliedState = () => {
+        const applied = readApplied();
+        document.querySelectorAll(".job-card[data-job-id]").forEach((card) => {
+          const isApplied = applied.has(card.dataset.jobId);
+          card.classList.toggle("applied", isApplied);
+        });
+        document.querySelectorAll(".applied-toggle[data-job-id]").forEach((button) => {
+          const isApplied = applied.has(button.dataset.jobId);
+          button.setAttribute("aria-pressed", String(isApplied));
+          button.textContent = isApplied ? "已投递" : "标记已投递";
+        });
+        const appliedCount = getKnownJobIds().filter((id) => applied.has(id)).length;
+        const counter = document.getElementById("applied-count");
+        if (counter) counter.textContent = String(appliedCount);
+      };
+      document.addEventListener("click", (event) => {
+        const button = event.target.closest(".applied-toggle[data-job-id]");
+        if (!button) return;
+        const applied = readApplied();
+        if (applied.has(button.dataset.jobId)) {
+          applied.delete(button.dataset.jobId);
+        } else {
+          applied.add(button.dataset.jobId);
+        }
+        writeApplied(applied);
+        renderAppliedState();
+      });
+      renderAppliedState();
+    })();
+  </script>
 </body>
 </html>`;
 }
