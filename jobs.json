@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-01T08:36:56+08:00",
-  "auditDate": "2026-07-01",
-  "sourceLastUpdated": "2026-07-01",
+  "generatedAt": "2026-07-02T08:36:31+08:00",
+  "auditDate": "2026-07-02",
+  "sourceLastUpdated": "2026-07-02",
   "sourcesUsed": [
     "/Users/Archer/.qclaw/workspace/intl-jobs/jobs.json",
     "/Users/Archer/Desktop/Adventurer Guild/intl-jobs-site/source/jobs.local.json"
   ],
   "counts": {
-    "total": 49,
-    "active": 7,
-    "closing": 2,
-    "expired": 30,
+    "total": 52,
+    "active": 9,
+    "closing": 1,
+    "expired": 32,
     "unavailable": 2,
     "unknown": 8,
-    "highMatchActive": 9
+    "highMatchActive": 10
   },
   "highlights": [
     "站点构建已支持 qclaw 主数据源与工作区镜像源自动回退。",
@@ -42,12 +42,12 @@
       "applySubject": "Coordinator, Participant Engagement - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
-      "daysLeft": -746,
+      "daysLeft": -747,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2024-06-15 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNGC-PE-MANAGER",
@@ -70,12 +70,12 @@
       "applySubject": "Manager, Participant Engagement and Services - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
-      "daysLeft": -362,
+      "daysLeft": -363,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2025-07-04 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNGC-COMMS-SR",
@@ -98,12 +98,12 @@
       "applySubject": "Senior Manager, Communications - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
-      "daysLeft": -821,
+      "daysLeft": -822,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2024-04-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNGC-PROG-SR",
@@ -126,12 +126,12 @@
       "applySubject": "Senior Manager, Programmes Development - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
-      "daysLeft": -1309,
+      "daysLeft": -1310,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2022-11-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "WIPO-TA-MANAGER-P4",
@@ -153,12 +153,12 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
-      "daysLeft": -39,
+      "daysLeft": -40,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-05-23 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNFPA-COMMS-P3-IST",
@@ -180,12 +180,12 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
-      "daysLeft": -42,
+      "daysLeft": -43,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-05-20 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PO-P2-SUDAN",
@@ -207,12 +207,12 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
-      "daysLeft": -29,
+      "daysLeft": -30,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-02 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-ES-P3-GENEVA",
@@ -234,12 +234,12 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
-      "daysLeft": -23,
+      "daysLeft": -24,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-08 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-FRS-P3-ROME",
@@ -261,12 +261,12 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
-      "daysLeft": -24,
+      "daysLeft": -25,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-07 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNEP-APMO-P2-NAIROBI",
@@ -287,12 +287,12 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -5,
+      "daysLeft": -6,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-26 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNIDO-ERO-P3-VIENNA",
@@ -313,12 +313,12 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -19,
+      "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNEP-IPBES-APIO-P2-BONN",
@@ -339,12 +339,12 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -21,
+      "daysLeft": -22,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-10 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "IYF-PO-GUSP-REMOTE",
@@ -370,7 +370,7 @@
       "statusLabel": "链接失效",
       "statusReason": "原招聘链接在 2026-06-07 核查时返回 404，视为已下线。",
       "verification": "HTTP 404 on recruiting.paylocity.com",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "IYF-PC-MXBRA",
@@ -396,7 +396,7 @@
       "statusLabel": "链接失效",
       "statusReason": "原招聘链接在 2026-06-07 核查时返回 404，视为已下线。",
       "verification": "HTTP 404 on recruiting.paylocity.com",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "GATES-ASO-FSO-SEATTLE",
@@ -417,12 +417,12 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "Foundation",
-      "daysLeft": -23,
+      "daysLeft": -24,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-08 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNFCCC-ACO-P2-BONN",
@@ -443,12 +443,12 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -17,
+      "daysLeft": -18,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-CS-ENG-P3-GENEVA",
@@ -469,12 +469,12 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -20,
+      "daysLeft": -21,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-11 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "MERCYCORPS-SSPM-EU-BRUSSELS",
@@ -495,12 +495,12 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
-      "daysLeft": -16,
+      "daysLeft": -17,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-15 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "HGBF-PO-CHEVYCHASE",
@@ -521,12 +521,12 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "Foundation",
-      "daysLeft": -19,
+      "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNDOS-APMO-P2-NY",
@@ -547,12 +547,12 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -10,
+      "daysLeft": -11,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-21 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNEP-APMO-P2-PARIS-LCI",
@@ -573,12 +573,12 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": 0,
-      "status": "closing",
-      "statusLabel": "今日截止",
-      "statusReason": "截止日期为 2026-07-01，需要当天立即处理。",
+      "daysLeft": -1,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-07-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-FA-DB-GS5-BKK",
@@ -599,12 +599,12 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -21,
+      "daysLeft": -22,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-10 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "TAF-GCO-JAKARTA",
@@ -625,12 +625,12 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "按招聘页说明申请",
       "sourceCategory": "Foundation",
-      "daysLeft": -19,
+      "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "ICRC-PPP-SPEC-GVA",
@@ -651,12 +651,12 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
-      "daysLeft": -17,
+      "daysLeft": -18,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-INNOV-P3-STHLM-ALUMNI",
@@ -677,12 +677,12 @@
       "reportedDate": "2026-06-10",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -15,
+      "daysLeft": -16,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-16 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PO-CSO-NO1-MAPUTO",
@@ -703,12 +703,12 @@
       "reportedDate": "2026-06-10",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -10,
+      "daysLeft": -11,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-21 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "PLAN-CAS-MAKATI",
@@ -734,7 +734,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "TAF-APMO-PARTISIPASI-JKT",
@@ -760,7 +760,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "PLAN-LRM-MAKATI",
@@ -786,7 +786,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "PLAN-GFAO-MAKATI",
@@ -812,7 +812,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNDP-PDS-NOC-BEIJING",
@@ -833,12 +833,12 @@
       "reportedDate": "2026-06-12",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -17,
+      "daysLeft": -18,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PARTNERSHIPS-P3-KINSHASA-DRC",
@@ -859,12 +859,12 @@
       "reportedDate": "2026-06-18",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -8,
+      "daysLeft": -9,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-23 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-COMMS-P3-BUNIA-DRC",
@@ -885,12 +885,12 @@
       "reportedDate": "2026-06-18",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -7,
+      "daysLeft": -8,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-24 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "INTERACTION-MPEC-DC",
@@ -911,12 +911,12 @@
       "reportedDate": "2026-06-21",
       "applyMethod": "通过 InterAction 官方 Careers 跳转 ADP 在线申请",
       "sourceCategory": "International Association",
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-07-06 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "EO-COORD-NORTH-ASIA-SHANGHAI",
@@ -942,7 +942,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "EO-COORD-EVENTS-JNA-APAC-SHANGHAI",
@@ -968,7 +968,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "WELLCOME-FUNDING-MANAGER-LONDON",
@@ -989,12 +989,12 @@
       "reportedDate": "2026-06-23",
       "applyMethod": "通过 Wellcome 官方 Workday 在线申请；需提交 CV 并回答 2 个申请问题",
       "sourceCategory": "Foundation",
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-07-06 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "WELLCOME-CCA-MANAGER-LONDON",
@@ -1015,12 +1015,12 @@
       "reportedDate": "2026-06-23",
       "applyMethod": "通过 Wellcome 官方 Workday 在线申请；需提交 CV 并回答 2 个申请问题",
       "sourceCategory": "Foundation",
-      "daysLeft": -2,
+      "daysLeft": -3,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-29 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PCO-P2-KINGSTON-MCO",
@@ -1041,12 +1041,12 @@
       "reportedDate": "2026-06-24",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -1,
+      "daysLeft": -2,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "IUCN-GLOBAL-OCEAN-POLICY-OFFICER-BRUSSELS",
@@ -1067,12 +1067,12 @@
       "reportedDate": "2026-06-24",
       "applyMethod": "通过 IUCN HRMS 官方系统在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": 5,
+      "daysLeft": 4,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-07-06 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "MERCYCORPS-BDPR-MANAGER-KINSHASA",
@@ -1098,7 +1098,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PROGRAMME-PLANNING-P3-BUNIA",
@@ -1119,12 +1119,12 @@
       "reportedDate": "2026-06-25",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请",
       "sourceCategory": "IGO/UN",
-      "daysLeft": -3,
+      "daysLeft": -4,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-28 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PUBLIC-PARTNERSHIP-P2-BRUSSELS",
@@ -1145,12 +1145,12 @@
       "reportedDate": "2026-06-26",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；页面附 TOR PDF，截止 2026-07-01 23:55 Brussels/Romance Daylight Time",
       "sourceCategory": "IGO/UN",
-      "daysLeft": 0,
-      "status": "closing",
-      "statusLabel": "今日截止",
-      "statusReason": "截止日期为 2026-07-01，需要当天立即处理。",
+      "daysLeft": -1,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-07-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "PLAN-UNHCR-LIVELIHOOD-PC-CAIRO",
@@ -1171,12 +1171,12 @@
       "reportedDate": "2026-06-26",
       "applyMethod": "通过 Plan International 官方招聘页在线申请；需在 Cover Letter 中回应岗位要求，英文申请",
       "sourceCategory": "INGO",
-      "daysLeft": 2,
+      "daysLeft": 1,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-07-03 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-PROGRAMME-OFFICER-P1-BANGKOK-HEHC",
@@ -1197,12 +1197,12 @@
       "reportedDate": "2026-06-28",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；截止 2026-07-05 23:55 SE Asia Standard Time",
       "sourceCategory": "IGO/UN",
-      "daysLeft": 4,
+      "daysLeft": 3,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-07-05 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "GATES-CONVENINGS-COORDINATOR-SEATTLE",
@@ -1228,7 +1228,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "IRC-GRANTS-COORDINATOR-LEBANON",
@@ -1249,12 +1249,12 @@
       "reportedDate": "2026-06-29",
       "applyMethod": "通过 IRC 官方 Workday 在线申请；ReliefWeb 显示截止 2026-06-30，需当天优先判断是否冲刺",
       "sourceCategory": "INGO",
-      "daysLeft": -1,
+      "daysLeft": -2,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNICEF-COMMS-P3-KYIV-UKRAINE",
@@ -1275,12 +1275,12 @@
       "reportedDate": "2026-06-30",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；截止 2026-07-09 23:55 FLE Daylight Time。",
       "sourceCategory": "IGO/UN",
-      "daysLeft": 8,
+      "daysLeft": 7,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-07-09 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
     },
     {
       "id": "UNDP-DIGITAL-FUNDRAISING-IPSA10-HOMEBASED",
@@ -1301,12 +1301,90 @@
       "reportedDate": "2026-07-01",
       "applyMethod": "通过 UNDP 官方 Oracle Candidate Experience 页面在线申请；因截止日在 2026-07-02，需当天决定是否投入申请材料。",
       "sourceCategory": "IGO/UN",
-      "daysLeft": 1,
+      "daysLeft": 0,
+      "status": "closing",
+      "statusLabel": "今日截止",
+      "statusReason": "截止日期为 2026-07-02，需要当天立即处理。",
+      "verification": "Source file",
+      "auditDate": "2026-07-02"
+    },
+    {
+      "id": "UNICEF-PUBLIC-PARTNERSHIP-P2-WASHINGTON-DC",
+      "title": "公共伙伴关系官员",
+      "titleEn": "Public Partnership Officer, P-2, Temporary Position, Public Partnerships & Resource Mobilization (PPR), 11.5 months, PPR North America & IFIs Pillar, Washington DC, #00137875",
+      "organization": "联合国儿童基金会 (UNICEF)",
+      "location": "美国华盛顿特区",
+      "contract": "Temporary Appointment（11.5个月）",
+      "grade": "P-2",
+      "salary": "未公开",
+      "deadline": "2026-07-07",
+      "link": "https://jobs.unicef.org/en-us/job/594146/public-partnership-officer-p2-temporary-position-public-partnerships-resource-mobilization-ppr-11-5-months-ppr-north-americaifis-pillar-washington-dc-00137875",
+      "source": "UNICEF Jobs / Impactpool cross-check",
+      "matchScore": 5,
+      "matchNote": "P-2 且最低 2 年经验，主线是美国政府伙伴关系、resource mobilization、grant management、financial/programmatic reporting、briefing notes、stakeholder liaison 和知识管理，和其 CSC 项目官员、多机构协调、英文官方材料、联合国岗位说明会组织推广经验高度贴合。主要风险是华盛顿驻地、TA 合同以及需要把 CSC 经历明确转译为 donor/grant reporting 与政府伙伴关系语言。",
+      "requirements": "本科或同等学历，国际关系、公共事务、国际发展、教育、传播、经济、商务等相关领域；至少 2 年 Communication / Government / Programme Management / Public Affairs / Resource Mobilization / External Relations 等相关经验；英语流利，其他联合国官方语言、US Government、donor financial reporting、humanitarian nutrition、grants management systems、high-level engagement 支持经验为加分。",
+      "reported": true,
+      "reportedDate": "2026-07-02",
+      "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；官方页面显示截止 2026-07-07 23:55 Eastern Daylight Time。",
+      "sourceCategory": "IGO/UN",
+      "daysLeft": 5,
       "status": "active",
       "statusLabel": "有效",
-      "statusReason": "截止日期 2026-07-02 尚未到期。",
+      "statusReason": "截止日期 2026-07-07 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-07-01"
+      "auditDate": "2026-07-02"
+    },
+    {
+      "id": "JUSTDIGGIT-PARTNERSHIPS-MANAGER-FOUNDATIONS-2026",
+      "title": "基金会伙伴关系经理",
+      "titleEn": "Partnerships Manager Foundations",
+      "organization": "Justdiggit Foundation",
+      "location": "肯尼亚内罗毕 / 荷兰（混合办公）",
+      "contract": "一年合同，表现与组织需要满足时可延长",
+      "grade": "Manager",
+      "salary": "KES 342,094-443,132/月或 EUR 4,292-4,945/月（视所在地）",
+      "deadline": "2026-07-31",
+      "link": "https://reliefweb.int/job/4218683/partnerships-manager-foundations",
+      "source": "ReliefWeb / Justdiggit Foundation",
+      "matchScore": 3,
+      "matchNote": "岗位属于基金会/机构资助伙伴拓展，负责 foundation prospecting、proposal writing、multi-stakeholder relationship management、funding renewals 和跨 Impact/Scaling/Communications 团队协作，与其伙伴维护、英文材料和项目协调能力相关。主要风险是文本写明至少 5 年 foundation / institutional donor 经验，但同时鼓励 3 年以上高度相关经验者申请，且气候/非洲生态修复领域需要补背景。",
+      "requirements": "高等教育学历；至少 5 年基金会、慈善资助方或机构捐助方伙伴关系获取与管理经验，3 年以上高度相关经验者也可申请；需要 NGO 生态、全球慈善基金会趋势、非洲发展/环境语境、proposal writing、Salesforce、跨文化关系建设和多截止日期管理能力。",
+      "reported": true,
+      "reportedDate": "2026-07-02",
+      "applyMethod": "按岗位说明将 CV 和 motivation letter 发送至 vacancies@justdiggit.org；ReliefWeb/岗位页显示截止 2026-07-31。",
+      "sourceCategory": "Foundation",
+      "daysLeft": 29,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 2026-07-31 尚未到期。",
+      "verification": "Source file",
+      "auditDate": "2026-07-02"
+    },
+    {
+      "id": "IRC-EMERGENCY-GRANTS-COORDINATOR-GLOBAL-SURGE",
+      "title": "应急资助协调员（全球机动）",
+      "titleEn": "Emergency Grants Coordinator, Global Surge",
+      "organization": "International Rescue Committee (IRC)",
+      "location": "Global Roving / Remote, roster, roving, or location to be determined",
+      "contract": "正式岗位 / Global Surge Team roster（部署通常最长3个月）",
+      "grade": "Coordinator",
+      "salary": "未公开",
+      "deadline": "2026-08-31",
+      "link": "https://theirc.wd1.myworkdayjobs.com/External_Careers/job/Global-Roving/Global-Surge-Team-Roster--Emergency-Grants-Coordinator_JR00003993",
+      "source": "ReliefWeb / IRC Workday",
+      "matchScore": 3,
+      "matchNote": "Donor Relations/Grants Management 方向非常对口，负责 proposal development、donor compliance、reporting、partner subgrant、跨部门协调和英文写作；其 CSC 资金方/国际组织沟通、项目跟踪与材料编辑经验可迁移。主要风险是应急人道场景、72小时部署、roster 性质和需要更直接的 grants/compliance 实战经验，稳定性弱于普通全职岗位。",
+      "requirements": "ReliefWeb 标注 3-4 年经验；岗位要求 significant grants / humanitarian programme management 经验，熟悉 UN、USAID/BHA、ECHO/EC、FCDO 等主要人道捐助方规则，具备 proposal、reporting、compliance、partner subgrant、预算协作、英语写作和短期国际部署能力，法语为加分。",
+      "reported": true,
+      "reportedDate": "2026-07-02",
+      "applyMethod": "通过 IRC 官方 Workday 在线申请；ReliefWeb 显示截止 2026-08-31。",
+      "sourceCategory": "INGO",
+      "daysLeft": 60,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 2026-08-31 尚未到期。",
+      "verification": "Source file",
+      "auditDate": "2026-07-02"
     }
   ]
 }
