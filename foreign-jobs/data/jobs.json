@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-29",
   "reported": [
-    "SEEK-SG-CUSTOMER-SUCCESS-EXEC-744000120855727"
+    "SEEK-MY-PARTNER-SUCCESS-LEAD-744000140143219"
   ],
   "jobs": [
     {
@@ -1124,6 +1124,25 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确基于新加坡办公室，官方 JD 未写必须已有当地工作权，也未承诺 Employment Pass、sponsorship 或 relocation；申请前应确认固定期限岗位是否支持境外候选人的 EP/S Pass，以及是否要求入职时已具备新加坡工作许可。",
       "reportedDate": "2026-07-27",
+      "expired": false
+    },
+    {
+      "id": "SEEK-MY-PARTNER-SUCCESS-LEAD-744000140143219",
+      "title": "伙伴成功负责人",
+      "titleEn": "Partner Success Lead",
+      "company": "SEEK",
+      "location": "马来西亚吉隆坡",
+      "workMode": "Hybrid / 2-3 days in office / occasional APAC travel",
+      "contract": "Full-time / Permanent",
+      "deadline": "",
+      "postedDate": "2026-07-28",
+      "link": "https://jobs.smartrecruiters.com/SEEK/744000140143219-partner-success-lead",
+      "source": "SEEK Careers / SmartRecruiters",
+      "matchScore": 4,
+      "matchNote": "岗位负责 SEEK Pass 战略伙伴组合的采用、参与、留存与长期价值，包含伙伴关系维护、success plan、里程碑与风险管理、培训和 onboarding、跨 Growth/Product/Operations/Analytics 协作及伙伴绩效报告，能够直接承接候选人的国际人才项目、多方利益相关者协调、伙伴维护、活动培训与项目交付经验。主要短板是岗位带增长和商业结果要求，并希望有 partner/customer success 或 account management 经验及 API/platform ecosystem 技术理解，需要把 CSC 项目成果转译为伙伴采用、参与度、留存和可扩展流程。",
+      "workPermitRisk": "可验证",
+      "workPermitNote": "岗位为吉隆坡正式全职、每周到岗 2-3 天并可能 APAC 出差；官方 JD 未写必须已有马来西亚工作权，也未承诺 Employment Pass、sponsorship 或 relocation，应在深度定制前确认是否接受境外候选人及工作准证支持。",
+      "reportedDate": "2026-07-29",
       "expired": false
     }
   ]
