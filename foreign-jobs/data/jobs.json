@@ -1,8 +1,9 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-07-30",
   "reported": [
-    "SEEK-MY-PARTNER-SUCCESS-LEAD-744000140143219"
+    "BRUNSWICK-SG-EXECUTIVE-8653108002",
+    "SEEK-MY-GRAD-PROGRAMS-SPECIALIST-744000140418143"
   ],
   "jobs": [
     {
@@ -1143,6 +1144,44 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位为吉隆坡正式全职、每周到岗 2-3 天并可能 APAC 出差；官方 JD 未写必须已有马来西亚工作权，也未承诺 Employment Pass、sponsorship 或 relocation，应在深度定制前确认是否接受境外候选人及工作准证支持。",
       "reportedDate": "2026-07-29",
+      "expired": false
+    },
+    {
+      "id": "BRUNSWICK-SG-EXECUTIVE-8653108002",
+      "title": "战略传播与公共事务执行顾问",
+      "titleEn": "Executive",
+      "company": "Brunswick Group",
+      "location": "新加坡",
+      "workMode": "Singapore office / office-based",
+      "contract": "Full-time",
+      "deadline": "",
+      "postedDate": "2026-07-29",
+      "link": "https://job-boards.greenhouse.io/brunswickgroup/jobs/8653108002",
+      "source": "Brunswick Group / Greenhouse",
+      "matchScore": 5,
+      "matchNote": "岗位要求 1–3 年相关经验，负责东南亚政策、媒体与市场动态分析，撰写 press release、Q&A 和关键口径，设计 stakeholder engagement 策略，并管理客户、内部团队与多条时间敏感任务；与候选人的 CSC 国际项目、UN Job Fair、多方伙伴沟通、中英文材料和公共政策背景高度承接。国际学习或工作经历及亚洲语言为加分项，候选人画像契合度很高。",
+      "workPermitRisk": "可验证",
+      "workPermitNote": "岗位明确位于新加坡办公室，官方 JD 未写必须已有当地工作权，也未承诺 Employment Pass、sponsorship 或 relocation；因岗位匹配度高且 Brunswick 为全球咨询平台，值得优先申请并在首轮沟通前确认 EP 支持。",
+      "reportedDate": "2026-07-30",
+      "expired": false
+    },
+    {
+      "id": "SEEK-MY-GRAD-PROGRAMS-SPECIALIST-744000140418143",
+      "title": "毕业生项目专员",
+      "titleEn": "Project Specialist - Grad Programs",
+      "company": "SEEK",
+      "location": "马来西亚吉隆坡",
+      "workMode": "Hybrid / office and work-from-home mix",
+      "contract": "Full-time / Permanent",
+      "deadline": "",
+      "postedDate": "2026-07-29",
+      "link": "https://jobs.smartrecruiters.com/SEEK/744000140418143-project-specialist-grad-programs",
+      "source": "SEEK Careers / SmartRecruiters",
+      "matchScore": 3,
+      "matchNote": "岗位支持 SEEK 亚洲技术毕业生项目的招聘、onboarding、学习路径、职业发展、大学伙伴关系、career fair、活动与效果指标报告，几乎逐项承接候选人的 CSC 国际人才项目、院校协调、UN Job Fair 和参与者沟通经验。主要障碍不是能力，而是 JD 明确仅考虑已具备合法工作权者；若候选人没有马来西亚工作授权，适合低投入询问或等待政策变化。",
+      "workPermitRisk": "中高风险",
+      "workPermitNote": "官方 JD 明确写明“only those with eligible right to work will be considered”，且未提供 sponsorship 或 relocation 承诺；若候选人当前没有马来西亚合法工作权，按硬规则最高 3★，不建议在未获 recruiter 确认前投入深度定制。",
+      "reportedDate": "2026-07-30",
       "expired": false
     }
   ]
