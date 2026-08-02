@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-02",
   "reported": [
-    "TEMASEK-SG-COMMUNITY-STEWARDSHIP-11767",
-    "TOKEN2049-SG-HK-COMMUNITY-MANAGER-4000696201"
+    "APPLE-CN-SH-COMMUNITY-INVESTMENT-PM-200658341",
+    "SENTIENT-CN-COMMUNITY-MANAGER-CA2BDDEA"
   ],
   "jobs": [
     {
@@ -1220,6 +1220,44 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "官方岗位页明确可在新加坡或香港混合办公，但未说明 Employment Pass、香港工作签证、sponsorship 或 relocation；双地点提供一定灵活性，仍需在深度定制前确认接受境外候选人及具体雇佣实体。",
       "reportedDate": "2026-07-31",
+      "expired": false
+    },
+    {
+      "id": "APPLE-CN-SH-COMMUNITY-INVESTMENT-PM-200658341",
+      "title": "大中华区社区投资与参与项目经理",
+      "titleEn": "Project Manager – Community Investment & Engagement Initiatives",
+      "company": "Apple",
+      "location": "中国上海",
+      "workMode": "Shanghai office / on-site",
+      "contract": "Full-time / Standard",
+      "deadline": "",
+      "postedDate": "2026-04-22",
+      "link": "https://jobs.apple.com/en-us/details/200658341/project-manager-community-investment-engagement-initiatives",
+      "source": "Apple Careers",
+      "matchScore": 4,
+      "matchNote": "岗位是 Apple 大中华区社区投资项目的核心执行伙伴，负责把项目策略转化为计划与交付，协调内外部伙伴、PR、政府事务、法务和财务团队，并跟踪风险、成效指标与领导层汇报；与候选人的 CSC 奖学金/国际人才项目、UN Job Fair、多方利益相关者协调和中英文材料经验高度承接。主要短板是 JD 要求 6+ 年 Corporate Giving、项目管理或领导层参与经验，高于候选人的 3 年正式经验，应以 20+ 国际组织、133 所高校和 4500+ 学生的项目规模支撑拉伸申请。",
+      "workPermitRisk": "低风险",
+      "workPermitNote": "岗位明确位于中国上海，要求英语和普通话流利；候选人在中国大陆工作，不涉及境外工签、sponsorship 或 relocation 前置障碍。",
+      "reportedDate": "2026-08-02",
+      "expired": false
+    },
+    {
+      "id": "SENTIENT-CN-COMMUNITY-MANAGER-CA2BDDEA",
+      "title": "中国社区经理",
+      "titleEn": "Community Manager – China",
+      "company": "Sentient",
+      "location": "中国 / 亚太远程（含香港、新加坡）",
+      "workMode": "Remote - APAC；官方地点明确包含 China",
+      "contract": "Full-time",
+      "deadline": "",
+      "postedDate": "",
+      "link": "https://jobs.ashbyhq.com/sentient/ca2bddea-0b43-4848-9a5f-4abbf5b49a14",
+      "source": "Sentient / Ashby",
+      "matchScore": 4,
+      "matchNote": "岗位负责中国市场社区项目、参与激励、倡导者培养、活动与合作、内容及社交渠道运营，能够承接候选人组织 UN Job Fair、维护 20+ 国际组织伙伴、服务 4500+ 学生和制作中英文沟通材料的经验。主要短板是岗位聚焦 AI/Web3 开发者与数据贡献者社区，并要求熟悉 X、Telegram、Discord、微信和哔哩哔哩等渠道，需要把大型公共参与项目转译为社区增长、参与度与倡导者运营成果。",
+      "workPermitRisk": "低风险",
+      "workPermitNote": "官方职位明确为 Remote - APAC，地点列出 China、Hong Kong 和 Singapore；候选人可从中国工作，未见必须迁居或持境外工作许可的限制，但入职前仍应确认中国雇佣实体或 EOR 合同安排。",
+      "reportedDate": "2026-08-02",
       "expired": false
     }
   ]
