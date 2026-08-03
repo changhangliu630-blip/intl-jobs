@@ -1,9 +1,8 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-02",
+  "lastUpdated": "2026-08-03",
   "reported": [
-    "APPLE-CN-SH-COMMUNITY-INVESTMENT-PM-200658341",
-    "SENTIENT-CN-COMMUNITY-MANAGER-CA2BDDEA"
+    "APPLE-SG-APAC-PARTNER-MARKETING-PM-200667579"
   ],
   "jobs": [
     {
@@ -1258,6 +1257,25 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "官方职位明确为 Remote - APAC，地点列出 China、Hong Kong 和 Singapore；候选人可从中国工作，未见必须迁居或持境外工作许可的限制，但入职前仍应确认中国雇佣实体或 EOR 合同安排。",
       "reportedDate": "2026-08-02",
+      "expired": false
+    },
+    {
+      "id": "APPLE-SG-APAC-PARTNER-MARKETING-PM-200667579",
+      "title": "亚太伙伴营销项目经理",
+      "titleEn": "Partner Marketing Program Manager - APAC",
+      "company": "Apple",
+      "location": "新加坡",
+      "workMode": "Singapore office / regional APAC role",
+      "contract": "Full-time / Permanent",
+      "deadline": "",
+      "postedDate": "2026-06-10",
+      "link": "https://jobs.apple.com/en-sg/details/200667579-3278/partner-marketing-program-manager-apac",
+      "source": "Apple Careers",
+      "matchScore": 3,
+      "matchNote": "岗位负责 APAC 外部伙伴营销项目、跨区域与跨职能协调、伙伴关系维护、项目 KPI、成效分析及管理层汇报，能部分承接候选人的国际伙伴协调、大型活动交付和双语沟通经验。主要短板是 JD 要求至少 5 年订阅营销、全渠道 campaign 和第三方品牌合作经验，商业增长导向也强于候选人的公共项目背景，因此适合作为拉伸备选而非首投。",
+      "workPermitRisk": "中高风险",
+      "workPermitNote": "岗位明确常驻新加坡且可能国际出差，官方 JD 未说明 Employment Pass sponsorship、relocation 或跨境 remote；候选人若无新加坡工作权，应先向 recruiter 确认准证支持，未确认前不投入深度定制。",
+      "reportedDate": "2026-08-03",
       "expired": false
     }
   ]
