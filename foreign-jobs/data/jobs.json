@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "reported": [
-    "APPLE-SG-APAC-PARTNER-MARKETING-PM-200667579"
+    "AIRWALLEX-HK-ASSOC-GTM-PARTNERSHIPS-EB5E2E34"
   ],
   "jobs": [
     {
@@ -1276,6 +1276,25 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "岗位明确常驻新加坡且可能国际出差，官方 JD 未说明 Employment Pass sponsorship、relocation 或跨境 remote；候选人若无新加坡工作权，应先向 recruiter 确认准证支持，未确认前不投入深度定制。",
       "reportedDate": "2026-08-03",
+      "expired": false
+    },
+    {
+      "id": "AIRWALLEX-HK-ASSOC-GTM-PARTNERSHIPS-EB5E2E34",
+      "title": "GTM 伙伴关系副经理",
+      "titleEn": "Associate GTM Partnerships Manager",
+      "company": "Airwallex",
+      "location": "中国香港",
+      "workMode": "Hong Kong SAR office / office-based likely",
+      "contract": "Full-time",
+      "deadline": "",
+      "postedDate": "",
+      "link": "https://careers.airwallex.com/job/eb5e2e34-538f-4cad-a1b8-82c260c2ff6f/associate-gtm-partnerships-manager/",
+      "source": "Airwallex Careers",
+      "matchScore": 4,
+      "matchNote": "岗位以 Partner Success Specialist 为定位，负责伙伴赋能、关系维护、客户沟通与升级处理、运营支持，并在 partnerships、sales 和 operations 之间协调信息，能够直接承接候选人的国际项目、多方伙伴维护和双语沟通经验。最低门槛为本科及 1 年以上客户服务或销售支持经验，级别合理；短板是岗位归属 Sales 且偏 fintech 客户成功，需要把 CSC 项目成果转译为伙伴采用、问题解决和服务质量指标。",
+      "workPermitRisk": "可验证",
+      "workPermitNote": "岗位明确在中国香港全职办公，官方 JD 未写必须已有香港工作权，也未承诺 visa sponsorship 或 relocation；粤语和英语为硬要求，候选人具备语言基础，但应在深度定制前确认香港工作签证支持及具体雇佣安排。",
+      "reportedDate": "2026-08-04",
       "expired": false
     }
   ]
