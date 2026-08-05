@@ -50,6 +50,48 @@ function showToast(message) {
   showToast.timer = setTimeout(() => toast.classList.remove("show"), 2200);
 }
 
+async function copyToClipboard(text) {
+  if (!text) return false;
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function openLocalResource(uri) {
+  if (!uri) return;
+  window.open(uri, "_blank", "noopener");
+}
+
+function buildMaterialCommand(job) {
+  const date = new Intl.DateTimeFormat("sv-SE", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(new Date());
+  return `node "/Users/Archer/Desktop/Adventurer Guild/.agents/skills/intl-jobs-application-materials/scripts/prepare_application_materials.js" --date ${date} --job-id "${job.id}"`;
+}
+
+function formatMaterialStamp(materials) {
+  const raw = materials?.generatedAt || materials?.date;
+  if (!raw) return "未知";
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return String(raw).slice(0, 10);
+  }
+  return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  }).format(date);
+}
+
 function loadAppliedJobs() {
   try {
     const raw = localStorage.getItem(APPLIED_STORAGE_KEY);
@@ -328,6 +370,10 @@ function renderPriorityList(jobs) {
 function renderJob(job) {
   const category = job.sourceCategory || "未分类";
   const applied = isApplied(job.id);
+  const materials = job.localMaterials;
+  const materialStatus = job.materialStatus || null;
+  const materialStamp = materials ? formatMaterialStamp(materials) : "";
+  const materialActionLabel = materials ? "刷新材料" : "生成材料";
   return `
     <article class="job-card ${job.status} ${applied ? "applied" : ""}" data-match="${job.matchScore || 0}">
       <div class="job-top">
@@ -342,6 +388,7 @@ function renderJob(job) {
         ${applied ? `<span class="chip chip-applied">已投递</span>` : ""}
         <span class="chip">${category}</span>
         ${job.source ? `<span class="chip">${job.source}</span>` : ""}
+        ${materials ? `<span class="chip chip-materials status-${materialStatus?.state || "ready"}">${materialStatus?.label || "材料已生成"}</span>` : ""}
       </div>
       <div class="job-gridline">
         <div><strong>地点</strong><span>${job.location || "未知"}</span></div>
@@ -352,6 +399,41 @@ function renderJob(job) {
       ${job.matchNote ? `<p class="job-copy"><strong>匹配说明：</strong>${job.matchNote}</p>` : ""}
       ${job.statusReason ? `<p class="job-copy"><strong>核查结论：</strong>${job.statusReason}</p>` : ""}
       ${job.requirements ? `<p class="job-copy"><strong>岗位重点：</strong>${job.requirements}</p>` : ""}
+      ${materials ? `
+        <div class="materials-panel ${job.status === "expired" || job.status === "unavailable" ? "is-dimmed" : ""} ${materialStatus?.needsRefresh ? "is-stale" : ""}">
+          <div class="materials-head">
+            <strong>申请材料</strong>
+            <span>最近生成：${materialStamp}</span>
+          </div>
+          <div class="materials-status-row">
+            <span class="materials-badge status-${materialStatus?.state || "ready"}">${materialStatus?.label || "材料已生成"}</span>
+            ${materialStatus?.needsRefresh ? `<span class="materials-note">岗位在 ${job.reportedDate || "最近一次更新"} 后有更新，建议重生材料</span>` : ""}
+            ${materialStatus && !materialStatus.hasCv ? `<span class="materials-note">CV 缺失</span>` : ""}
+            ${materialStatus && !materialStatus.hasCoverLetter ? `<span class="materials-note">Cover Letter 缺失</span>` : ""}
+          </div>
+          <div class="materials-actions">
+            <button class="job-button folder icon-only" data-action="folder" data-id="${job.id}" title="打开材料文件夹">📁 文件夹</button>
+            ${materials?.cv ? `<button class="job-button folder alt icon-only" data-action="open-cv" data-id="${job.id}" title="打开 CV">CV</button>` : ""}
+            ${materials?.coverLetter ? `<button class="job-button folder alt icon-only" data-action="open-cl" data-id="${job.id}" title="打开 Cover Letter">CL</button>` : ""}
+            <button class="job-button folder generate" data-action="generate-materials" data-id="${job.id}" title="${materialActionLabel}">${materialActionLabel}</button>
+          </div>
+          <span class="materials-path" title="${materials.directory}">${materials.directory}</span>
+        </div>
+      ` : `
+        <div class="materials-panel materials-panel-empty">
+          <div class="materials-head">
+            <strong>申请材料</strong>
+            <span>当前未生成</span>
+          </div>
+          <div class="materials-status-row">
+            <span class="materials-badge status-missing">未生成材料</span>
+            <span class="materials-note">点击下方按钮复制生成命令</span>
+          </div>
+          <div class="materials-actions">
+            <button class="job-button folder generate" data-action="generate-materials" data-id="${job.id}" title="${materialActionLabel}">${materialActionLabel}</button>
+          </div>
+        </div>
+      `}
       <div class="job-actions">
         <div class="job-actions-left">
           <a class="job-link" href="${job.link}" target="_blank" rel="noreferrer">打开原岗位</a>
@@ -421,7 +503,7 @@ function bindControls() {
     state.filters.application = event.target.value;
     applyFilters();
   });
-  el("jobGrid").addEventListener("click", (event) => {
+  el("jobGrid").addEventListener("click", async (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
     const job = state.jobs.find((item) => item.id === button.dataset.id);
@@ -437,10 +519,55 @@ function bindControls() {
     if (button.dataset.action === "ps") {
       downloadWordFile(`PS_${slug}.doc`, buildPSDocument(job));
       showToast(`已生成 ${job.title} 的 PS Word 文档`);
+      return;
     }
     if (button.dataset.action === "cv") {
       downloadWordFile(`CV_${slug}.doc`, buildCVDocument(job));
       showToast(`已生成 ${job.title} 的 CV Word 文档`);
+      return;
+    }
+    if (button.dataset.action === "folder") {
+      const folderPath = job.localMaterials?.directory;
+      const folderUri = job.localMaterials?.directoryUri;
+      if (!folderPath) {
+        showToast("这个岗位还没有现成的申请材料目录");
+        return;
+      }
+      const copied = await copyToClipboard(folderPath);
+      if (folderUri) {
+        openLocalResource(folderUri);
+      }
+      showToast(copied ? "已尝试打开材料文件夹，并复制路径到剪贴板" : "已尝试打开材料文件夹；如失败请手动使用显示路径");
+      return;
+    }
+    if (button.dataset.action === "open-cv") {
+      const cvPath = job.localMaterials?.cv;
+      const cvUri = job.localMaterials?.cvUri;
+      if (!cvPath || !cvUri) {
+        showToast("这个岗位还没有现成的 CV 文件");
+        return;
+      }
+      const copied = await copyToClipboard(cvPath);
+      openLocalResource(cvUri);
+      showToast(copied ? "已尝试打开 CV，并复制路径到剪贴板" : "已尝试打开 CV；如失败请手动使用显示路径");
+      return;
+    }
+    if (button.dataset.action === "open-cl") {
+      const clPath = job.localMaterials?.coverLetter;
+      const clUri = job.localMaterials?.coverLetterUri;
+      if (!clPath || !clUri) {
+        showToast("这个岗位还没有现成的 Cover Letter 文件");
+        return;
+      }
+      const copied = await copyToClipboard(clPath);
+      openLocalResource(clUri);
+      showToast(copied ? "已尝试打开 Cover Letter，并复制路径到剪贴板" : "已尝试打开 Cover Letter；如失败请手动使用显示路径");
+      return;
+    }
+    if (button.dataset.action === "generate-materials") {
+      const command = buildMaterialCommand(job);
+      const copied = await copyToClipboard(command);
+      showToast(copied ? "已复制生成/刷新材料命令，可直接粘贴到终端执行" : "生成命令复制失败，请检查浏览器剪贴板权限");
     }
   });
 }

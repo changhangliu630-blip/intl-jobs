@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T08:33:11+08:00",
+  "generatedAt": "2026-08-05T23:26:35+08:00",
   "auditDate": "2026-08-05",
   "sourceLastUpdated": "2026-07-31",
   "sourcesUsed": [
@@ -42,6 +42,14 @@
       "applySubject": "Coordinator, Participant Engagement - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -781,
       "status": "expired",
       "statusLabel": "已过期",
@@ -70,6 +78,14 @@
       "applySubject": "Manager, Participant Engagement and Services - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -397,
       "status": "expired",
       "statusLabel": "已过期",
@@ -98,6 +114,14 @@
       "applySubject": "Senior Manager, Communications - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -856,
       "status": "expired",
       "statusLabel": "已过期",
@@ -126,6 +150,14 @@
       "applySubject": "Senior Manager, Programmes Development - 姓名-毕业年份",
       "reportedDate": "2026-05-29",
       "expired": true,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -1344,
       "status": "expired",
       "statusLabel": "已过期",
@@ -153,6 +185,14 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -74,
       "status": "expired",
       "statusLabel": "已过期",
@@ -180,6 +220,14 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -77,
       "status": "expired",
       "statusLabel": "已过期",
@@ -207,6 +255,14 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -64,
       "status": "expired",
       "statusLabel": "已过期",
@@ -234,6 +290,14 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -58,
       "status": "expired",
       "statusLabel": "已过期",
@@ -261,6 +325,14 @@
       "applyMethod": "在线申请",
       "applyEmail": null,
       "applySubject": null,
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -59,
       "status": "expired",
       "statusLabel": "已过期",
@@ -287,6 +359,14 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -40,
       "status": "expired",
       "statusLabel": "已过期",
@@ -313,6 +393,14 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -54,
       "status": "expired",
       "statusLabel": "已过期",
@@ -339,6 +427,14 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -56,
       "status": "expired",
       "statusLabel": "已过期",
@@ -365,6 +461,14 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "UIA-discovered INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unavailable",
       "statusLabel": "链接失效",
@@ -391,6 +495,14 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "UIA-discovered INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unavailable",
       "statusLabel": "链接失效",
@@ -417,6 +529,14 @@
       "reportedDate": "2026-06-01",
       "applyMethod": "在线申请",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -58,
       "status": "expired",
       "statusLabel": "已过期",
@@ -443,6 +563,14 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -52,
       "status": "expired",
       "statusLabel": "已过期",
@@ -469,6 +597,14 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -55,
       "status": "expired",
       "statusLabel": "已过期",
@@ -495,6 +631,14 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -51,
       "status": "expired",
       "statusLabel": "已过期",
@@ -521,6 +665,14 @@
       "reportedDate": "2026-06-07",
       "applyMethod": "在线申请",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -54,
       "status": "expired",
       "statusLabel": "已过期",
@@ -547,6 +699,14 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -45,
       "status": "expired",
       "statusLabel": "已过期",
@@ -573,6 +733,14 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -35,
       "status": "expired",
       "statusLabel": "已过期",
@@ -599,6 +767,14 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -56,
       "status": "expired",
       "statusLabel": "已过期",
@@ -625,6 +801,14 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "按招聘页说明申请",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -54,
       "status": "expired",
       "statusLabel": "已过期",
@@ -651,6 +835,14 @@
       "reportedDate": "2026-06-09",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -52,
       "status": "expired",
       "statusLabel": "已过期",
@@ -677,6 +869,14 @@
       "reportedDate": "2026-06-10",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -50,
       "status": "expired",
       "statusLabel": "已过期",
@@ -703,6 +903,14 @@
       "reportedDate": "2026-06-10",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -45,
       "status": "expired",
       "statusLabel": "已过期",
@@ -729,6 +937,14 @@
       "reportedDate": "2026-06-10",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -755,6 +971,14 @@
       "reportedDate": "2026-06-10",
       "applyMethod": "在线申请",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -781,6 +1005,14 @@
       "reportedDate": "2026-06-11",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -807,6 +1039,14 @@
       "reportedDate": "2026-06-11",
       "applyMethod": "在线申请",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -833,6 +1073,14 @@
       "reportedDate": "2026-06-12",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -52,
       "status": "expired",
       "statusLabel": "已过期",
@@ -859,6 +1107,14 @@
       "reportedDate": "2026-06-18",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -43,
       "status": "expired",
       "statusLabel": "已过期",
@@ -885,6 +1141,14 @@
       "reportedDate": "2026-06-18",
       "applyMethod": "在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -42,
       "status": "expired",
       "statusLabel": "已过期",
@@ -911,6 +1175,14 @@
       "reportedDate": "2026-06-21",
       "applyMethod": "通过 InterAction 官方 Careers 跳转 ADP 在线申请",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -30,
       "status": "expired",
       "statusLabel": "已过期",
@@ -937,6 +1209,14 @@
       "reportedDate": "2026-06-22",
       "applyMethod": "通过 EO 官方 Careers / Jobvite 在线申请；页面未列固定截止日期，建议尽快投递",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -963,6 +1243,14 @@
       "reportedDate": "2026-06-22",
       "applyMethod": "通过 EO 官方 Careers / Jobvite 在线申请；页面未列固定截止日期，建议尽快投递",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -989,6 +1277,14 @@
       "reportedDate": "2026-06-23",
       "applyMethod": "通过 Wellcome 官方 Workday 在线申请；需提交 CV 并回答 2 个申请问题",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -30,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1015,6 +1311,14 @@
       "reportedDate": "2026-06-23",
       "applyMethod": "通过 Wellcome 官方 Workday 在线申请；需提交 CV 并回答 2 个申请问题",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -37,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1041,6 +1345,14 @@
       "reportedDate": "2026-06-24",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -36,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1067,6 +1379,14 @@
       "reportedDate": "2026-06-24",
       "applyMethod": "通过 IUCN HRMS 官方系统在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -30,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1093,6 +1413,14 @@
       "reportedDate": "2026-06-25",
       "applyMethod": "通过 Mercy Corps 官方 Jobvite 在线申请；页面未列固定截止日期，建议作为滚动岗位尽快处理",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -1119,6 +1447,14 @@
       "reportedDate": "2026-06-25",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -38,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1145,6 +1481,23 @@
       "reportedDate": "2026-06-26",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；页面附 TOR PDF，截止 2026-07-01 23:55 Brussels/Romance Daylight Time",
       "sourceCategory": "IGO/UN",
+      "localMaterials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/unicef-public-partnership-p2-brussels",
+        "directoryUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/unicef-public-partnership-p2-brussels",
+        "cv": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/unicef-public-partnership-p2-brussels/CV_Changhang_LIU_2026-08-04_unicef-public-partnership-p2-brussels.docx",
+        "cvUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/unicef-public-partnership-p2-brussels/CV_Changhang_LIU_2026-08-04_unicef-public-partnership-p2-brussels.docx",
+        "coverLetter": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/unicef-public-partnership-p2-brussels/Cover_Letter_2026-08-04_unicef-public-partnership-p2-brussels.docx",
+        "coverLetterUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/unicef-public-partnership-p2-brussels/Cover_Letter_2026-08-04_unicef-public-partnership-p2-brussels.docx",
+        "generatedAt": "2026-08-04T15:40:15.964Z",
+        "date": "2026-08-04"
+      },
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true,
+        "needsRefresh": false
+      },
       "daysLeft": -35,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1171,6 +1524,14 @@
       "reportedDate": "2026-06-26",
       "applyMethod": "通过 Plan International 官方招聘页在线申请；需在 Cover Letter 中回应岗位要求，英文申请",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -33,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1197,6 +1558,14 @@
       "reportedDate": "2026-06-28",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；截止 2026-07-05 23:55 SE Asia Standard Time",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -31,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1223,6 +1592,14 @@
       "reportedDate": "2026-06-28",
       "applyMethod": "通过 Gates Foundation Workday 官方页面在线申请；页面未显示固定截止日期，建议尽快确认工作许可后决定是否投递",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -1249,6 +1626,14 @@
       "reportedDate": "2026-06-29",
       "applyMethod": "通过 IRC 官方 Workday 在线申请；ReliefWeb 显示截止 2026-06-30，需当天优先判断是否冲刺",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -36,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1275,6 +1660,14 @@
       "reportedDate": "2026-06-30",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；截止 2026-07-09 23:55 FLE Daylight Time。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -27,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1301,6 +1694,14 @@
       "reportedDate": "2026-07-01",
       "applyMethod": "通过 UNDP 官方 Oracle Candidate Experience 页面在线申请；因截止日在 2026-07-02，需当天决定是否投入申请材料。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -34,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1327,6 +1728,14 @@
       "reportedDate": "2026-07-02",
       "applyMethod": "通过 UNICEF 官方 PageUp 在线申请；官方页面显示截止 2026-07-07 23:55 Eastern Daylight Time。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -29,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1353,6 +1762,14 @@
       "reportedDate": "2026-07-02",
       "applyMethod": "按岗位说明将 CV 和 motivation letter 发送至 vacancies@justdiggit.org；ReliefWeb/岗位页显示截止 2026-07-31。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -5,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1379,6 +1796,14 @@
       "reportedDate": "2026-07-02",
       "applyMethod": "通过 IRC 官方 Workday 在线申请；ReliefWeb 显示截止 2026-08-31。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 26,
       "status": "active",
       "statusLabel": "有效",
@@ -1405,6 +1830,14 @@
       "reportedDate": "2026-07-03",
       "applyMethod": "通过 Gates Foundation 官方 Workday 在线申请；官方详情显示 endDate 2026-07-09。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -27,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1431,6 +1864,14 @@
       "reportedDate": "2026-07-03",
       "applyMethod": "通过 OSF 官方 Workday 在线申请；官方详情显示 Deadline 2026-07-08 / Workday endDate 2026-07-09，建议按 2026-07-08 前完成提交。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -27,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1457,6 +1898,14 @@
       "reportedDate": "2026-07-04",
       "applyMethod": "按 ReliefWeb/HI 岗位说明，将 CV 和 cover letter 发送至 recruitment.uk@hi.org，并填写 Diversity monitoring form；岗位页显示 2026-07-15 08:59 截止。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -21,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1483,6 +1932,14 @@
       "reportedDate": "2026-07-05",
       "applyMethod": "通过 ADB Career and Employment System (ACES) 在线申请；官方详情显示 2026-07-17 11:59 PM Manila time 截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -19,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1509,6 +1966,14 @@
       "reportedDate": "2026-07-09",
       "applyMethod": "通过 NGO Job Board 岗位页在线申请；岗位页未显示固定截止日期，建议按滚动招聘处理。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -1535,6 +2000,14 @@
       "reportedDate": "2026-07-09",
       "applyMethod": "通过 NGO Job Board 岗位页在线申请；岗位页未显示固定截止日期，建议按滚动招聘处理。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": null,
       "status": "unknown",
       "statusLabel": "待核查",
@@ -1561,6 +2034,14 @@
       "reportedDate": "2026-07-10",
       "applyMethod": "通过 IRC 官方 Workday 在线申请；页面显示 2026-07-31 截止",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -5,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1587,6 +2068,14 @@
       "reportedDate": "2026-07-10",
       "applyMethod": "通过 OSF 官方 Workday 在线申请；页面显示 2026-08-01 截止",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -4,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1613,6 +2102,14 @@
       "reportedDate": "2026-07-10",
       "applyMethod": "通过 Wellcome 官方 Workday 在线申请；页面写明 2026-07-20 截止",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -16,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1639,6 +2136,14 @@
       "reportedDate": "2026-07-11",
       "applyMethod": "将 Cover Letter 和 CV 邮件发送至 apply@iasp.info；官方岗位说明显示 2026-07-14 截止。",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -22,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1665,6 +2170,14 @@
       "reportedDate": "2026-07-11",
       "applyMethod": "将 Cover Letter、CV（含社媒账号及至少2名推荐人，其中1名为直属主管）和未经编辑的英文写作样本发送至 join@asiapacificalliance.org，邮件标题为 Engagement and Communications Officer；2026-07-15 截止。",
       "sourceCategory": "UIA-discovered INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -21,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1691,6 +2204,14 @@
       "reportedDate": "2026-07-12",
       "applyMethod": "通过 UN Careers 官方岗位页申请，Job Opening ID 280818；2026-07-16 截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1717,6 +2238,14 @@
       "reportedDate": "2026-07-12",
       "applyMethod": "按官方 application pack 提交最多两页 CV 与四道申请问题回答；2026-08-02 23:59 截止。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -3,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1743,6 +2272,14 @@
       "reportedDate": "2026-07-15",
       "applyMethod": "通过 ILO 官方招聘系统在线申请，Vacancy no. DC/BANGKOK/P/2026/02，Job ID 13728；2026-07-23 曼谷时间午夜截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -13,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1769,6 +2306,14 @@
       "reportedDate": "2026-07-15",
       "applyMethod": "通过官方系统提交 CV，并分别以不超过300词回答项目管理、拨款/合同、利益相关者管理三道问题；2026-07-22 23:59 截止。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -14,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1795,6 +2340,14 @@
       "reportedDate": "2026-07-17",
       "applyMethod": "通过 UNICEF 官方 PageUp 招聘系统在线申请，Job no. 594321；2026-07-24 23:55（西欧夏令时）截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -12,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1823,6 +2376,23 @@
       "applyEmail": "info@iias-iisa.org",
       "applySubject": "Application: Communications Officer – [Your Name]",
       "sourceCategory": "International Association",
+      "localMaterials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/iias-communications-content-support-officer-2026",
+        "directoryUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/iias-communications-content-support-officer-2026",
+        "cv": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/iias-communications-content-support-officer-2026/CV_Changhang_LIU_2026-08-04_iias-communications-content-support-officer-2026.docx",
+        "cvUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/iias-communications-content-support-officer-2026/CV_Changhang_LIU_2026-08-04_iias-communications-content-support-officer-2026.docx",
+        "coverLetter": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/iias-communications-content-support-officer-2026/Cover_Letter_2026-08-04_iias-communications-content-support-officer-2026.docx",
+        "coverLetterUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-08-04/iias-communications-content-support-officer-2026/Cover_Letter_2026-08-04_iias-communications-content-support-officer-2026.docx",
+        "generatedAt": "2026-08-04T15:50:42.493Z",
+        "date": "2026-08-04"
+      },
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true,
+        "needsRefresh": false
+      },
       "daysLeft": 26,
       "status": "active",
       "statusLabel": "有效",
@@ -1850,6 +2420,14 @@
       "applyMethod": "将CV和逐条回应任职要求的个人陈述发送至 recruitment@res.org.uk；滚动筛选，2026-07-24英国时间10:00截止。",
       "applyEmail": "recruitment@res.org.uk",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -12,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1876,6 +2454,14 @@
       "reportedDate": "2026-07-20",
       "applyMethod": "通过 UNICEF 官方 PageUp 招聘系统在线申请，Job no. 594567；2026-08-02 23:55（芬兰夏令时）截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -3,
       "status": "expired",
       "statusLabel": "已过期",
@@ -1903,6 +2489,14 @@
       "applyMethod": "将CV和不超过1页的求职信发送至 raynal@ccbe.eu；2026-08-09 截止。",
       "applyEmail": "raynal@ccbe.eu",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 4,
       "status": "active",
       "statusLabel": "有效",
@@ -1931,6 +2525,14 @@
       "applyEmail": "makeinsight@makeins.cn",
       "applySubject": "姓名+职位+最快到岗时间",
       "sourceCategory": "Civil Society Network",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 139,
       "status": "active",
       "statusLabel": "有效",
@@ -1957,6 +2559,14 @@
       "reportedDate": "2026-07-22",
       "applyMethod": "通过招聘页所链接的绿色和平在线系统提交英文简历；滚动审阅，平台显示2026-08-08截止。简历无需照片、性别、婚姻、年龄、家庭信息或成绩单。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 3,
       "status": "active",
       "statusLabel": "有效",
@@ -1983,6 +2593,14 @@
       "reportedDate": "2026-07-23",
       "applyMethod": "通过 UNICEF 官方 PageUp 招聘系统在线申请，Job no. 594552；2026-07-30 23:55（中国时间）截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -6,
       "status": "expired",
       "statusLabel": "已过期",
@@ -2009,6 +2627,14 @@
       "reportedDate": "2026-07-24",
       "applyMethod": "通过 UNITAR 官方 e-recruitment 系统创建账户并在线提交申请及动机信，Vacancy S/P/2026/005；2026-07-31截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -5,
       "status": "expired",
       "statusLabel": "已过期",
@@ -2035,6 +2661,14 @@
       "reportedDate": "2026-07-25",
       "applyMethod": "将简历、求职信、期望税前工资及可到岗日期发送至 hr@isun.org，邮件标题注明“项目传播官员（病房学校）－姓名－招聘信息来源”；建议附视频、推文、新闻稿或活动传播作品集。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 26,
       "status": "active",
       "statusLabel": "有效",
@@ -2061,6 +2695,14 @@
       "reportedDate": "2026-07-26",
       "applyMethod": "通过 UNITAR 官方 e-recruitment 系统在线提交申请及动机信，Vacancy S/P/2026/009；2026-08-20截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 15,
       "status": "active",
       "statusLabel": "有效",
@@ -2087,6 +2729,14 @@
       "reportedDate": "2026-07-26",
       "applyMethod": "将完整CV和不超过2页、逐项说明如何符合人员标准的 supporting statement 发送至官方招聘页所列 Rachel English 邮箱；2026-08-03截止。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": -2,
       "status": "expired",
       "statusLabel": "已过期",
@@ -2114,6 +2764,14 @@
       "applyMethod": "填写官方申请表与平等机会表并发送至 hr@uspg.org.uk；2026-08-12英国时间09:00截止。",
       "applyEmail": "hr@uspg.org.uk",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 7,
       "status": "active",
       "statusLabel": "有效",
@@ -2140,6 +2798,14 @@
       "reportedDate": "2026-07-27",
       "applyMethod": "通过 UN Careers / Inspira 在线提交申请，Job Opening ID 278066；2026-08-20截止。",
       "sourceCategory": "IGO/UN",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 15,
       "status": "active",
       "statusLabel": "有效",
@@ -2166,6 +2832,14 @@
       "reportedDate": "2026-07-29",
       "applyMethod": "通过 Coefficient Giving 官方 Ashby 页面在线提交申请；截止时间为2026-08-10 03:00（GMT-4，即美国太平洋时间8月9日23:59）。",
       "sourceCategory": "Foundation",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 5,
       "status": "active",
       "statusLabel": "有效",
@@ -2192,6 +2866,14 @@
       "reportedDate": "2026-07-29",
       "applyMethod": "填写官方申请表并按招聘页指定邮箱发送，同时完成平等机会与多元监测表；2026-08-17英国时间17:00截止。",
       "sourceCategory": "International Association",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 12,
       "status": "active",
       "statusLabel": "有效",
@@ -2218,6 +2900,14 @@
       "reportedDate": "2026-07-31",
       "applyMethod": "通过GAYO官方招聘页的Apply链接填写Google Form，并按表单要求提交申请材料；2026-08-07截止。",
       "sourceCategory": "INGO",
+      "localMaterials": null,
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false,
+        "needsRefresh": false
+      },
       "daysLeft": 2,
       "status": "active",
       "statusLabel": "有效",
