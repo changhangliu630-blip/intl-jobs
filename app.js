@@ -60,11 +60,6 @@ async function copyToClipboard(text) {
   }
 }
 
-function openLocalResource(uri) {
-  if (!uri) return;
-  window.open(uri, "_blank", "noopener");
-}
-
 function buildMaterialCommand(job) {
   const date = new Intl.DateTimeFormat("sv-SE", {
     timeZone: "Asia/Shanghai",
@@ -412,9 +407,9 @@ function renderJob(job) {
             ${materialStatus && !materialStatus.hasCoverLetter ? `<span class="materials-note">Cover Letter 缺失</span>` : ""}
           </div>
           <div class="materials-actions">
-            <button class="job-button folder icon-only" data-action="folder" data-id="${job.id}" title="打开材料文件夹">📁 文件夹</button>
-            ${materials?.cv ? `<button class="job-button folder alt icon-only" data-action="open-cv" data-id="${job.id}" title="打开 CV">CV</button>` : ""}
-            ${materials?.coverLetter ? `<button class="job-button folder alt icon-only" data-action="open-cl" data-id="${job.id}" title="打开 Cover Letter">CL</button>` : ""}
+            <button class="job-button folder icon-only" data-action="folder" data-id="${job.id}" title="复制材料文件夹路径">📁 复制目录</button>
+            ${materials?.cv ? `<button class="job-button folder alt icon-only" data-action="open-cv" data-id="${job.id}" title="复制 CV 路径">复制 CV</button>` : ""}
+            ${materials?.coverLetter ? `<button class="job-button folder alt icon-only" data-action="open-cl" data-id="${job.id}" title="复制 Cover Letter 路径">复制 CL</button>` : ""}
             <button class="job-button folder generate" data-action="generate-materials" data-id="${job.id}" title="${materialActionLabel}">${materialActionLabel}</button>
           </div>
           <span class="materials-path" title="${materials.directory}">${materials.directory}</span>
@@ -438,8 +433,6 @@ function renderJob(job) {
         <div class="job-actions-left">
           <a class="job-link" href="${job.link}" target="_blank" rel="noreferrer">打开原岗位</a>
           <button class="job-button mark ${applied ? "is-applied" : ""}" data-action="toggle-applied" data-id="${job.id}">${applied ? "取消已投递" : "标记已投递"}</button>
-          <button class="job-button secondary" data-action="ps" data-id="${job.id}">生成 PS</button>
-          <button class="job-button tertiary" data-action="cv" data-id="${job.id}">生成 CV</button>
         </div>
         <span class="verification">核查：${job.verification || "Source file"} · ${job.auditDate || ""}</span>
       </div>
@@ -508,7 +501,6 @@ function bindControls() {
     if (!button) return;
     const job = state.jobs.find((item) => item.id === button.dataset.id);
     if (!job) return;
-    const slug = slugify(job.titleEn || job.title);
     if (button.dataset.action === "toggle-applied") {
       toggleApplied(job.id);
       renderPills(computeCounts(state.jobs));
@@ -516,52 +508,34 @@ function bindControls() {
       showToast(isApplied(job.id) ? `已标记 ${job.title} 为已投递` : `已取消 ${job.title} 的已投递标记`);
       return;
     }
-    if (button.dataset.action === "ps") {
-      downloadWordFile(`PS_${slug}.doc`, buildPSDocument(job));
-      showToast(`已生成 ${job.title} 的 PS Word 文档`);
-      return;
-    }
-    if (button.dataset.action === "cv") {
-      downloadWordFile(`CV_${slug}.doc`, buildCVDocument(job));
-      showToast(`已生成 ${job.title} 的 CV Word 文档`);
-      return;
-    }
     if (button.dataset.action === "folder") {
       const folderPath = job.localMaterials?.directory;
-      const folderUri = job.localMaterials?.directoryUri;
       if (!folderPath) {
         showToast("这个岗位还没有现成的申请材料目录");
         return;
       }
       const copied = await copyToClipboard(folderPath);
-      if (folderUri) {
-        openLocalResource(folderUri);
-      }
-      showToast(copied ? "已尝试打开材料文件夹，并复制路径到剪贴板" : "已尝试打开材料文件夹；如失败请手动使用显示路径");
+      showToast(copied ? "已复制材料文件夹路径" : "目录路径复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "open-cv") {
       const cvPath = job.localMaterials?.cv;
-      const cvUri = job.localMaterials?.cvUri;
-      if (!cvPath || !cvUri) {
+      if (!cvPath) {
         showToast("这个岗位还没有现成的 CV 文件");
         return;
       }
       const copied = await copyToClipboard(cvPath);
-      openLocalResource(cvUri);
-      showToast(copied ? "已尝试打开 CV，并复制路径到剪贴板" : "已尝试打开 CV；如失败请手动使用显示路径");
+      showToast(copied ? "已复制 CV 路径" : "CV 路径复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "open-cl") {
       const clPath = job.localMaterials?.coverLetter;
-      const clUri = job.localMaterials?.coverLetterUri;
-      if (!clPath || !clUri) {
+      if (!clPath) {
         showToast("这个岗位还没有现成的 Cover Letter 文件");
         return;
       }
       const copied = await copyToClipboard(clPath);
-      openLocalResource(clUri);
-      showToast(copied ? "已尝试打开 Cover Letter，并复制路径到剪贴板" : "已尝试打开 Cover Letter；如失败请手动使用显示路径");
+      showToast(copied ? "已复制 Cover Letter 路径" : "Cover Letter 路径复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "generate-materials") {

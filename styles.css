@@ -446,18 +446,6 @@ body {
   border-color: #7f9199;
 }
 
-.job-button.secondary {
-  background: rgba(255, 255, 255, 0.82);
-  color: var(--ink);
-  border-color: rgba(95, 113, 212, 0.16);
-}
-
-.job-button.tertiary {
-  background: rgba(223, 229, 255, 0.82);
-  color: #5060ab;
-  border-color: rgba(111, 131, 229, 0.18);
-}
-
 .job-button.mark {
   background: rgba(255, 255, 255, 0.82);
   color: #5060ab;
