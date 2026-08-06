@@ -60,6 +60,18 @@ async function copyToClipboard(text) {
   }
 }
 
+function quoteShellPath(value) {
+  return `"${String(value || "").replace(/(["\\$`])/g, "\\$1")}"`;
+}
+
+function buildOpenFolderCommand(folderPath) {
+  return `open ${quoteShellPath(folderPath)}`;
+}
+
+function buildRevealFileCommand(filePath) {
+  return `open -R ${quoteShellPath(filePath)}`;
+}
+
 function buildMaterialCommand(job) {
   const date = new Intl.DateTimeFormat("sv-SE", {
     timeZone: "Asia/Shanghai",
@@ -407,11 +419,12 @@ function renderJob(job) {
             ${materialStatus && !materialStatus.hasCoverLetter ? `<span class="materials-note">Cover Letter 缺失</span>` : ""}
           </div>
           <div class="materials-actions">
-            <button class="job-button folder icon-only" data-action="folder" data-id="${job.id}" title="复制材料文件夹路径">📁 复制目录</button>
-            ${materials?.cv ? `<button class="job-button folder alt icon-only" data-action="open-cv" data-id="${job.id}" title="复制 CV 路径">复制 CV</button>` : ""}
-            ${materials?.coverLetter ? `<button class="job-button folder alt icon-only" data-action="open-cl" data-id="${job.id}" title="复制 Cover Letter 路径">复制 CL</button>` : ""}
+            <button class="job-button folder icon-only" data-action="folder" data-id="${job.id}" title="复制 Mac 打开目录命令">📁 打开目录</button>
+            ${materials?.cv ? `<button class="job-button folder alt icon-only" data-action="open-cv" data-id="${job.id}" title="复制 Mac 定位 CV 命令">定位 CV</button>` : ""}
+            ${materials?.coverLetter ? `<button class="job-button folder alt icon-only" data-action="open-cl" data-id="${job.id}" title="复制 Mac 定位 Cover Letter 命令">定位 CL</button>` : ""}
             <button class="job-button folder generate" data-action="generate-materials" data-id="${job.id}" title="${materialActionLabel}">${materialActionLabel}</button>
           </div>
+          <span class="materials-helper">Mac：点按钮后把命令粘贴到终端并回车，即可打开或在 Finder 中定位文件。</span>
           <span class="materials-path" title="${materials.directory}">${materials.directory}</span>
         </div>
       ` : `
@@ -514,8 +527,8 @@ function bindControls() {
         showToast("这个岗位还没有现成的申请材料目录");
         return;
       }
-      const copied = await copyToClipboard(folderPath);
-      showToast(copied ? "已复制材料文件夹路径" : "目录路径复制失败，请检查浏览器剪贴板权限");
+      const copied = await copyToClipboard(buildOpenFolderCommand(folderPath));
+      showToast(copied ? "已复制 Mac 打开目录命令，粘贴到终端回车即可" : "命令复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "open-cv") {
@@ -524,8 +537,8 @@ function bindControls() {
         showToast("这个岗位还没有现成的 CV 文件");
         return;
       }
-      const copied = await copyToClipboard(cvPath);
-      showToast(copied ? "已复制 CV 路径" : "CV 路径复制失败，请检查浏览器剪贴板权限");
+      const copied = await copyToClipboard(buildRevealFileCommand(cvPath));
+      showToast(copied ? "已复制 Mac 定位 CV 命令，粘贴到终端回车即可" : "命令复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "open-cl") {
@@ -534,8 +547,8 @@ function bindControls() {
         showToast("这个岗位还没有现成的 Cover Letter 文件");
         return;
       }
-      const copied = await copyToClipboard(clPath);
-      showToast(copied ? "已复制 Cover Letter 路径" : "Cover Letter 路径复制失败，请检查浏览器剪贴板权限");
+      const copied = await copyToClipboard(buildRevealFileCommand(clPath));
+      showToast(copied ? "已复制 Mac 定位 Cover Letter 命令，粘贴到终端回车即可" : "命令复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "generate-materials") {
