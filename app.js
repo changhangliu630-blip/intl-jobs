@@ -1,11 +1,13 @@
 const DATA_URL = "./data/jobs.json";
 const APPLIED_STORAGE_KEY = "intlJobsApplied";
+const LOCAL_HELPER_BASE = "http://127.0.0.1:47831";
 
 const state = {
   jobs: [],
   filtered: [],
   categories: new Set(),
   appliedJobs: new Set(),
+  localHelperAvailable: false,
   filters: {
     search: "",
     status: "actionable",
@@ -70,6 +72,34 @@ function buildOpenFolderCommand(folderPath) {
 
 function buildRevealFileCommand(filePath) {
   return `open -R ${quoteShellPath(filePath)}`;
+}
+
+async function probeLocalHelper() {
+  try {
+    const resp = await fetch(`${LOCAL_HELPER_BASE}/health`);
+    if (!resp.ok) return false;
+    const data = await resp.json();
+    return Boolean(data.ok);
+  } catch {
+    return false;
+  }
+}
+
+async function requestLocalHelper(endpoint, payload) {
+  const resp = await fetch(`${LOCAL_HELPER_BASE}${endpoint}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload)
+  });
+  if (!resp.ok) {
+    let message = `HTTP ${resp.status}`;
+    try {
+      const data = await resp.json();
+      if (data?.message) message = data.message;
+    } catch {}
+    throw new Error(message);
+  }
+  return resp.json();
 }
 
 function buildMaterialCommand(job) {
@@ -527,8 +557,17 @@ function bindControls() {
         showToast("这个岗位还没有现成的申请材料目录");
         return;
       }
+      if (state.localHelperAvailable) {
+        try {
+          await requestLocalHelper("/open-folder", { path: folderPath });
+          showToast("已在 Finder 中打开材料目录");
+          return;
+        } catch {
+          state.localHelperAvailable = false;
+        }
+      }
       const copied = await copyToClipboard(buildOpenFolderCommand(folderPath));
-      showToast(copied ? "已复制 Mac 打开目录命令，粘贴到终端回车即可" : "命令复制失败，请检查浏览器剪贴板权限");
+      showToast(copied ? "本机直开未连接，已复制 Mac 打开目录命令" : "命令复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "open-cv") {
@@ -537,8 +576,17 @@ function bindControls() {
         showToast("这个岗位还没有现成的 CV 文件");
         return;
       }
+      if (state.localHelperAvailable) {
+        try {
+          await requestLocalHelper("/reveal-file", { path: cvPath });
+          showToast("已在 Finder 中定位 CV");
+          return;
+        } catch {
+          state.localHelperAvailable = false;
+        }
+      }
       const copied = await copyToClipboard(buildRevealFileCommand(cvPath));
-      showToast(copied ? "已复制 Mac 定位 CV 命令，粘贴到终端回车即可" : "命令复制失败，请检查浏览器剪贴板权限");
+      showToast(copied ? "本机直开未连接，已复制 Mac 定位 CV 命令" : "命令复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "open-cl") {
@@ -547,8 +595,17 @@ function bindControls() {
         showToast("这个岗位还没有现成的 Cover Letter 文件");
         return;
       }
+      if (state.localHelperAvailable) {
+        try {
+          await requestLocalHelper("/reveal-file", { path: clPath });
+          showToast("已在 Finder 中定位 Cover Letter");
+          return;
+        } catch {
+          state.localHelperAvailable = false;
+        }
+      }
       const copied = await copyToClipboard(buildRevealFileCommand(clPath));
-      showToast(copied ? "已复制 Mac 定位 Cover Letter 命令，粘贴到终端回车即可" : "命令复制失败，请检查浏览器剪贴板权限");
+      showToast(copied ? "本机直开未连接，已复制 Mac 定位 Cover Letter 命令" : "命令复制失败，请检查浏览器剪贴板权限");
       return;
     }
     if (button.dataset.action === "generate-materials") {
@@ -594,9 +651,10 @@ async function load() {
   const data = await resp.json();
   state.jobs = data.jobs;
   state.appliedJobs = loadAppliedJobs();
+  state.localHelperAvailable = await probeLocalHelper();
 
   el("generatedAt").textContent = `站点生成时间：${data.generatedAt}`;
-  el("auditDate").textContent = `岗位核查日期：${data.auditDate}`;
+  el("auditDate").textContent = `岗位核查日期：${data.auditDate} · 本机直开${state.localHelperAvailable ? "可用" : "未连接"}`;
 
   const counts = computeCounts(state.jobs);
   renderAuditGrid(counts);
