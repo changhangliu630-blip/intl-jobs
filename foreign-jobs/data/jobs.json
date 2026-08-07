@@ -1,7 +1,80 @@
 {
-  "version": "1.0",
-  "lastUpdated": "2026-08-06",
-  "reported": [],
+  "version": "2.0",
+  "lastUpdated": "2026-08-07",
+  "generatedAt": "2026-08-07T08:23:57+08:00",
+  "auditDate": "2026-08-07",
+  "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
+  "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
+  "counts": {
+    "total": 68,
+    "active": 67,
+    "closing": 0,
+    "expired": 1,
+    "highMatch": 35,
+    "lowRisk": 15,
+    "verifiableRisk": 30,
+    "highRisk": 23,
+    "withMaterials": 11
+  },
+  "highlights": {
+    "priority": [
+      {
+        "id": "BRUNSWICK-SG-EXECUTIVE-8653108002",
+        "title": "战略传播与公共事务执行顾问",
+        "titleEn": "Executive",
+        "company": "Brunswick Group",
+        "location": "新加坡",
+        "matchScore": 5,
+        "riskLabel": "可验证",
+        "category": "战略传播/公共事务"
+      },
+      {
+        "id": "AIRWALLEX-HK-ASSOC-GTM-PARTNERSHIPS-EB5E2E34",
+        "title": "GTM 伙伴关系副经理",
+        "titleEn": "Associate GTM Partnerships Manager",
+        "company": "Airwallex",
+        "location": "中国香港",
+        "matchScore": 4,
+        "riskLabel": "可验证",
+        "category": "伙伴关系/生态运营"
+      },
+      {
+        "id": "SENTIENT-CN-COMMUNITY-MANAGER-CA2BDDEA",
+        "title": "中国社区经理",
+        "titleEn": "Community Manager – China",
+        "company": "Sentient",
+        "location": "中国 / 亚太远程（含香港、新加坡）",
+        "matchScore": 4,
+        "riskLabel": "低风险",
+        "category": "伙伴关系/生态运营"
+      },
+      {
+        "id": "TOKEN2049-SG-HK-COMMUNITY-MANAGER-4000696201",
+        "title": "社区经理",
+        "titleEn": "Community Manager",
+        "company": "TOKEN2049",
+        "location": "新加坡 / 中国香港",
+        "matchScore": 4,
+        "riskLabel": "可验证",
+        "category": "伙伴关系/生态运营"
+      },
+      {
+        "id": "SEEK-MY-PARTNER-SUCCESS-LEAD-744000140143219",
+        "title": "伙伴成功负责人",
+        "titleEn": "Partner Success Lead",
+        "company": "SEEK",
+        "location": "马来西亚吉隆坡",
+        "matchScore": 4,
+        "riskLabel": "可验证",
+        "category": "伙伴关系/生态运营"
+      }
+    ],
+    "notes": [
+      "岗位主线已从单一 ESG 扩展为 partnerships、stakeholder engagement、public/corporate affairs、programme coordination、membership/community 与 social impact。",
+      "LinkedIn、Indeed、Glassdoor 等平台只作为发现源；入库和网页展示仍坚持官方申请链接。",
+      "美国、英国、欧盟、澳洲、加拿大岗位如未明确 sponsor/relocation/remote policy，不默认标低风险。"
+    ]
+  },
   "jobs": [
     {
       "id": "EY-HK-CCASS-ESG-SA-696384001",
@@ -20,7 +93,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "香港岗位，官方详情未写明必须已有香港工作许可，也未承诺sponsorship；申请前应向recruiter确认工作签证/高才/优才/输入内地人才计划等路径。",
       "reportedDate": "2026-06-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "标准/认证/专业信息",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "EY-HK-FSO-CCASS-SA-742011201",
@@ -39,7 +126,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "香港岗位，官方详情未写明right-to-work硬限制或sponsorship承诺；需先确认签证支持，同时评估粤语、英语、普通话和绿色金融经验要求。",
       "reportedDate": "2026-06-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "标准/认证/专业信息",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "BRUNSWICK-SG-EXECUTIVE-8570439002",
@@ -58,7 +159,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡岗位，官方JD未写明right-to-work硬限制或签证支持；Brunswick为全球咨询公司，岗位匹配度高，值得申请前向recruiter确认EP/S Pass支持可能。",
       "reportedDate": "2026-06-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "AIRWALLEX-HK-CHANNEL-PARTNERSHIPS-288D26CF",
@@ -77,7 +192,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "香港岗位，官方JD未写明签证支持或right-to-work限制；语言要求为Cantonese & English mandatory，Chinese good-to-have。若粤语可工作沟通则值得优先问签证；若粤语不足，应降为观察。",
       "reportedDate": "2026-06-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FIGMA-SG-DISTRIBUTION-PARTNER-MANAGER-5756184004",
@@ -96,7 +225,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡岗位，官方JD写明base in Singapore hub/hybrid，但未说明visa sponsorship或right-to-work限制；匹配度较高，建议申请前向recruiter确认EP/S Pass支持可能。",
       "reportedDate": "2026-06-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "SGS-MY-MARKETING-CONTENT-ENGAGEMENT-744000134689929",
@@ -115,7 +258,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "马来西亚本地岗位，官方JD未写明签证支持，且要求Bahasa Malaysia工作能力；除非候选人愿意转向马来西亚并确认雇主支持工签，否则不作为优先投递。",
       "reportedDate": "2026-06-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FIGMA-UK-CUSTOMER-ENABLEMENT-6102903004",
@@ -134,7 +291,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国伦敦岗位，官方JD写明full time hybrid role based in London hub，但未说明visa sponsorship或relocation；英国岗位在未明确赞助前不得标为低风险，且候选人若无英国工作许可，应先向recruiter确认Skilled Worker sponsorship可能。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SG-GRADUATE-TRAINEE-744000134599769",
@@ -153,7 +324,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡岗位，官方页面未写明right-to-work硬限制或visa sponsorship承诺；因是Graduate Trainee，应优先向recruiter确认是否接受需要EP/S Pass的国际申请人，以及是否有本地毕业生偏好。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-VN-EVENT-MANAGER-744000134232609",
@@ -172,7 +357,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "越南岗位，官方JD写明based in Ho Chi Minh office且5 days in-person，未说明签证支持；除非确认雇主愿意办理越南工作许可，否则不作为优先投递。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-UK-MARKETING-ASSOCIATE-CLIENT-744000133401630",
@@ -191,7 +390,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国伦敦岗位，官方写明每周至少3天办公室/客户现场，未说明visa sponsorship或relocation；若无英国工作许可，申请前必须确认Skilled Worker sponsorship可能。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "金融/金融科技",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FGS-SG-EQUITY-IR-SA-5166656007",
@@ -210,7 +423,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "新加坡岗位，申请表含right to work in Singapore问题，官方JD未承诺sponsorship；如无新加坡工作许可，应先问EP支持，且需评估金融/IR硬经验缺口。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SA-INVESTOR-PROGRAM-744000133377966",
@@ -229,7 +456,21 @@
       "workPermitRisk": "高风险",
       "workPermitNote": "官方JD明确写明remote but no relocation or sponsorship support；如需要雇主支持工签或搬迁，此岗位不应优先投递。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-SG-PR-INFLUENCE-ASSOCIATE-4667231005",
@@ -248,7 +489,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡岗位，申请表询问是否已获当地工作授权及未来是否需要雇主sponsorship，但JD未明确排除sponsorship；匹配度较好，建议投递前向recruiter确认EP/S Pass支持可能。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "COURSERA-IN-APAC-PR-MANAGER-6000017004",
@@ -267,7 +536,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "官方页面写明fully-remote and India-based，申请表询问是否在当地有工作授权、是否需要visa sponsorship、是否目前居住在该国；若无印度工作许可或雇佣实体安排，应先确认是否接受跨国远程/签证支持。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "MAVEN-REMOTE-EXPERT-PARTNERSHIPS-MANAGER-ED6CD798",
@@ -286,7 +569,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "官方岗位写Remote但未说明可雇佣国家、EOR或签证政策；申请前需确认是否接受中国/香港/新加坡等地远程雇佣，以及合同实体、税务和时区安排。",
       "reportedDate": "2026-06-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FIGMA-US-HIGHER-ED-COMMUNITY-PARTNERSHIPS-6099520004",
@@ -305,7 +602,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "官方JD写明可在美国hub或美国境内远程，申请表询问是否有申请国家工作授权；未承诺visa sponsorship或跨国远程雇佣，若无美国工作许可只能作为高匹配观察/信息面试目标。",
       "reportedDate": "2026-07-01",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "BRUNSWICK-BE-PA-COMMS-CONSULTANT-8535546002",
@@ -324,7 +635,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "比利时/欧盟岗位，官方JD未说明sponsorship或relocation支持；若无欧盟工作许可，应先向recruiter确认是否支持single permit或其他雇主担保路径。",
       "reportedDate": "2026-07-01",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FGS-NL-SENIOR-ASSOCIATE-TFC-5177005007",
@@ -343,7 +668,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "荷兰/欧盟岗位，官方JD未承诺sponsorship或relocation；同时有本地语言门槛，若无欧盟工作许可和荷兰语能力，应仅作为行业观察或远期网络拓展。",
       "reportedDate": "2026-07-01",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-UK-MARKETING-ASSOCIATE-AUDIENCE-744000133400714",
@@ -362,7 +701,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国岗位，官方JD未说明visa sponsorship或relocation；虽然公司为大型跨国会展与信息服务平台，但没有明确担保政策，不能标低风险，申请前必须确认Skilled Worker支持。",
       "reportedDate": "2026-07-01",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "SGS-IN-CONTENT-MARKETING-SPECIALIST-744000134959728",
@@ -381,7 +734,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "印度岗位，官方JD未说明sponsorship、relocation或跨国远程；如无印度工作许可，应先确认雇佣实体和签证支持，不建议投入重度定制申请。",
       "reportedDate": "2026-07-01",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-HK-PR-INFLUENCE-CONSULTANT-4703783005",
@@ -400,7 +767,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "香港岗位，官方JD未写明必须已有香港工作许可，也未承诺sponsorship；Ogilvy/WPP平台和岗位匹配度较好，申请前应向recruiter确认香港工作签证支持可能。",
       "reportedDate": "2026-07-02",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "REMOTE-APAC-MOBILITY-MANAGER-7768137003",
@@ -419,7 +814,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "官方JD写明Remote全部岗位fully remote且地点为APAC，但未说明可在中国大陆直接雇佣或EOR覆盖；申请前必须确认候选人所在地、雇佣实体和税务/劳动合规安排。",
       "reportedDate": "2026-07-02",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FIGMA-US-EDUCATION-INTERNATIONAL-MANAGER-6004606004",
@@ -438,7 +847,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "官方JD写明可在美国hub或美国境内远程工作，未说明visa sponsorship或relocation；若候选人无美国工作授权，应只作为高匹配但高工签风险的拉伸/信息面试目标。",
       "reportedDate": "2026-07-02",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "BRUNSWICK-US-DC-EXECUTIVE-COHORT-8606253002",
@@ -457,7 +880,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "美国华盛顿岗位，官方JD未说明visa sponsorship或relocation；美国岗位在未明确赞助前不得标为低风险，若无美国工作授权应仅作为强相关但高风险备选。",
       "reportedDate": "2026-07-02",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FGS-DE-GLOBAL-PA-ASSOCIATE-5177795007",
@@ -476,7 +913,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "德国/欧盟岗位，官方 JD 未说明 visa sponsorship 或 relocation；同时要求德语 verhandlungssicher 和很好英语，若无欧盟工作许可及高阶德语能力，投递优先级应低于亚洲岗位。",
       "reportedDate": "2026-07-03",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "COURSERA-IN-PARTNER-CONTENT-GAM-5809067004",
@@ -495,7 +946,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "印度岗位，官方 JD 标注 India/Delhi/Bengaluru，未说明 sponsorship、relocation 或可在中国远程雇佣；虽然公司 globally distributed，但不能据此判断为跨国远程，申请前必须确认雇佣地点和签证支持。",
       "reportedDate": "2026-07-03",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-UK-CUSTOMER-SUCCESS-PROGRAM-LEAD-744000133297579",
@@ -514,7 +979,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国岗位，官方 JD 未说明 visa sponsorship 或 relocation，且要求每周 3 天到 Milton Park；如无英国工作授权，应先确认 Skilled Worker 支持，未确认前不建议重度定制申请。",
       "reportedDate": "2026-07-03",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "金融/金融科技",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-AU-MELBOURNE-ACCOUNT-EXECUTIVE-4699135005",
@@ -533,7 +1012,35 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "澳大利亚岗位，官方 JD 未说明 sponsorship 或 relocation；若候选人无澳洲工作许可，最高按 3★ 备选处理，除非 recruiter 明确支持雇主担保。",
       "reportedDate": "2026-07-03",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "REMOTE-MY-MOBILITY-SPECIALIST-APAC-7711725003",
@@ -552,7 +1059,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "JD写明fully remote，并说明欢迎所有人申请、APAC地点优先；但该岗位页面为Remote-Malaysia版本，未明确中国大陆雇佣实体或跨国EOR安排，申请前需确认是否可base在中国或是否需马来西亚工作授权。",
       "reportedDate": "2026-07-04",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-MY-PR-EXECUTIVE-4519020005",
@@ -571,7 +1092,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "马来西亚岗位未写明sponsorship或relocation，也未写must have local work rights；可向recruiter确认Employment Pass/外籍雇佣路径及是否接受中国候选人。",
       "reportedDate": "2026-07-04",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-SG-SOCIAL-SPECIALIST-4705345005",
@@ -590,7 +1139,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡岗位未写明工作签证、relocation或必须已有本地工作许可；新加坡存在EP路径但需雇主支持，申请前应确认是否接受海外候选人。",
       "reportedDate": "2026-07-04",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FGS-US-NY-EXEC-SUPPORT-STRATCOMMS-5147988007",
@@ -609,7 +1186,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "美国纽约岗位未说明visa sponsorship、relocation或remote policy；按规则不得标为低风险，除非recruiter确认可sponsor，否则不建议投入重度定制申请。",
       "reportedDate": "2026-07-04",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "COURSERA-IN-CONTENT-PRODUCTION-MANAGER-6105819004",
@@ -628,7 +1219,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "官方地点为 India，JD 未说明 visa sponsorship、relocation 或可在中国/香港远程雇佣；虽然公司强调 globally distributed team，但不能据此判断支持跨国雇佣，申请前需确认印度工作授权或异地雇佣安排。",
       "reportedDate": "2026-07-05",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-TW-MARKETING-EXECUTIVE-744000135181169",
@@ -647,7 +1252,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "台湾台北岗位未写明 sponsorship、relocation 或必须已有当地工作许可；对大陆候选人需单独确认雇佣实体、工作许可/居留路径及是否接受跨地区候选人。",
       "reportedDate": "2026-07-05",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "会展/专业社群",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-UK-CUSTOMER-SUCCESS-SPECIALIST-744000134978018",
@@ -666,7 +1285,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国岗位，官方JD未说明 visa sponsorship 或 relocation，且地点在 Abingdon；若无英国工作授权，应先确认 Skilled Worker 支持，未确认前不作为低风险岗位。",
       "reportedDate": "2026-07-05",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-UK-LONDON-CONSUMER-PR-PROJECT-MANAGER-4708555005",
@@ -685,7 +1318,35 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国伦敦12个月Fixed Term岗位，官方JD未说明 visa sponsorship 或 relocation；固定期限合同通常更难支持工签，若无英国工作授权，最高按3★备选处理。",
       "reportedDate": "2026-07-05",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-PROJECT-MANAGER-ACTIVATIONS-744000135870169",
@@ -704,7 +1365,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "官方JD列明国际 relocation package、paid flight to Riyadh、60天住宿/安置补贴、family visa costs、expat annual flight allowance 等，说明岗位存在外籍雇佣与搬迁路径；仍需确认中文候选人的具体签证办理周期。",
       "reportedDate": "2026-07-06",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "金融/金融科技",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SA-MARKETING-MANAGER-744000135870689",
@@ -723,7 +1398,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "官方JD列明family visa costs、expat annual flight allowance、local relocation package，并说明working anywhere福利；虽未逐字写visa sponsorship，但福利结构明确覆盖外籍与搬迁，工签/地点风险低于欧美未说明岗位。",
       "reportedDate": "2026-07-06",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "REMOTE-PH-APAC-LIFECYCLE-CONTRACTS-MANAGER-7780930003",
@@ -742,7 +1431,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "JD写明Remote-Philippines，同时说明欢迎所有人申请但优先APAC；未明确中国大陆雇佣实体或是否可跨国base在中国，申请前需确认可工作国家、EOR安排和是否必须菲律宾工作授权。",
       "reportedDate": "2026-07-06",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "科技平台",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-HK-ASSOCIATE-STRATEGIST-SOCIAL-4608676005",
@@ -761,7 +1464,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "香港岗位未写明sponsorship或必须已有香港工作许可；候选人有粤语背景但需确认native要求和香港IANG/高才/优才/输入内地人才计划等路径是否可行。",
       "reportedDate": "2026-07-06",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-JP-CUSTOMER-ENABLEMENT-6099277004",
@@ -780,7 +1511,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "日本东京岗位，JD 未明确 visa sponsorship、relocation 或跨国远程政策；虽未在抓取文本中看到排除外籍申请的表述，但日本工作许可和本地客户场景需向 recruiter 验证。",
       "reportedDate": "2026-07-07",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "金融/金融科技",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-UK-LONDON-JUNIOR-PR-AE-4712127005",
@@ -799,7 +1544,35 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "英国伦敦岗位，JD 未明确 visa sponsorship 或 relocation；按规则不能标低风险，申请前必须确认 Skilled Worker sponsor 与是否接受海外申请。",
       "reportedDate": "2026-07-07",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-PH-MAKATI-PROJECT-MANAGER-4599714005",
@@ -818,7 +1591,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "菲律宾岗位，JD 未说明 sponsor/relocation，也未在抓取文本中看到 must have local work authorization；相较欧美地点风险低一些，但仍需确认是否接受非本地候选人与雇佣实体。",
       "reportedDate": "2026-07-07",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-US-SALES-ENABLEMENT-ASSOCIATE-744000135269491",
@@ -837,7 +1638,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "美国纽约 hybrid 岗，JD 未明确 sponsorship/relocation，且需要每周 3 天到办公室；除非公司愿意 sponsor 或候选人已有美国工作许可，否则不应作为高优先级定制申请。",
       "reportedDate": "2026-07-07",
-      "expired": false
+      "expired": false,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-08-01 已过。",
+      "daysLeft": -6,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "FIGMA-SG-CUSTOMER-ENABLEMENT-6111309004",
@@ -856,7 +1671,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡 hub 岗位，官方 JD 未写明 visa sponsorship、relocation 或 right-to-work 限制；岗位匹配度高，申请前应向 recruiter 确认 EP/S Pass 支持可能。",
       "reportedDate": "2026-07-09",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SG-MARKETING-EXEC-MEI-744000136132840",
@@ -875,7 +1704,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡办公室岗位，官方 JD 未说明 sponsor/relocation/right-to-work；大型跨国会展平台且方向匹配，值得申请前确认 EP/S Pass 支持。",
       "reportedDate": "2026-07-09",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-TW-SR-MARKETING-EXEC-744000136151569",
@@ -894,7 +1737,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "台湾岗位未写明 sponsor 或跨境远程政策；作为大中华区机会可验证，但申请前应确认是否接受大陆候选人及工作许可办理路径。",
       "reportedDate": "2026-07-09",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SA-CONFERENCE-PRODUCER-744000136027079",
@@ -913,7 +1770,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "JD 明确列出 family visa costs、expat annual flight allowance、paid flight to Riyadh、arrival accommodation 和 relocation package，属于有清晰 relocation/visa 支持信号的沙特岗位。",
       "reportedDate": "2026-07-09",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-ES-BARCELONA-CONTENT-PM-4712453005",
@@ -932,7 +1803,35 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "西班牙岗位未说明 visa sponsorship/relocation，且要求 English + Spanish high level；若候选人无欧盟工作许可和西语工作能力，最高作为 3★ 拉伸/观察选项。",
       "reportedDate": "2026-07-09",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-INVESTOR-PROGRAM-MANAGER-744000136831069",
@@ -951,7 +1850,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "JD 明确列出 family visa costs、expat annual flight allowance、paid flight to Riyadh、arrival accommodation 以及 local/international relocation package，外籍搬迁支持信号清晰。",
       "reportedDate": "2026-07-10",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SA-MARKETING-MANAGER-744000136834886",
@@ -970,7 +1883,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "JD 明确列出 family visa costs、expat annual flight allowance、paid flight to Riyadh、arrival accommodation 以及 local/international relocation package，外籍搬迁支持信号清晰。",
       "reportedDate": "2026-07-10",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "金融/金融科技",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SA-CONFERENCE-PRODUCER-744000136835039",
@@ -989,7 +1916,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "JD 明确列出 family visa costs、expat annual flight allowance、paid flight to Riyadh、arrival accommodation 以及 local/international relocation package，外籍搬迁支持信号清晰。",
       "reportedDate": "2026-07-10",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "金融/金融科技",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-VN-ASSISTANT-MARKETING-MANAGER-744000136715800",
@@ -1008,7 +1949,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "越南岗位未写 no sponsorship，也未写 relocation/work permit 支持；公司为跨国会展平台，值得问 recruiter，但申请前需确认是否必须已有越南工作授权或当地语言要求。",
       "reportedDate": "2026-07-10",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "会展/专业社群",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "REMOTE-APAC-LIFECYCLE-TIME-ATTENDANCE-MANAGER-7799576003",
@@ -1027,7 +1982,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "JD 标注 Remote-Singapore / APAC，并写明欢迎所有人申请但优先 APAC；未列具体 target countries，也未说明中国大陆可雇佣，需确认可工作国家、EOR安排和是否必须新加坡/当地工作授权。",
       "reportedDate": "2026-07-10",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "科技平台",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-SG-CONFERENCE-PRODUCER-FHA-744000137358309",
@@ -1046,7 +2015,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡办公室正式岗位，JD 未写必须已有新加坡工作权，也未承诺 Employment Pass、sponsorship 或 relocation；跨国公司平台值得申请，但应在定制材料前向 recruiter 确认是否接受境外候选人及 EP 支持。",
       "reportedDate": "2026-07-15",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "会展/专业社群",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "INFORMA-MY-EVENT-EXECUTIVE-744000136152566",
@@ -1065,7 +2048,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确在吉隆坡 Sunway Visio Tower 办公，官方 JD 未写必须已有马来西亚工作权，也未承诺 Employment Pass、sponsorship 或 relocation；应在定制申请前向 recruiter 确认是否接受境外候选人及工作许可支持。",
       "reportedDate": "2026-07-17",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "会展/专业社群",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "OGILVY-SG-PR-INFLUENCE-ASSOC-SR-4716516005",
@@ -1084,7 +2081,35 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "新加坡正式岗位，官方 JD 未写必须已有当地工作权，也未承诺 Employment Pass、sponsorship 或 relocation；应在投入深度定制前确认是否接受境外候选人及 EP 支持。",
       "reportedDate": "2026-07-21",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "partial",
+        "label": "已有 Cover Letter",
+        "hasCv": false,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "files": [
+          {
+            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-06-30T14:31:53.527Z"
+          }
+        ],
+        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OPENAI-SG-PROGRAM-MANAGER-OUTREACH-AUDIENCES-APAC",
@@ -1103,7 +2128,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确 base in Singapore，但官方 JD 未说明必须已有新加坡工作权，也未承诺 Employment Pass、sponsorship 或 relocation；新加坡并非可自动视为低风险，应在深度定制或首轮沟通前确认是否接受境外候选人及 EP 支持。",
       "reportedDate": "2026-07-23",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "科技平台",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "SEEK-SG-CUSTOMER-SUCCESS-EXEC-744000120855727",
@@ -1122,7 +2161,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确基于新加坡办公室，官方 JD 未写必须已有当地工作权，也未承诺 Employment Pass、sponsorship 或 relocation；申请前应确认固定期限岗位是否支持境外候选人的 EP/S Pass，以及是否要求入职时已具备新加坡工作许可。",
       "reportedDate": "2026-07-27",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "SEEK-MY-PARTNER-SUCCESS-LEAD-744000140143219",
@@ -1141,7 +2194,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位为吉隆坡正式全职、每周到岗 2-3 天并可能 APAC 出差；官方 JD 未写必须已有马来西亚工作权，也未承诺 Employment Pass、sponsorship 或 relocation，应在深度定制前确认是否接受境外候选人及工作准证支持。",
       "reportedDate": "2026-07-29",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "BRUNSWICK-SG-EXECUTIVE-8653108002",
@@ -1160,7 +2227,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确位于新加坡办公室，官方 JD 未写必须已有当地工作权，也未承诺 Employment Pass、sponsorship 或 relocation；因岗位匹配度高且 Brunswick 为全球咨询平台，值得优先申请并在首轮沟通前确认 EP 支持。",
       "reportedDate": "2026-07-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "SEEK-MY-GRAD-PROGRAMS-SPECIALIST-744000140418143",
@@ -1179,7 +2260,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "官方 JD 明确写明“only those with eligible right to work will be considered”，且未提供 sponsorship 或 relocation 承诺；若候选人当前没有马来西亚合法工作权，按硬规则最高 3★，不建议在未获 recruiter 确认前投入深度定制。",
       "reportedDate": "2026-07-30",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "教育/人才发展",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "TEMASEK-SG-COMMUNITY-STEWARDSHIP-11767",
@@ -1198,7 +2293,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确位于新加坡，官方 JD 未写必须已有当地工作权，也未承诺 Employment Pass、sponsorship 或 relocation；12 个月合同可能降低雇主办理准证意愿，申请前应确认是否接受境外候选人及 EP 支持。",
       "reportedDate": "2026-07-31",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "TOKEN2049-SG-HK-COMMUNITY-MANAGER-4000696201",
@@ -1217,7 +2326,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "官方岗位页明确可在新加坡或香港混合办公，但未说明 Employment Pass、香港工作签证、sponsorship 或 relocation；双地点提供一定灵活性，仍需在深度定制前确认接受境外候选人及具体雇佣实体。",
       "reportedDate": "2026-07-31",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "APPLE-CN-SH-COMMUNITY-INVESTMENT-PM-200658341",
@@ -1236,7 +2359,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "岗位明确位于中国上海，要求英语和普通话流利；候选人在中国大陆工作，不涉及境外工签、sponsorship 或 relocation 前置障碍。",
       "reportedDate": "2026-08-02",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "SENTIENT-CN-COMMUNITY-MANAGER-CA2BDDEA",
@@ -1255,7 +2392,21 @@
       "workPermitRisk": "低风险",
       "workPermitNote": "官方职位明确为 Remote - APAC，地点列出 China、Hong Kong 和 Singapore；候选人可从中国工作，未见必须迁居或持境外工作许可的限制，但入职前仍应确认中国雇佣实体或 EOR 合同安排。",
       "reportedDate": "2026-08-02",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "APPLE-SG-APAC-PARTNER-MARKETING-PM-200667579",
@@ -1274,7 +2425,21 @@
       "workPermitRisk": "中高风险",
       "workPermitNote": "岗位明确常驻新加坡且可能国际出差，官方 JD 未说明 Employment Pass sponsorship、relocation 或跨境 remote；候选人若无新加坡工作权，应先向 recruiter 确认准证支持，未确认前不投入深度定制。",
       "reportedDate": "2026-08-03",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "high",
+      "riskLabel": "中高风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     },
     {
       "id": "AIRWALLEX-HK-ASSOC-GTM-PARTNERSHIPS-EB5E2E34",
@@ -1293,7 +2458,21 @@
       "workPermitRisk": "可验证",
       "workPermitNote": "岗位明确在中国香港全职办公，官方 JD 未写必须已有香港工作权，也未承诺 visa sponsorship 或 relocation；粤语和英语为硬要求，候选人具备语言基础，但应在深度定制前确认香港工作签证支持及具体雇佣安排。",
       "reportedDate": "2026-08-04",
-      "expired": false
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "伙伴关系/生态运营",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     }
   ]
 }
