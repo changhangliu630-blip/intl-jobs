@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "lastUpdated": "2026-08-07",
-  "generatedAt": "2026-08-07T08:23:57+08:00",
+  "generatedAt": "2026-08-07T08:28:16+08:00",
   "auditDate": "2026-08-07",
   "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
   "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
@@ -14,7 +14,7 @@
     "lowRisk": 15,
     "verifiableRisk": 30,
     "highRisk": 23,
-    "withMaterials": 11
+    "withMaterials": 2
   },
   "highlights": {
     "priority": [
@@ -776,26 +776,12 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "REMOTE-APAC-MOBILITY-MANAGER-7768137003",
@@ -1021,26 +1007,12 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "REMOTE-MY-MOBILITY-SPECIALIST-APAC-7711725003",
@@ -1101,26 +1073,12 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "OGILVY-SG-SOCIAL-SPECIALIST-4705345005",
@@ -1148,26 +1106,12 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "FGS-US-NY-EXEC-SUPPORT-STRATCOMMS-5147988007",
@@ -1327,26 +1271,12 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "INFORMA-SA-PROJECT-MANAGER-ACTIVATIONS-744000135870169",
@@ -1473,26 +1403,12 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "FIGMA-JP-CUSTOMER-ENABLEMENT-6099277004",
@@ -1553,26 +1469,12 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "OGILVY-PH-MAKATI-PROJECT-MANAGER-4599714005",
@@ -1600,26 +1502,12 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "INFORMA-US-SALES-ENABLEMENT-ASSOCIATE-744000135269491",
@@ -1812,26 +1700,12 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "partial",
-        "label": "已有 Cover Letter",
+        "state": "missing",
+        "label": "未生成材料",
         "hasCv": false,
-        "hasCoverLetter": true
+        "hasCoverLetter": false
       },
-      "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-        "files": [
-          {
-            "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
-            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
-            "kind": "coverLetter",
-            "modifiedAt": "2026-06-30T14:31:53.527Z"
-          }
-        ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
-        "hasCv": false,
-        "hasCoverLetter": true
-      }
+      "materials": null
     },
     {
       "id": "INFORMA-SA-INVESTOR-PROGRAM-MANAGER-744000136831069",
