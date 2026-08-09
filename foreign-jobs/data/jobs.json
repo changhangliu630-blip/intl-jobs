@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "lastUpdated": "2026-08-09",
-  "generatedAt": "2026-08-09T08:13:16+08:00",
+  "generatedAt": "2026-08-09T23:05:00+08:00",
   "auditDate": "2026-08-09",
   "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
   "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
@@ -14,7 +14,7 @@
     "lowRisk": 15,
     "verifiableRisk": 30,
     "highRisk": 24,
-    "withMaterials": 2
+    "withMaterials": 69
   },
   "highlights": {
     "priority": [
@@ -102,12 +102,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-ccass-esg-sa-696384001",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ey-hk-ccass-esg-sa-696384001.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-ccass-esg-sa-696384001/CV_Changhang_LIU_2026-08-09_ey-hk-ccass-esg-sa-696384001.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-ccass-esg-sa-696384001",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:21.655Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ey-hk-ccass-esg-sa-696384001.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-ccass-esg-sa-696384001/Cover_Letter_2026-08-09_ey-hk-ccass-esg-sa-696384001.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-ccass-esg-sa-696384001",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:21.631Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:21.655Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "EY-HK-FSO-CCASS-SA-742011201",
@@ -135,12 +156,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-fso-ccass-sa-742011201",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ey-hk-fso-ccass-sa-742011201.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-fso-ccass-sa-742011201/CV_Changhang_LIU_2026-08-09_ey-hk-fso-ccass-sa-742011201.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-fso-ccass-sa-742011201",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:21.810Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ey-hk-fso-ccass-sa-742011201.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-fso-ccass-sa-742011201/Cover_Letter_2026-08-09_ey-hk-fso-ccass-sa-742011201.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ey-hk-fso-ccass-sa-742011201",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:21.787Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:21.810Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "BRUNSWICK-SG-EXECUTIVE-8570439002",
@@ -168,12 +210,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8570439002",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_brunswick-sg-executive-8570439002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8570439002/CV_Changhang_LIU_2026-08-09_brunswick-sg-executive-8570439002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8570439002",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:21.962Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_brunswick-sg-executive-8570439002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8570439002/Cover_Letter_2026-08-09_brunswick-sg-executive-8570439002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8570439002",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:21.939Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:21.962Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "AIRWALLEX-HK-CHANNEL-PARTNERSHIPS-288D26CF",
@@ -201,12 +264,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-channel-partnerships-288d26cf",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_airwallex-hk-channel-partnerships-288d26cf.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-channel-partnerships-288d26cf/CV_Changhang_LIU_2026-08-09_airwallex-hk-channel-partnerships-288d26cf.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-channel-partnerships-288d26cf",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:22.120Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_airwallex-hk-channel-partnerships-288d26cf.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-channel-partnerships-288d26cf/Cover_Letter_2026-08-09_airwallex-hk-channel-partnerships-288d26cf.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-channel-partnerships-288d26cf",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:22.096Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:22.120Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-SG-DISTRIBUTION-PARTNER-MANAGER-5756184004",
@@ -234,12 +318,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-distribution-partner-manager-5756184004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_figma-sg-distribution-partner-manager-5756184004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-distribution-partner-manager-5756184004/CV_Changhang_LIU_2026-08-09_figma-sg-distribution-partner-manager-5756184004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-distribution-partner-manager-5756184004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:22.279Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_figma-sg-distribution-partner-manager-5756184004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-distribution-partner-manager-5756184004/Cover_Letter_2026-08-09_figma-sg-distribution-partner-manager-5756184004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-distribution-partner-manager-5756184004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:22.254Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:22.279Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SGS-MY-MARKETING-CONTENT-ENGAGEMENT-744000134689929",
@@ -267,12 +372,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-my-marketing-content-engagement-744000134689929",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_sgs-my-marketing-content-engagement-744000134689929.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-my-marketing-content-engagement-744000134689929/CV_Changhang_LIU_2026-08-09_sgs-my-marketing-content-engagement-744000134689929.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-my-marketing-content-engagement-744000134689929",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:22.434Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_sgs-my-marketing-content-engagement-744000134689929.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-my-marketing-content-engagement-744000134689929/Cover_Letter_2026-08-09_sgs-my-marketing-content-engagement-744000134689929.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-my-marketing-content-engagement-744000134689929",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:22.411Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:22.434Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-UK-CUSTOMER-ENABLEMENT-6102903004",
@@ -300,12 +426,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-uk-customer-enablement-6102903004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_figma-uk-customer-enablement-6102903004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-uk-customer-enablement-6102903004/CV_Changhang_LIU_2026-08-09_figma-uk-customer-enablement-6102903004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-uk-customer-enablement-6102903004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:22.590Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_figma-uk-customer-enablement-6102903004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-uk-customer-enablement-6102903004/Cover_Letter_2026-08-09_figma-uk-customer-enablement-6102903004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-uk-customer-enablement-6102903004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:22.566Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:22.590Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SG-GRADUATE-TRAINEE-744000134599769",
@@ -333,12 +480,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-graduate-trainee-744000134599769",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sg-graduate-trainee-744000134599769.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-graduate-trainee-744000134599769/CV_Changhang_LIU_2026-08-09_informa-sg-graduate-trainee-744000134599769.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-graduate-trainee-744000134599769",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:22.755Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sg-graduate-trainee-744000134599769.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-graduate-trainee-744000134599769/Cover_Letter_2026-08-09_informa-sg-graduate-trainee-744000134599769.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-graduate-trainee-744000134599769",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:22.732Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:22.755Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-VN-EVENT-MANAGER-744000134232609",
@@ -366,12 +534,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-event-manager-744000134232609",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-vn-event-manager-744000134232609.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-event-manager-744000134232609/CV_Changhang_LIU_2026-08-09_informa-vn-event-manager-744000134232609.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-event-manager-744000134232609",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:22.911Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-vn-event-manager-744000134232609.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-event-manager-744000134232609/Cover_Letter_2026-08-09_informa-vn-event-manager-744000134232609.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-event-manager-744000134232609",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:22.888Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:22.911Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-UK-MARKETING-ASSOCIATE-CLIENT-744000133401630",
@@ -399,12 +588,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-client-744000133401630",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-uk-marketing-associate-client-744000133401630.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-client-744000133401630/CV_Changhang_LIU_2026-08-09_informa-uk-marketing-associate-client-744000133401630.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-client-744000133401630",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.064Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-uk-marketing-associate-client-744000133401630.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-client-744000133401630/Cover_Letter_2026-08-09_informa-uk-marketing-associate-client-744000133401630.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-client-744000133401630",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.040Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:23.064Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FGS-SG-EQUITY-IR-SA-5166656007",
@@ -432,12 +642,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-sg-equity-ir-sa-5166656007",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_fgs-sg-equity-ir-sa-5166656007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-sg-equity-ir-sa-5166656007/CV_Changhang_LIU_2026-08-09_fgs-sg-equity-ir-sa-5166656007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-sg-equity-ir-sa-5166656007",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:23.219Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_fgs-sg-equity-ir-sa-5166656007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-sg-equity-ir-sa-5166656007/Cover_Letter_2026-08-09_fgs-sg-equity-ir-sa-5166656007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-sg-equity-ir-sa-5166656007",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.194Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:23.219Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-INVESTOR-PROGRAM-744000133377966",
@@ -465,12 +696,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-744000133377966",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-investor-program-744000133377966.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-744000133377966/CV_Changhang_LIU_2026-08-09_informa-sa-investor-program-744000133377966.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-744000133377966",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:23.373Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-investor-program-744000133377966.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-744000133377966/Cover_Letter_2026-08-09_informa-sa-investor-program-744000133377966.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-744000133377966",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.350Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:23.373Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-SG-PR-INFLUENCE-ASSOCIATE-4667231005",
@@ -504,8 +756,22 @@
         "hasCoverLetter": true
       },
       "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-associate-4667231005",
         "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-sg-pr-influence-associate-4667231005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-associate-4667231005/CV_Changhang_LIU_2026-08-09_ogilvy-sg-pr-influence-associate-4667231005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-associate-4667231005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:23.523Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-sg-pr-influence-associate-4667231005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-associate-4667231005/Cover_Letter_2026-08-09_ogilvy-sg-pr-influence-associate-4667231005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-associate-4667231005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.500Z"
+          },
           {
             "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
             "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
@@ -514,7 +780,7 @@
             "modifiedAt": "2026-06-30T14:31:53.527Z"
           }
         ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "generatedAt": "2026-08-09T15:04:23.523Z",
         "hasCv": false,
         "hasCoverLetter": true
       }
@@ -545,12 +811,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-apac-pr-manager-6000017004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_coursera-in-apac-pr-manager-6000017004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-apac-pr-manager-6000017004/CV_Changhang_LIU_2026-08-09_coursera-in-apac-pr-manager-6000017004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-apac-pr-manager-6000017004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:23.678Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_coursera-in-apac-pr-manager-6000017004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-apac-pr-manager-6000017004/Cover_Letter_2026-08-09_coursera-in-apac-pr-manager-6000017004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-apac-pr-manager-6000017004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.654Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:23.678Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "MAVEN-REMOTE-EXPERT-PARTNERSHIPS-MANAGER-ED6CD798",
@@ -578,12 +865,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/maven-remote-expert-partnerships-manager-ed6cd798",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_maven-remote-expert-partnerships-manager-ed6cd798.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/maven-remote-expert-partnerships-manager-ed6cd798/CV_Changhang_LIU_2026-08-09_maven-remote-expert-partnerships-manager-ed6cd798.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/maven-remote-expert-partnerships-manager-ed6cd798",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:23.831Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_maven-remote-expert-partnerships-manager-ed6cd798.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/maven-remote-expert-partnerships-manager-ed6cd798/Cover_Letter_2026-08-09_maven-remote-expert-partnerships-manager-ed6cd798.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/maven-remote-expert-partnerships-manager-ed6cd798",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.807Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:23.831Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-US-HIGHER-ED-COMMUNITY-PARTNERSHIPS-6099520004",
@@ -611,12 +919,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-higher-ed-community-partnerships-6099520004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_figma-us-higher-ed-community-partnerships-6099520004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-higher-ed-community-partnerships-6099520004/CV_Changhang_LIU_2026-08-09_figma-us-higher-ed-community-partnerships-6099520004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-higher-ed-community-partnerships-6099520004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:23.985Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_figma-us-higher-ed-community-partnerships-6099520004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-higher-ed-community-partnerships-6099520004/Cover_Letter_2026-08-09_figma-us-higher-ed-community-partnerships-6099520004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-higher-ed-community-partnerships-6099520004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:23.962Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:23.985Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "BRUNSWICK-BE-PA-COMMS-CONSULTANT-8535546002",
@@ -644,12 +973,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-be-pa-comms-consultant-8535546002",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_brunswick-be-pa-comms-consultant-8535546002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-be-pa-comms-consultant-8535546002/CV_Changhang_LIU_2026-08-09_brunswick-be-pa-comms-consultant-8535546002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-be-pa-comms-consultant-8535546002",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:24.140Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_brunswick-be-pa-comms-consultant-8535546002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-be-pa-comms-consultant-8535546002/Cover_Letter_2026-08-09_brunswick-be-pa-comms-consultant-8535546002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-be-pa-comms-consultant-8535546002",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:24.117Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:24.140Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FGS-NL-SENIOR-ASSOCIATE-TFC-5177005007",
@@ -677,12 +1027,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-nl-senior-associate-tfc-5177005007",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_fgs-nl-senior-associate-tfc-5177005007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-nl-senior-associate-tfc-5177005007/CV_Changhang_LIU_2026-08-09_fgs-nl-senior-associate-tfc-5177005007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-nl-senior-associate-tfc-5177005007",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:24.293Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_fgs-nl-senior-associate-tfc-5177005007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-nl-senior-associate-tfc-5177005007/Cover_Letter_2026-08-09_fgs-nl-senior-associate-tfc-5177005007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-nl-senior-associate-tfc-5177005007",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:24.270Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:24.293Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-UK-MARKETING-ASSOCIATE-AUDIENCE-744000133400714",
@@ -710,12 +1081,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-audience-744000133400714",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-uk-marketing-associate-audience-744000133400714.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-audience-744000133400714/CV_Changhang_LIU_2026-08-09_informa-uk-marketing-associate-audience-744000133400714.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-audience-744000133400714",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:24.445Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-uk-marketing-associate-audience-744000133400714.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-audience-744000133400714/Cover_Letter_2026-08-09_informa-uk-marketing-associate-audience-744000133400714.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-marketing-associate-audience-744000133400714",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:24.422Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:24.445Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SGS-IN-CONTENT-MARKETING-SPECIALIST-744000134959728",
@@ -743,12 +1135,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-in-content-marketing-specialist-744000134959728",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_sgs-in-content-marketing-specialist-744000134959728.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-in-content-marketing-specialist-744000134959728/CV_Changhang_LIU_2026-08-09_sgs-in-content-marketing-specialist-744000134959728.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-in-content-marketing-specialist-744000134959728",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:24.596Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_sgs-in-content-marketing-specialist-744000134959728.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-in-content-marketing-specialist-744000134959728/Cover_Letter_2026-08-09_sgs-in-content-marketing-specialist-744000134959728.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-in-content-marketing-specialist-744000134959728",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:24.573Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:24.596Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-HK-PR-INFLUENCE-CONSULTANT-4703783005",
@@ -776,12 +1189,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-pr-influence-consultant-4703783005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-hk-pr-influence-consultant-4703783005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-pr-influence-consultant-4703783005/CV_Changhang_LIU_2026-08-09_ogilvy-hk-pr-influence-consultant-4703783005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-pr-influence-consultant-4703783005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:24.751Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-hk-pr-influence-consultant-4703783005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-pr-influence-consultant-4703783005/Cover_Letter_2026-08-09_ogilvy-hk-pr-influence-consultant-4703783005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-pr-influence-consultant-4703783005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:24.728Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:24.751Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "REMOTE-APAC-MOBILITY-MANAGER-7768137003",
@@ -809,12 +1243,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-mobility-manager-7768137003",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_remote-apac-mobility-manager-7768137003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-mobility-manager-7768137003/CV_Changhang_LIU_2026-08-09_remote-apac-mobility-manager-7768137003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-mobility-manager-7768137003",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:24.906Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_remote-apac-mobility-manager-7768137003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-mobility-manager-7768137003/Cover_Letter_2026-08-09_remote-apac-mobility-manager-7768137003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-mobility-manager-7768137003",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:24.882Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:24.906Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-US-EDUCATION-INTERNATIONAL-MANAGER-6004606004",
@@ -842,12 +1297,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-education-international-manager-6004606004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_figma-us-education-international-manager-6004606004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-education-international-manager-6004606004/CV_Changhang_LIU_2026-08-09_figma-us-education-international-manager-6004606004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-education-international-manager-6004606004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:25.061Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_figma-us-education-international-manager-6004606004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-education-international-manager-6004606004/Cover_Letter_2026-08-09_figma-us-education-international-manager-6004606004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-us-education-international-manager-6004606004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:25.038Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:25.061Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "BRUNSWICK-US-DC-EXECUTIVE-COHORT-8606253002",
@@ -875,12 +1351,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-us-dc-executive-cohort-8606253002",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_brunswick-us-dc-executive-cohort-8606253002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-us-dc-executive-cohort-8606253002/CV_Changhang_LIU_2026-08-09_brunswick-us-dc-executive-cohort-8606253002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-us-dc-executive-cohort-8606253002",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:25.217Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_brunswick-us-dc-executive-cohort-8606253002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-us-dc-executive-cohort-8606253002/Cover_Letter_2026-08-09_brunswick-us-dc-executive-cohort-8606253002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-us-dc-executive-cohort-8606253002",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:25.193Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:25.217Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FGS-DE-GLOBAL-PA-ASSOCIATE-5177795007",
@@ -908,12 +1405,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-de-global-pa-associate-5177795007",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_fgs-de-global-pa-associate-5177795007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-de-global-pa-associate-5177795007/CV_Changhang_LIU_2026-08-09_fgs-de-global-pa-associate-5177795007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-de-global-pa-associate-5177795007",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:25.369Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_fgs-de-global-pa-associate-5177795007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-de-global-pa-associate-5177795007/Cover_Letter_2026-08-09_fgs-de-global-pa-associate-5177795007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-de-global-pa-associate-5177795007",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:25.346Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:25.369Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "COURSERA-IN-PARTNER-CONTENT-GAM-5809067004",
@@ -941,12 +1459,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-partner-content-gam-5809067004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_coursera-in-partner-content-gam-5809067004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-partner-content-gam-5809067004/CV_Changhang_LIU_2026-08-09_coursera-in-partner-content-gam-5809067004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-partner-content-gam-5809067004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:25.523Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_coursera-in-partner-content-gam-5809067004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-partner-content-gam-5809067004/Cover_Letter_2026-08-09_coursera-in-partner-content-gam-5809067004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-partner-content-gam-5809067004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:25.500Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:25.523Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-UK-CUSTOMER-SUCCESS-PROGRAM-LEAD-744000133297579",
@@ -974,12 +1513,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-program-lead-744000133297579",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-uk-customer-success-program-lead-744000133297579.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-program-lead-744000133297579/CV_Changhang_LIU_2026-08-09_informa-uk-customer-success-program-lead-744000133297579.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-program-lead-744000133297579",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:25.678Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-uk-customer-success-program-lead-744000133297579.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-program-lead-744000133297579/Cover_Letter_2026-08-09_informa-uk-customer-success-program-lead-744000133297579.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-program-lead-744000133297579",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:25.654Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:25.678Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-AU-MELBOURNE-ACCOUNT-EXECUTIVE-4699135005",
@@ -1007,12 +1567,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-au-melbourne-account-executive-4699135005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-au-melbourne-account-executive-4699135005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-au-melbourne-account-executive-4699135005/CV_Changhang_LIU_2026-08-09_ogilvy-au-melbourne-account-executive-4699135005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-au-melbourne-account-executive-4699135005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:25.876Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-au-melbourne-account-executive-4699135005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-au-melbourne-account-executive-4699135005/Cover_Letter_2026-08-09_ogilvy-au-melbourne-account-executive-4699135005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-au-melbourne-account-executive-4699135005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:25.849Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:25.876Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "REMOTE-MY-MOBILITY-SPECIALIST-APAC-7711725003",
@@ -1040,12 +1621,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-my-mobility-specialist-apac-7711725003",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_remote-my-mobility-specialist-apac-7711725003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-my-mobility-specialist-apac-7711725003/CV_Changhang_LIU_2026-08-09_remote-my-mobility-specialist-apac-7711725003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-my-mobility-specialist-apac-7711725003",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:26.039Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_remote-my-mobility-specialist-apac-7711725003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-my-mobility-specialist-apac-7711725003/Cover_Letter_2026-08-09_remote-my-mobility-specialist-apac-7711725003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-my-mobility-specialist-apac-7711725003",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:26.015Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:26.039Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-MY-PR-EXECUTIVE-4519020005",
@@ -1073,12 +1675,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-my-pr-executive-4519020005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-my-pr-executive-4519020005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-my-pr-executive-4519020005/CV_Changhang_LIU_2026-08-09_ogilvy-my-pr-executive-4519020005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-my-pr-executive-4519020005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:26.195Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-my-pr-executive-4519020005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-my-pr-executive-4519020005/Cover_Letter_2026-08-09_ogilvy-my-pr-executive-4519020005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-my-pr-executive-4519020005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:26.172Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:26.195Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-SG-SOCIAL-SPECIALIST-4705345005",
@@ -1106,12 +1729,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-social-specialist-4705345005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-sg-social-specialist-4705345005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-social-specialist-4705345005/CV_Changhang_LIU_2026-08-09_ogilvy-sg-social-specialist-4705345005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-social-specialist-4705345005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:26.350Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-sg-social-specialist-4705345005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-social-specialist-4705345005/Cover_Letter_2026-08-09_ogilvy-sg-social-specialist-4705345005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-social-specialist-4705345005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:26.326Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:26.350Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FGS-US-NY-EXEC-SUPPORT-STRATCOMMS-5147988007",
@@ -1139,12 +1783,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-us-ny-exec-support-stratcomms-5147988007",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_fgs-us-ny-exec-support-stratcomms-5147988007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-us-ny-exec-support-stratcomms-5147988007/CV_Changhang_LIU_2026-08-09_fgs-us-ny-exec-support-stratcomms-5147988007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-us-ny-exec-support-stratcomms-5147988007",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:26.504Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_fgs-us-ny-exec-support-stratcomms-5147988007.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-us-ny-exec-support-stratcomms-5147988007/Cover_Letter_2026-08-09_fgs-us-ny-exec-support-stratcomms-5147988007.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/fgs-us-ny-exec-support-stratcomms-5147988007",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:26.480Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:26.504Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "COURSERA-IN-CONTENT-PRODUCTION-MANAGER-6105819004",
@@ -1172,12 +1837,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-content-production-manager-6105819004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_coursera-in-content-production-manager-6105819004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-content-production-manager-6105819004/CV_Changhang_LIU_2026-08-09_coursera-in-content-production-manager-6105819004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-content-production-manager-6105819004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:26.656Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_coursera-in-content-production-manager-6105819004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-content-production-manager-6105819004/Cover_Letter_2026-08-09_coursera-in-content-production-manager-6105819004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/coursera-in-content-production-manager-6105819004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:26.633Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:26.656Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-TW-MARKETING-EXECUTIVE-744000135181169",
@@ -1205,12 +1891,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-marketing-executive-744000135181169",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-tw-marketing-executive-744000135181169.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-marketing-executive-744000135181169/CV_Changhang_LIU_2026-08-09_informa-tw-marketing-executive-744000135181169.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-marketing-executive-744000135181169",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:26.809Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-tw-marketing-executive-744000135181169.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-marketing-executive-744000135181169/Cover_Letter_2026-08-09_informa-tw-marketing-executive-744000135181169.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-marketing-executive-744000135181169",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:26.785Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:26.809Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-UK-CUSTOMER-SUCCESS-SPECIALIST-744000134978018",
@@ -1238,12 +1945,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-specialist-744000134978018",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-uk-customer-success-specialist-744000134978018.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-specialist-744000134978018/CV_Changhang_LIU_2026-08-09_informa-uk-customer-success-specialist-744000134978018.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-specialist-744000134978018",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:27.065Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-uk-customer-success-specialist-744000134978018.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-specialist-744000134978018/Cover_Letter_2026-08-09_informa-uk-customer-success-specialist-744000134978018.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-uk-customer-success-specialist-744000134978018",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:27.015Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:27.065Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-UK-LONDON-CONSUMER-PR-PROJECT-MANAGER-4708555005",
@@ -1271,12 +1999,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-consumer-pr-project-manager-4708555005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-uk-london-consumer-pr-project-manager-4708555005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-consumer-pr-project-manager-4708555005/CV_Changhang_LIU_2026-08-09_ogilvy-uk-london-consumer-pr-project-manager-4708555005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-consumer-pr-project-manager-4708555005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:27.313Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-uk-london-consumer-pr-project-manager-4708555005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-consumer-pr-project-manager-4708555005/Cover_Letter_2026-08-09_ogilvy-uk-london-consumer-pr-project-manager-4708555005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-consumer-pr-project-manager-4708555005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:27.283Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:27.313Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-PROJECT-MANAGER-ACTIVATIONS-744000135870169",
@@ -1304,12 +2053,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-project-manager-activations-744000135870169",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-project-manager-activations-744000135870169.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-project-manager-activations-744000135870169/CV_Changhang_LIU_2026-08-09_informa-sa-project-manager-activations-744000135870169.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-project-manager-activations-744000135870169",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:27.750Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-project-manager-activations-744000135870169.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-project-manager-activations-744000135870169/Cover_Letter_2026-08-09_informa-sa-project-manager-activations-744000135870169.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-project-manager-activations-744000135870169",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:27.706Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:27.750Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-MARKETING-MANAGER-744000135870689",
@@ -1337,12 +2107,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000135870689",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-marketing-manager-744000135870689.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000135870689/CV_Changhang_LIU_2026-08-09_informa-sa-marketing-manager-744000135870689.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000135870689",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:28.186Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-marketing-manager-744000135870689.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000135870689/Cover_Letter_2026-08-09_informa-sa-marketing-manager-744000135870689.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000135870689",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:28.092Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:28.186Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "REMOTE-PH-APAC-LIFECYCLE-CONTRACTS-MANAGER-7780930003",
@@ -1370,12 +2161,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-ph-apac-lifecycle-contracts-manager-7780930003",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_remote-ph-apac-lifecycle-contracts-manager-7780930003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-ph-apac-lifecycle-contracts-manager-7780930003/CV_Changhang_LIU_2026-08-09_remote-ph-apac-lifecycle-contracts-manager-7780930003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-ph-apac-lifecycle-contracts-manager-7780930003",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:28.409Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_remote-ph-apac-lifecycle-contracts-manager-7780930003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-ph-apac-lifecycle-contracts-manager-7780930003/Cover_Letter_2026-08-09_remote-ph-apac-lifecycle-contracts-manager-7780930003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-ph-apac-lifecycle-contracts-manager-7780930003",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:28.384Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:28.409Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-HK-ASSOCIATE-STRATEGIST-SOCIAL-4608676005",
@@ -1403,12 +2215,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-associate-strategist-social-4608676005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-hk-associate-strategist-social-4608676005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-associate-strategist-social-4608676005/CV_Changhang_LIU_2026-08-09_ogilvy-hk-associate-strategist-social-4608676005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-associate-strategist-social-4608676005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:28.594Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-hk-associate-strategist-social-4608676005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-associate-strategist-social-4608676005/Cover_Letter_2026-08-09_ogilvy-hk-associate-strategist-social-4608676005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-hk-associate-strategist-social-4608676005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:28.570Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:28.594Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-JP-CUSTOMER-ENABLEMENT-6099277004",
@@ -1436,12 +2269,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-jp-customer-enablement-6099277004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_figma-jp-customer-enablement-6099277004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-jp-customer-enablement-6099277004/CV_Changhang_LIU_2026-08-09_figma-jp-customer-enablement-6099277004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-jp-customer-enablement-6099277004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:28.758Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_figma-jp-customer-enablement-6099277004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-jp-customer-enablement-6099277004/Cover_Letter_2026-08-09_figma-jp-customer-enablement-6099277004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-jp-customer-enablement-6099277004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:28.731Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:28.758Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-UK-LONDON-JUNIOR-PR-AE-4712127005",
@@ -1469,12 +2323,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-junior-pr-ae-4712127005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-uk-london-junior-pr-ae-4712127005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-junior-pr-ae-4712127005/CV_Changhang_LIU_2026-08-09_ogilvy-uk-london-junior-pr-ae-4712127005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-junior-pr-ae-4712127005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:28.917Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-uk-london-junior-pr-ae-4712127005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-junior-pr-ae-4712127005/Cover_Letter_2026-08-09_ogilvy-uk-london-junior-pr-ae-4712127005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-uk-london-junior-pr-ae-4712127005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:28.894Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:28.917Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-PH-MAKATI-PROJECT-MANAGER-4599714005",
@@ -1502,12 +2377,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-ph-makati-project-manager-4599714005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-ph-makati-project-manager-4599714005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-ph-makati-project-manager-4599714005/CV_Changhang_LIU_2026-08-09_ogilvy-ph-makati-project-manager-4599714005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-ph-makati-project-manager-4599714005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:29.073Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-ph-makati-project-manager-4599714005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-ph-makati-project-manager-4599714005/Cover_Letter_2026-08-09_ogilvy-ph-makati-project-manager-4599714005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-ph-makati-project-manager-4599714005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:29.049Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:29.073Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-US-SALES-ENABLEMENT-ASSOCIATE-744000135269491",
@@ -1535,12 +2431,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-us-sales-enablement-associate-744000135269491",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-us-sales-enablement-associate-744000135269491.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-us-sales-enablement-associate-744000135269491/CV_Changhang_LIU_2026-08-09_informa-us-sales-enablement-associate-744000135269491.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-us-sales-enablement-associate-744000135269491",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:29.248Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-us-sales-enablement-associate-744000135269491.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-us-sales-enablement-associate-744000135269491/Cover_Letter_2026-08-09_informa-us-sales-enablement-associate-744000135269491.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-us-sales-enablement-associate-744000135269491",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:29.218Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:29.248Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "FIGMA-SG-CUSTOMER-ENABLEMENT-6111309004",
@@ -1568,12 +2485,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-customer-enablement-6111309004",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_figma-sg-customer-enablement-6111309004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-customer-enablement-6111309004/CV_Changhang_LIU_2026-08-09_figma-sg-customer-enablement-6111309004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-customer-enablement-6111309004",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:29.411Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_figma-sg-customer-enablement-6111309004.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-customer-enablement-6111309004/Cover_Letter_2026-08-09_figma-sg-customer-enablement-6111309004.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/figma-sg-customer-enablement-6111309004",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:29.387Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:29.411Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SG-MARKETING-EXEC-MEI-744000136132840",
@@ -1601,12 +2539,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-marketing-exec-mei-744000136132840",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sg-marketing-exec-mei-744000136132840.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-marketing-exec-mei-744000136132840/CV_Changhang_LIU_2026-08-09_informa-sg-marketing-exec-mei-744000136132840.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-marketing-exec-mei-744000136132840",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:29.571Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sg-marketing-exec-mei-744000136132840.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-marketing-exec-mei-744000136132840/Cover_Letter_2026-08-09_informa-sg-marketing-exec-mei-744000136132840.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-marketing-exec-mei-744000136132840",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:29.546Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:29.571Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-TW-SR-MARKETING-EXEC-744000136151569",
@@ -1634,12 +2593,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-sr-marketing-exec-744000136151569",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-tw-sr-marketing-exec-744000136151569.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-sr-marketing-exec-744000136151569/CV_Changhang_LIU_2026-08-09_informa-tw-sr-marketing-exec-744000136151569.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-sr-marketing-exec-744000136151569",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:29.738Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-tw-sr-marketing-exec-744000136151569.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-sr-marketing-exec-744000136151569/Cover_Letter_2026-08-09_informa-tw-sr-marketing-exec-744000136151569.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-tw-sr-marketing-exec-744000136151569",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:29.713Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:29.738Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-CONFERENCE-PRODUCER-744000136027079",
@@ -1667,12 +2647,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136027079",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-conference-producer-744000136027079.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136027079/CV_Changhang_LIU_2026-08-09_informa-sa-conference-producer-744000136027079.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136027079",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:29.894Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-conference-producer-744000136027079.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136027079/Cover_Letter_2026-08-09_informa-sa-conference-producer-744000136027079.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136027079",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:29.871Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:29.894Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-ES-BARCELONA-CONTENT-PM-4712453005",
@@ -1700,12 +2701,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-es-barcelona-content-pm-4712453005",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-es-barcelona-content-pm-4712453005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-es-barcelona-content-pm-4712453005/CV_Changhang_LIU_2026-08-09_ogilvy-es-barcelona-content-pm-4712453005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-es-barcelona-content-pm-4712453005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:30.049Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-es-barcelona-content-pm-4712453005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-es-barcelona-content-pm-4712453005/Cover_Letter_2026-08-09_ogilvy-es-barcelona-content-pm-4712453005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-es-barcelona-content-pm-4712453005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.025Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:30.049Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-INVESTOR-PROGRAM-MANAGER-744000136831069",
@@ -1733,12 +2755,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-manager-744000136831069",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-investor-program-manager-744000136831069.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-manager-744000136831069/CV_Changhang_LIU_2026-08-09_informa-sa-investor-program-manager-744000136831069.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-manager-744000136831069",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:30.220Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-investor-program-manager-744000136831069.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-manager-744000136831069/Cover_Letter_2026-08-09_informa-sa-investor-program-manager-744000136831069.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-investor-program-manager-744000136831069",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.186Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:30.220Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-MARKETING-MANAGER-744000136834886",
@@ -1766,12 +2809,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000136834886",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-marketing-manager-744000136834886.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000136834886/CV_Changhang_LIU_2026-08-09_informa-sa-marketing-manager-744000136834886.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000136834886",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:30.456Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-marketing-manager-744000136834886.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000136834886/Cover_Letter_2026-08-09_informa-sa-marketing-manager-744000136834886.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-marketing-manager-744000136834886",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.424Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:30.456Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SA-CONFERENCE-PRODUCER-744000136835039",
@@ -1799,12 +2863,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136835039",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sa-conference-producer-744000136835039.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136835039/CV_Changhang_LIU_2026-08-09_informa-sa-conference-producer-744000136835039.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136835039",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:30.624Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sa-conference-producer-744000136835039.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136835039/Cover_Letter_2026-08-09_informa-sa-conference-producer-744000136835039.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sa-conference-producer-744000136835039",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.600Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:30.624Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-VN-ASSISTANT-MARKETING-MANAGER-744000136715800",
@@ -1832,12 +2917,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-assistant-marketing-manager-744000136715800",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-vn-assistant-marketing-manager-744000136715800.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-assistant-marketing-manager-744000136715800/CV_Changhang_LIU_2026-08-09_informa-vn-assistant-marketing-manager-744000136715800.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-assistant-marketing-manager-744000136715800",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:30.778Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-vn-assistant-marketing-manager-744000136715800.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-assistant-marketing-manager-744000136715800/Cover_Letter_2026-08-09_informa-vn-assistant-marketing-manager-744000136715800.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-vn-assistant-marketing-manager-744000136715800",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.755Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:30.778Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "REMOTE-APAC-LIFECYCLE-TIME-ATTENDANCE-MANAGER-7799576003",
@@ -1865,12 +2971,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-lifecycle-time-attendance-manager-7799576003",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_remote-apac-lifecycle-time-attendance-manager-7799576003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-lifecycle-time-attendance-manager-7799576003/CV_Changhang_LIU_2026-08-09_remote-apac-lifecycle-time-attendance-manager-7799576003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-lifecycle-time-attendance-manager-7799576003",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.939Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_remote-apac-lifecycle-time-attendance-manager-7799576003.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-lifecycle-time-attendance-manager-7799576003/Cover_Letter_2026-08-09_remote-apac-lifecycle-time-attendance-manager-7799576003.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/remote-apac-lifecycle-time-attendance-manager-7799576003",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:30.916Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:30.939Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-SG-CONFERENCE-PRODUCER-FHA-744000137358309",
@@ -1898,12 +3025,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-conference-producer-fha-744000137358309",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-sg-conference-producer-fha-744000137358309.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-conference-producer-fha-744000137358309/CV_Changhang_LIU_2026-08-09_informa-sg-conference-producer-fha-744000137358309.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-conference-producer-fha-744000137358309",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:31.096Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-sg-conference-producer-fha-744000137358309.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-conference-producer-fha-744000137358309/Cover_Letter_2026-08-09_informa-sg-conference-producer-fha-744000137358309.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-sg-conference-producer-fha-744000137358309",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:31.071Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:31.096Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "INFORMA-MY-EVENT-EXECUTIVE-744000136152566",
@@ -1931,12 +3079,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-my-event-executive-744000136152566",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_informa-my-event-executive-744000136152566.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-my-event-executive-744000136152566/CV_Changhang_LIU_2026-08-09_informa-my-event-executive-744000136152566.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-my-event-executive-744000136152566",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:31.262Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_informa-my-event-executive-744000136152566.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-my-event-executive-744000136152566/Cover_Letter_2026-08-09_informa-my-event-executive-744000136152566.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/informa-my-event-executive-744000136152566",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:31.234Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:31.262Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "OGILVY-SG-PR-INFLUENCE-ASSOC-SR-4716516005",
@@ -1970,8 +3139,22 @@
         "hasCoverLetter": true
       },
       "materials": {
-        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials",
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-assoc-sr-4716516005",
         "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_ogilvy-sg-pr-influence-assoc-sr-4716516005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-assoc-sr-4716516005/CV_Changhang_LIU_2026-08-09_ogilvy-sg-pr-influence-assoc-sr-4716516005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-assoc-sr-4716516005",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:31.419Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_ogilvy-sg-pr-influence-assoc-sr-4716516005.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-assoc-sr-4716516005/Cover_Letter_2026-08-09_ogilvy-sg-pr-influence-assoc-sr-4716516005.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/ogilvy-sg-pr-influence-assoc-sr-4716516005",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:31.396Z"
+          },
           {
             "name": "Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
             "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/Cover_Letter_Ogilvy_PR_Influence_Associate_Singapore_2026-06-30.md",
@@ -1980,7 +3163,7 @@
             "modifiedAt": "2026-06-30T14:31:53.527Z"
           }
         ],
-        "generatedAt": "2026-06-30T14:31:53.527Z",
+        "generatedAt": "2026-08-09T15:04:31.419Z",
         "hasCv": false,
         "hasCoverLetter": true
       }
@@ -2011,12 +3194,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/openai-sg-program-manager-outreach-audiences-apac",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_openai-sg-program-manager-outreach-audiences-apac.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/openai-sg-program-manager-outreach-audiences-apac/CV_Changhang_LIU_2026-08-09_openai-sg-program-manager-outreach-audiences-apac.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/openai-sg-program-manager-outreach-audiences-apac",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:31.574Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_openai-sg-program-manager-outreach-audiences-apac.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/openai-sg-program-manager-outreach-audiences-apac/Cover_Letter_2026-08-09_openai-sg-program-manager-outreach-audiences-apac.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/openai-sg-program-manager-outreach-audiences-apac",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:31.552Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:31.574Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SEEK-SG-CUSTOMER-SUCCESS-EXEC-744000120855727",
@@ -2044,12 +3248,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-sg-customer-success-exec-744000120855727",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_seek-sg-customer-success-exec-744000120855727.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-sg-customer-success-exec-744000120855727/CV_Changhang_LIU_2026-08-09_seek-sg-customer-success-exec-744000120855727.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-sg-customer-success-exec-744000120855727",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:31.739Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_seek-sg-customer-success-exec-744000120855727.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-sg-customer-success-exec-744000120855727/Cover_Letter_2026-08-09_seek-sg-customer-success-exec-744000120855727.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-sg-customer-success-exec-744000120855727",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:31.710Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:31.739Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SEEK-MY-PARTNER-SUCCESS-LEAD-744000140143219",
@@ -2077,12 +3302,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-partner-success-lead-744000140143219",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_seek-my-partner-success-lead-744000140143219.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-partner-success-lead-744000140143219/CV_Changhang_LIU_2026-08-09_seek-my-partner-success-lead-744000140143219.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-partner-success-lead-744000140143219",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:31.894Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_seek-my-partner-success-lead-744000140143219.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-partner-success-lead-744000140143219/Cover_Letter_2026-08-09_seek-my-partner-success-lead-744000140143219.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-partner-success-lead-744000140143219",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:31.871Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:31.894Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "BRUNSWICK-SG-EXECUTIVE-8653108002",
@@ -2110,12 +3356,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002/CV_Changhang_LIU_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.046Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002/Cover_Letter_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.023Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.046Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SEEK-MY-GRAD-PROGRAMS-SPECIALIST-744000140418143",
@@ -2143,12 +3410,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-grad-programs-specialist-744000140418143",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_seek-my-grad-programs-specialist-744000140418143.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-grad-programs-specialist-744000140418143/CV_Changhang_LIU_2026-08-09_seek-my-grad-programs-specialist-744000140418143.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-grad-programs-specialist-744000140418143",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.201Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_seek-my-grad-programs-specialist-744000140418143.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-grad-programs-specialist-744000140418143/Cover_Letter_2026-08-09_seek-my-grad-programs-specialist-744000140418143.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/seek-my-grad-programs-specialist-744000140418143",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.178Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.201Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "TEMASEK-SG-COMMUNITY-STEWARDSHIP-11767",
@@ -2176,12 +3464,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/temasek-sg-community-stewardship-11767",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_temasek-sg-community-stewardship-11767.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/temasek-sg-community-stewardship-11767/CV_Changhang_LIU_2026-08-09_temasek-sg-community-stewardship-11767.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/temasek-sg-community-stewardship-11767",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.356Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_temasek-sg-community-stewardship-11767.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/temasek-sg-community-stewardship-11767/Cover_Letter_2026-08-09_temasek-sg-community-stewardship-11767.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/temasek-sg-community-stewardship-11767",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.332Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.356Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "TOKEN2049-SG-HK-COMMUNITY-MANAGER-4000696201",
@@ -2209,12 +3518,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/token2049-sg-hk-community-manager-4000696201",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_token2049-sg-hk-community-manager-4000696201.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/token2049-sg-hk-community-manager-4000696201/CV_Changhang_LIU_2026-08-09_token2049-sg-hk-community-manager-4000696201.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/token2049-sg-hk-community-manager-4000696201",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.520Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_token2049-sg-hk-community-manager-4000696201.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/token2049-sg-hk-community-manager-4000696201/Cover_Letter_2026-08-09_token2049-sg-hk-community-manager-4000696201.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/token2049-sg-hk-community-manager-4000696201",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.496Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.520Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "APPLE-CN-SH-COMMUNITY-INVESTMENT-PM-200658341",
@@ -2242,12 +3572,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-cn-sh-community-investment-pm-200658341",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_apple-cn-sh-community-investment-pm-200658341.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-cn-sh-community-investment-pm-200658341/CV_Changhang_LIU_2026-08-09_apple-cn-sh-community-investment-pm-200658341.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-cn-sh-community-investment-pm-200658341",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.671Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_apple-cn-sh-community-investment-pm-200658341.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-cn-sh-community-investment-pm-200658341/Cover_Letter_2026-08-09_apple-cn-sh-community-investment-pm-200658341.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-cn-sh-community-investment-pm-200658341",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.648Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.671Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SENTIENT-CN-COMMUNITY-MANAGER-CA2BDDEA",
@@ -2275,12 +3626,33 @@
       "riskLevel": "low",
       "riskLabel": "低风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sentient-cn-community-manager-ca2bddea",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_sentient-cn-community-manager-ca2bddea.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sentient-cn-community-manager-ca2bddea/CV_Changhang_LIU_2026-08-09_sentient-cn-community-manager-ca2bddea.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sentient-cn-community-manager-ca2bddea",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.832Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_sentient-cn-community-manager-ca2bddea.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sentient-cn-community-manager-ca2bddea/Cover_Letter_2026-08-09_sentient-cn-community-manager-ca2bddea.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sentient-cn-community-manager-ca2bddea",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.809Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.832Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "APPLE-SG-APAC-PARTNER-MARKETING-PM-200667579",
@@ -2308,12 +3680,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-sg-apac-partner-marketing-pm-200667579",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_apple-sg-apac-partner-marketing-pm-200667579.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-sg-apac-partner-marketing-pm-200667579/CV_Changhang_LIU_2026-08-09_apple-sg-apac-partner-marketing-pm-200667579.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-sg-apac-partner-marketing-pm-200667579",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:32.987Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_apple-sg-apac-partner-marketing-pm-200667579.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-sg-apac-partner-marketing-pm-200667579/Cover_Letter_2026-08-09_apple-sg-apac-partner-marketing-pm-200667579.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/apple-sg-apac-partner-marketing-pm-200667579",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.965Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.987Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "AIRWALLEX-HK-ASSOC-GTM-PARTNERSHIPS-EB5E2E34",
@@ -2341,12 +3734,33 @@
       "riskLevel": "medium",
       "riskLabel": "可验证",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-assoc-gtm-partnerships-eb5e2e34",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_airwallex-hk-assoc-gtm-partnerships-eb5e2e34.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-assoc-gtm-partnerships-eb5e2e34/CV_Changhang_LIU_2026-08-09_airwallex-hk-assoc-gtm-partnerships-eb5e2e34.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-assoc-gtm-partnerships-eb5e2e34",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:33.144Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_airwallex-hk-assoc-gtm-partnerships-eb5e2e34.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-assoc-gtm-partnerships-eb5e2e34/Cover_Letter_2026-08-09_airwallex-hk-assoc-gtm-partnerships-eb5e2e34.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/airwallex-hk-assoc-gtm-partnerships-eb5e2e34",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:33.122Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:33.144Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     },
     {
       "id": "SGS-AU-PROGRAM-COORDINATOR-SCS-SUSTAINABILITY-744000142049404",
@@ -2374,12 +3788,33 @@
       "riskLevel": "high",
       "riskLabel": "中高风险",
       "materialStatus": {
-        "state": "missing",
-        "label": "未生成材料",
+        "state": "partial",
+        "label": "已有 Cover Letter",
         "hasCv": false,
-        "hasCoverLetter": false
+        "hasCoverLetter": true
       },
-      "materials": null
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-au-program-coordinator-scs-sustainability-744000142049404",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_sgs-au-program-coordinator-scs-sustainability-744000142049404.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-au-program-coordinator-scs-sustainability-744000142049404/CV_Changhang_LIU_2026-08-09_sgs-au-program-coordinator-scs-sustainability-744000142049404.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-au-program-coordinator-scs-sustainability-744000142049404",
+            "kind": "support",
+            "modifiedAt": "2026-08-09T15:04:33.317Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_sgs-au-program-coordinator-scs-sustainability-744000142049404.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-au-program-coordinator-scs-sustainability-744000142049404/Cover_Letter_2026-08-09_sgs-au-program-coordinator-scs-sustainability-744000142049404.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/sgs-au-program-coordinator-scs-sustainability-744000142049404",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:33.293Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:33.317Z",
+        "hasCv": false,
+        "hasCoverLetter": true
+      }
     }
   ]
 }
