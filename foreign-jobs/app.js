@@ -1,10 +1,12 @@
 const DATA_URL = "./data/jobs.json";
 const APPLIED_STORAGE_KEY = "foreignJobsApplied:v1";
+const LOCAL_HELPER_BASE = "http://127.0.0.1:47831";
 
 const state = {
   jobs: [],
   filtered: [],
   appliedJobs: new Set(),
+  localHelperAvailable: false,
   filters: {
     search: "",
     status: "actionable",
@@ -62,6 +64,38 @@ async function copyToClipboard(text) {
 
 function quoteShellPath(value) {
   return `"${String(value || "").replace(/(["\\$`])/g, "\\$1")}"`;
+}
+
+function buildRevealFileCommand(filePath) {
+  return `open -R ${quoteShellPath(filePath)}`;
+}
+
+async function probeLocalHelper() {
+  try {
+    const resp = await fetch(`${LOCAL_HELPER_BASE}/health`);
+    if (!resp.ok) return false;
+    const data = await resp.json();
+    return Boolean(data.ok);
+  } catch {
+    return false;
+  }
+}
+
+async function requestLocalHelper(endpoint, payload) {
+  const resp = await fetch(`${LOCAL_HELPER_BASE}${endpoint}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload)
+  });
+  if (!resp.ok) {
+    let message = `HTTP ${resp.status}`;
+    try {
+      const data = await resp.json();
+      if (data?.message) message = data.message;
+    } catch {}
+    throw new Error(message);
+  }
+  return resp.json();
 }
 
 function formatDate(value) {
@@ -228,6 +262,30 @@ function starString(score) {
   return `${"★".repeat(value)}${"☆".repeat(5 - value)}`;
 }
 
+function getMaterialFile(job, kind) {
+  return job.materials?.files?.find((file) => file.kind === kind) || null;
+}
+
+async function openMaterial(file, label) {
+  if (!file?.path) {
+    showToast(`这个岗位还没有现成的 ${label} 文件`);
+    return;
+  }
+
+  if (state.localHelperAvailable) {
+    try {
+      await requestLocalHelper("/reveal-file", { path: file.path });
+      showToast(`已在 Finder 中定位 ${label}`);
+      return;
+    } catch {
+      state.localHelperAvailable = false;
+    }
+  }
+
+  const copied = await copyToClipboard(buildRevealFileCommand(file.path));
+  showToast(copied ? `本机直开未连接，已复制定位 ${label} 的 Mac 命令` : "命令复制失败，请检查浏览器剪贴板权限");
+}
+
 function renderMaterials(job) {
   if (!job.materials || !Array.isArray(job.materials.files) || job.materials.files.length === 0) {
     return `
@@ -239,6 +297,8 @@ function renderMaterials(job) {
     `;
   }
 
+  const cvFile = getMaterialFile(job, "cv");
+  const clFile = getMaterialFile(job, "coverLetter");
   const fileList = job.materials.files.map((file) => `
     <li>
       <span>${escapeHtml(file.kind === "coverLetter" ? "Cover Letter" : file.kind === "cv" ? "CV" : "支持材料")}</span>
@@ -253,7 +313,11 @@ function renderMaterials(job) {
         <p>最近更新 ${escapeHtml(formatMaterialStamp(job.materials))}</p>
       </div>
       <ul>${fileList}</ul>
-      <button type="button" class="ghost-button" data-copy-path="${escapeHtml(job.materials.files[0].path)}">复制定位命令</button>
+      <div class="material-openers" aria-label="申请材料打开按钮">
+        ${cvFile ? `<button type="button" class="material-button" data-open-material="cv" data-job-id="${escapeHtml(job.id)}" title="双击打开或定位 CV">CV</button>` : ""}
+        ${clFile ? `<button type="button" class="material-button" data-open-material="coverLetter" data-job-id="${escapeHtml(job.id)}" title="双击打开或定位 Cover Letter">CL</button>` : ""}
+      </div>
+      <p class="materials-helper">单击提示，双击打开/定位文件；若本机助手未连接，会复制 Mac 定位命令。</p>
     </div>
   `;
 }
@@ -353,6 +417,13 @@ function bindFilters() {
   }
 
   document.addEventListener("click", async (event) => {
+    const materialButton = event.target.closest("[data-open-material]");
+    if (materialButton) {
+      const label = materialButton.dataset.openMaterial === "cv" ? "CV" : "Cover Letter";
+      showToast(`双击 ${label} 按钮即可打开/定位文件`);
+      return;
+    }
+
     const appliedButton = event.target.closest("[data-toggle-applied]");
     if (appliedButton) {
       toggleApplied(appliedButton.dataset.toggleApplied);
@@ -374,10 +445,21 @@ function bindFilters() {
       if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   });
+
+  document.addEventListener("dblclick", async (event) => {
+    const materialButton = event.target.closest("[data-open-material]");
+    if (!materialButton) return;
+    const job = state.jobs.find((item) => item.id === materialButton.dataset.jobId);
+    if (!job) return;
+    const kind = materialButton.dataset.openMaterial;
+    const label = kind === "cv" ? "CV" : "Cover Letter";
+    await openMaterial(getMaterialFile(job, kind), label);
+  });
 }
 
 async function init() {
   state.appliedJobs = loadAppliedJobs();
+  state.localHelperAvailable = await probeLocalHelper();
   const resp = await fetch(`${DATA_URL}?v=${Date.now()}`);
   if (!resp.ok) throw new Error(`Unable to load jobs data: ${resp.status}`);
   const data = await resp.json();

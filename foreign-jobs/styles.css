@@ -479,6 +479,38 @@ h1 {
   overflow-wrap: anywhere;
 }
 
+.material-openers {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.material-button {
+  width: 46px;
+  min-width: 46px;
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  background: #fff;
+  font-weight: 900;
+  cursor: pointer;
+  user-select: none;
+}
+
+.material-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.materials-helper {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .job-actions {
   display: flex;
   justify-content: flex-end;
@@ -615,5 +647,9 @@ h1 {
   .mark-button,
   .ghost-button {
     width: 100%;
+  }
+
+  .material-openers {
+    justify-content: flex-start;
   }
 }
