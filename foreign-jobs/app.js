@@ -1,11 +1,25 @@
 const DATA_URL = "./data/jobs.json";
 const APPLIED_STORAGE_KEY = "foreignJobsApplied:v1";
+const REJECTED_STORAGE_KEY = "foreignJobsRejected:v1";
 const LOCAL_HELPER_BASE = "http://127.0.0.1:47831";
+
+const REJECT_REASONS = [
+  "方向不合适",
+  "工签风险太高",
+  "经验要求过高",
+  "太偏销售/增长",
+  "地点不合适",
+  "语言/本地化要求不合适",
+  "公司/行业不想投",
+  "岗位太初级",
+  "其他原因"
+];
 
 const state = {
   jobs: [],
   filtered: [],
   appliedJobs: new Set(),
+  rejectedJobs: new Map(),
   localHelperAvailable: false,
   filters: {
     search: "",
@@ -14,6 +28,7 @@ const state = {
     score: "all",
     category: "all",
     application: "all",
+    suitability: "active",
     sortBy: "match"
   }
 };
@@ -40,8 +55,23 @@ function loadAppliedJobs() {
   }
 }
 
+function loadRejectedJobs() {
+  try {
+    const raw = localStorage.getItem(REJECTED_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return new Map();
+    return new Map(Object.entries(parsed));
+  } catch {
+    return new Map();
+  }
+}
+
 function saveAppliedJobs() {
   localStorage.setItem(APPLIED_STORAGE_KEY, JSON.stringify([...state.appliedJobs]));
+}
+
+function saveRejectedJobs() {
+  localStorage.setItem(REJECTED_STORAGE_KEY, JSON.stringify(Object.fromEntries(state.rejectedJobs)));
 }
 
 function showToast(message) {
@@ -122,6 +152,34 @@ function isApplied(jobId) {
   return state.appliedJobs.has(jobId);
 }
 
+function isRejected(jobId) {
+  return state.rejectedJobs.has(jobId);
+}
+
+function rejectionReason(jobId) {
+  return state.rejectedJobs.get(jobId)?.reason || REJECT_REASONS[0];
+}
+
+function setRejected(jobId, reason) {
+  state.rejectedJobs.set(jobId, {
+    reason: reason || REJECT_REASONS[0],
+    updatedAt: new Date().toISOString()
+  });
+  saveRejectedJobs();
+  render();
+}
+
+function updateRejectedReason(jobId, reason) {
+  if (!state.rejectedJobs.has(jobId)) return;
+  setRejected(jobId, reason);
+}
+
+function restoreRejected(jobId) {
+  state.rejectedJobs.delete(jobId);
+  saveRejectedJobs();
+  render();
+}
+
 function toggleApplied(jobId) {
   if (state.appliedJobs.has(jobId)) {
     state.appliedJobs.delete(jobId);
@@ -179,6 +237,8 @@ function matchesFilters(job) {
   if (state.filters.category !== "all" && job.category !== state.filters.category) return false;
   if (state.filters.application === "applied" && !isApplied(job.id)) return false;
   if (state.filters.application === "not_applied" && isApplied(job.id)) return false;
+  if (state.filters.suitability === "active" && isRejected(job.id)) return false;
+  if (state.filters.suitability === "rejected" && !isRejected(job.id)) return false;
   return true;
 }
 
@@ -196,13 +256,14 @@ function chip(label, value, tone = "") {
 
 function renderAuditGrid(data) {
   const appliedCount = state.appliedJobs.size;
+  const rejectedCount = state.rejectedJobs.size;
   el("auditGrid").innerHTML = [
     chip("可行动", (data.counts.active || 0) + (data.counts.closing || 0), "green"),
     chip("4★+", data.counts.highMatch || 0, "blue"),
     chip("低风险", data.counts.lowRisk || 0, "green"),
     chip("可验证", data.counts.verifiableRisk || 0, "amber"),
     chip("中高风险", data.counts.highRisk || 0, "red"),
-    chip("已标记投递", appliedCount, "ink")
+    chip("已投递 / 已筛掉", `${appliedCount} / ${rejectedCount}`, "ink")
   ].join("");
 }
 
@@ -221,11 +282,13 @@ function renderSummaryBar() {
   const highMatch = state.filtered.filter((job) => Number(job.matchScore || 0) >= 4).length;
   const lowRisk = state.filtered.filter((job) => job.riskLevel === "low").length;
   const materials = state.filtered.filter((job) => job.materialStatus?.state !== "missing").length;
+  const rejected = state.filtered.filter((job) => isRejected(job.id)).length;
   el("summaryBar").innerHTML = `
     <span class="pill active">${active} 个可行动</span>
     <span class="pill blue">${highMatch} 个 4★+</span>
     <span class="pill green">${lowRisk} 个低风险</span>
     <span class="pill amber">${materials} 个已有材料</span>
+    <span class="pill red">${rejected} 个已筛掉</span>
     <span class="pill muted">${state.filtered.length} / ${state.jobs.length} 当前筛选</span>
   `;
 }
@@ -234,7 +297,7 @@ function renderPriorityList(data) {
   const priority = (data.highlights?.priority || [])
     .map((item) => state.jobs.find((job) => job.id === item.id))
     .filter(Boolean)
-    .filter((job) => !isApplied(job.id) && job.status !== "expired")
+    .filter((job) => !isApplied(job.id) && !isRejected(job.id) && job.status !== "expired")
     .slice(0, 5);
 
   if (priority.length === 0) {
@@ -322,11 +385,30 @@ function renderMaterials(job) {
   `;
 }
 
+function renderRejectControls(job) {
+  const rejected = isRejected(job.id);
+  const selectedReason = rejectionReason(job.id);
+  const options = REJECT_REASONS.map((reason) => `
+    <option value="${escapeHtml(reason)}" ${reason === selectedReason ? "selected" : ""}>${escapeHtml(reason)}</option>
+  `).join("");
+  return `
+    <div class="reject-controls ${rejected ? "is-rejected" : ""}">
+      <select class="reject-reason" data-reject-reason="${escapeHtml(job.id)}" aria-label="筛掉原因">
+        ${options}
+      </select>
+      <button type="button" class="reject-button ${rejected ? "restore" : ""}" data-${rejected ? "restore-rejected" : "reject-job"}="${escapeHtml(job.id)}">
+        ${rejected ? "恢复" : "筛掉"}
+      </button>
+    </div>
+  `;
+}
+
 function renderJob(job) {
   const applied = isApplied(job.id);
+  const rejected = isRejected(job.id);
   const applicationLabel = applied ? "已投递" : "标记已投";
   return `
-    <article class="job-card ${job.status === "expired" ? "is-expired" : ""}" id="job-${escapeHtml(job.id)}">
+    <article class="job-card ${job.status === "expired" ? "is-expired" : ""} ${rejected ? "is-rejected" : ""}" id="job-${escapeHtml(job.id)}">
       <div class="job-topline">
         <div>
           <p class="company">${escapeHtml(job.company)}</p>
@@ -345,6 +427,7 @@ function renderJob(job) {
         <span>${escapeHtml(job.category || "")}</span>
         <span>${escapeHtml(job.source || "")}</span>
         <span class="${applied ? "applied-chip" : ""}">${applied ? "已投递" : "未投递"}</span>
+        ${rejected ? `<span class="rejected-chip">已筛掉：${escapeHtml(rejectionReason(job.id))}</span>` : ""}
         <span>${escapeHtml(job.materialStatus?.label || "未生成材料")}</span>
       </div>
 
@@ -372,6 +455,7 @@ function renderJob(job) {
       <div class="job-actions">
         <a class="primary-link" href="${escapeHtml(job.link || "#")}" target="_blank" rel="noreferrer">官方申请</a>
         <button type="button" class="mark-button ${applied ? "is-applied" : ""}" data-toggle-applied="${escapeHtml(job.id)}">${applicationLabel}</button>
+        ${renderRejectControls(job)}
       </div>
     </article>
   `;
@@ -407,6 +491,7 @@ function bindFilters() {
     ["scoreFilter", "score", "change"],
     ["categoryFilter", "category", "change"],
     ["applicationFilter", "application", "change"],
+    ["suitabilityFilter", "suitability", "change"],
     ["sortFilter", "sortBy", "change"]
   ];
   for (const [id, key, eventName] of bindings) {
@@ -421,6 +506,22 @@ function bindFilters() {
     if (materialButton) {
       const label = materialButton.dataset.openMaterial === "cv" ? "CV" : "Cover Letter";
       showToast(`双击 ${label} 按钮即可打开/定位文件`);
+      return;
+    }
+
+    const rejectButton = event.target.closest("[data-reject-job]");
+    if (rejectButton) {
+      const jobId = rejectButton.dataset.rejectJob;
+      const select = rejectButton.closest(".job-card")?.querySelector("[data-reject-reason]");
+      setRejected(jobId, select?.value || REJECT_REASONS[0]);
+      showToast("已筛掉该岗位");
+      return;
+    }
+
+    const restoreButton = event.target.closest("[data-restore-rejected]");
+    if (restoreButton) {
+      restoreRejected(restoreButton.dataset.restoreRejected);
+      showToast("已恢复该岗位");
       return;
     }
 
@@ -446,6 +547,15 @@ function bindFilters() {
     }
   });
 
+  document.addEventListener("change", (event) => {
+    const reasonSelect = event.target.closest("[data-reject-reason]");
+    if (!reasonSelect) return;
+    updateRejectedReason(reasonSelect.dataset.rejectReason, reasonSelect.value);
+    if (isRejected(reasonSelect.dataset.rejectReason)) {
+      showToast("筛掉原因已更新");
+    }
+  });
+
   document.addEventListener("dblclick", async (event) => {
     const materialButton = event.target.closest("[data-open-material]");
     if (!materialButton) return;
@@ -459,6 +569,7 @@ function bindFilters() {
 
 async function init() {
   state.appliedJobs = loadAppliedJobs();
+  state.rejectedJobs = loadRejectedJobs();
   state.localHelperAvailable = await probeLocalHelper();
   const resp = await fetch(`${DATA_URL}?v=${Date.now()}`);
   if (!resp.ok) throw new Error(`Unable to load jobs data: ${resp.status}`);
