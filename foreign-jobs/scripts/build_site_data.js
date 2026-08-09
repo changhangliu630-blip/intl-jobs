@@ -155,8 +155,8 @@ function walkFiles(rootDir) {
 
 function classifyMaterial(filePath) {
   const name = path.basename(filePath).toLowerCase();
-  if (/cover|letter|cl/.test(name)) return "coverLetter";
-  if (/\bcv\b|resume|résumé/.test(name)) return "cv";
+  if (/^cv(?:[_\-\s.]|$)|(?:^|[_\-\s.])cv(?:[_\-\s.]|$)|resume|résumé/.test(name)) return "cv";
+  if (/cover(?:[_\-\s.]|$)|letter|cover_letter/.test(name)) return "coverLetter";
   return "support";
 }
 
