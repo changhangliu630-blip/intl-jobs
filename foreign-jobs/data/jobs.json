@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-11",
-  "generatedAt": "2026-08-11T08:15:26+08:00",
-  "auditDate": "2026-08-11",
+  "lastUpdated": "2026-08-12",
+  "generatedAt": "2026-08-12T08:14:40+08:00",
+  "auditDate": "2026-08-12",
   "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
   "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
   "counts": {
@@ -2426,7 +2426,7 @@
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-01 已过。",
-      "daysLeft": -10,
+      "daysLeft": -11,
       "category": "伙伴关系/生态运营",
       "riskLevel": "high",
       "riskLabel": "中高风险",
