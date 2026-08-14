@@ -2,6 +2,7 @@ const DATA_URL = "./data/jobs.json";
 const APPLIED_STORAGE_KEY = "foreignJobsApplied:v1";
 const REJECTED_STORAGE_KEY = "foreignJobsRejected:v1";
 const LOCAL_HELPER_BASE = "http://127.0.0.1:47831";
+const HELPER_STARTER_PATH = "/Users/Archer/Desktop/Adventurer Guild/foreign-jobs-site/start_local_open_helper.command";
 
 const REJECT_REASONS = [
   "方向不合适",
@@ -82,6 +83,10 @@ function showToast(message) {
   showToast.timer = setTimeout(() => toast.classList.remove("show"), 2200);
 }
 
+function getLocalHelperStartupHint() {
+  return `请先双击 ${HELPER_STARTER_PATH}，再重试。`;
+}
+
 async function copyToClipboard(text) {
   if (!text) return false;
   try {
@@ -126,6 +131,12 @@ async function requestLocalHelper(endpoint, payload) {
     throw new Error(message);
   }
   return resp.json();
+}
+
+async function ensureLocalHelperAvailable() {
+  if (state.localHelperAvailable) return true;
+  state.localHelperAvailable = await probeLocalHelper();
+  return state.localHelperAvailable;
 }
 
 function formatDate(value) {
@@ -335,18 +346,24 @@ async function openMaterial(file, label) {
     return;
   }
 
-  if (state.localHelperAvailable) {
+  if (await ensureLocalHelperAvailable()) {
     try {
       await requestLocalHelper("/reveal-file", { path: file.path });
       showToast(`已在 Finder 中定位 ${label}`);
       return;
-    } catch {
+    } catch (error) {
       state.localHelperAvailable = false;
+      showToast(`本机直开失败：${error.message}。${getLocalHelperStartupHint()}`);
+      return;
     }
   }
 
   const copied = await copyToClipboard(buildRevealFileCommand(file.path));
-  showToast(copied ? `本机直开未连接，已复制定位 ${label} 的 Mac 命令` : "命令复制失败，请检查浏览器剪贴板权限");
+  showToast(
+    copied
+      ? `本机直开未连接，已复制定位 ${label} 的 Mac 命令。${getLocalHelperStartupHint()}`
+      : `命令复制失败，请检查浏览器剪贴板权限。${getLocalHelperStartupHint()}`
+  );
 }
 
 function renderMaterials(job) {
