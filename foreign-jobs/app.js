@@ -453,6 +453,7 @@ function renderJob(job) {
         <div><dt>模式</dt><dd>${escapeHtml(job.workMode || "未写明")}</dd></div>
         <div><dt>类型</dt><dd>${escapeHtml(job.contract || "未写明")}</dd></div>
         <div><dt>发布日期</dt><dd>${escapeHtml(formatDate(job.postedDate || job.reportedDate))}</dd></div>
+        <div><dt>入库时间</dt><dd>${escapeHtml(formatDate(job.reportedDate))}</dd></div>
         <div><dt>截止</dt><dd>${escapeHtml(formatDate(job.deadline))}</dd></div>
       </dl>
 
