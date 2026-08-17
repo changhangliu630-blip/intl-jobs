@@ -394,6 +394,10 @@ function deadlineText(job) {
   return job.deadline;
 }
 
+function reportedDateText(job) {
+  return job.reportedDate || "未知";
+}
+
 function sortJobs(a, b) {
   const { sortBy } = state.filters;
   if (sortBy === "deadline") {
@@ -453,6 +457,7 @@ function renderJob(job) {
         <div><strong>截止</strong><span>${deadlineText(job)}</span></div>
         <div><strong>申请方式</strong><span>${job.applyMethod || "未说明"}</span></div>
       </div>
+      <p class="job-copy"><strong>新增时间：</strong>${reportedDateText(job)}</p>
       ${job.matchNote ? `<p class="job-copy"><strong>匹配说明：</strong>${job.matchNote}</p>` : ""}
       ${job.statusReason ? `<p class="job-copy"><strong>核查结论：</strong>${job.statusReason}</p>` : ""}
       ${job.requirements ? `<p class="job-copy"><strong>岗位重点：</strong>${job.requirements}</p>` : ""}
