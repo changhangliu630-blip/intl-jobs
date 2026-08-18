@@ -1,20 +1,20 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-17",
-  "generatedAt": "2026-08-17T08:14:17+08:00",
-  "auditDate": "2026-08-17",
+  "lastUpdated": "2026-08-18",
+  "generatedAt": "2026-08-18T08:20:06+08:00",
+  "auditDate": "2026-08-18",
   "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
   "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
   "counts": {
-    "total": 70,
-    "active": 66,
+    "total": 71,
+    "active": 67,
     "closing": 0,
     "expired": 4,
-    "highMatch": 35,
+    "highMatch": 36,
     "lowRisk": 15,
-    "verifiableRisk": 30,
+    "verifiableRisk": 31,
     "highRisk": 25,
-    "withMaterials": 69
+    "withMaterials": 70
   },
   "highlights": {
     "priority": [
@@ -2426,7 +2426,7 @@
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-01 已过。",
-      "daysLeft": -16,
+      "daysLeft": -17,
       "category": "伙伴关系/生态运营",
       "riskLevel": "high",
       "riskLabel": "中高风险",
@@ -3848,6 +3848,60 @@
         "hasCoverLetter": false
       },
       "materials": null
+    },
+    {
+      "id": "GCIHEALTH-SG-SAM-PA-HEALTH-COMMS-5193504008",
+      "title": "公共事务与健康传播高级客户经理",
+      "titleEn": "Senior Account Manager, Public Affairs and Health Communications",
+      "company": "GCI Health (WPP)",
+      "location": "新加坡",
+      "workMode": "Singapore office / hybrid，通常每周约4天到办公室",
+      "contract": "Full-time",
+      "deadline": "",
+      "postedDate": "2026-06-09",
+      "link": "https://job-boards.greenhouse.io/gcihealth/jobs/5193504008",
+      "source": "GCI Health / Greenhouse",
+      "matchScore": 4,
+      "matchNote": "岗位直接覆盖公共事务与健康传播项目、客户与利益相关方关系、政策咨询、会议活动、stakeholder mapping、研究简报及跨工作流交付，和候选人的国际项目协调、20+国际组织伙伴沟通、UN Job Fair及双语材料经验高度相连。主要短板是岗位要求管理复杂客户组合并辅导初级同事，且希望了解新加坡或亚太医疗体系，需要把CSC项目负责人经历转译为多账户交付与客户服务能力。",
+      "workPermitRisk": "可验证",
+      "workPermitNote": "岗位常驻新加坡，官方申请表明确询问当前或未来是否需要 sponsorship，但未承诺 Employment Pass 支持，也未写必须已有本地工作权；建议投递前或首轮沟通时确认 EP sponsorship，并准备说明跨境入职时间。",
+      "reportedDate": "2026-08-18",
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "medium",
+      "riskLabel": "可验证",
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-18/gcihealth-sg-sam-pa-health-comms-5193504008",
+        "files": [
+          {
+            "name": "Cover_Letter_2026-08-18_gcihealth-sg-sam-pa-health-comms-5193504008.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-18/gcihealth-sg-sam-pa-health-comms-5193504008/Cover_Letter_2026-08-18_gcihealth-sg-sam-pa-health-comms-5193504008.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-18/gcihealth-sg-sam-pa-health-comms-5193504008",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-18T00:19:32.604Z"
+          },
+          {
+            "name": "CV_Changhang_LIU_2026-08-18_gcihealth-sg-sam-pa-health-comms-5193504008.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-18/gcihealth-sg-sam-pa-health-comms-5193504008/CV_Changhang_LIU_2026-08-18_gcihealth-sg-sam-pa-health-comms-5193504008.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-18/gcihealth-sg-sam-pa-health-comms-5193504008",
+            "kind": "cv",
+            "modifiedAt": "2026-08-18T00:14:40.980Z"
+          }
+        ],
+        "generatedAt": "2026-08-18T00:19:32.604Z",
+        "hasCv": true,
+        "hasCoverLetter": true
+      }
     }
   ]
 }
