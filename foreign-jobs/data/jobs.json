@@ -1,20 +1,20 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-08-31",
-  "generatedAt": "2026-08-31T08:14:23+08:00",
-  "auditDate": "2026-08-31",
+  "lastUpdated": "2026-09-01",
+  "generatedAt": "2026-09-01T08:13:46+08:00",
+  "auditDate": "2026-09-01",
   "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
   "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
   "counts": {
-    "total": 77,
-    "active": 72,
+    "total": 78,
+    "active": 73,
     "closing": 0,
     "expired": 5,
-    "highMatch": 40,
-    "lowRisk": 19,
+    "highMatch": 41,
+    "lowRisk": 20,
     "verifiableRisk": 32,
     "highRisk": 26,
-    "withMaterials": 70
+    "withMaterials": 71
   },
   "highlights": {
     "priority": [
@@ -26,6 +26,16 @@
         "location": "中国香港",
         "matchScore": 5,
         "riskLabel": "可验证",
+        "category": "战略传播/公共事务"
+      },
+      {
+        "id": "BRUNSWICK-SG-EXECUTIVE-8653108002",
+        "title": "东南亚战略传播与公共事务执行顾问",
+        "titleEn": "Executive",
+        "company": "Brunswick Group",
+        "location": "新加坡",
+        "matchScore": 4,
+        "riskLabel": "低风险",
         "category": "战略传播/公共事务"
       },
       {
@@ -57,16 +67,6 @@
         "matchScore": 4,
         "riskLabel": "低风险",
         "category": "战略传播/公共事务"
-      },
-      {
-        "id": "AIRWALLEX-HK-ASSOC-GTM-PARTNERSHIPS-EB5E2E34",
-        "title": "GTM 伙伴关系副经理",
-        "titleEn": "Associate GTM Partnerships Manager",
-        "company": "Airwallex",
-        "location": "中国香港",
-        "matchScore": 4,
-        "riskLabel": "可验证",
-        "category": "伙伴关系/生态运营"
       }
     ],
     "notes": [
@@ -2426,7 +2426,7 @@
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-01 已过。",
-      "daysLeft": -30,
+      "daysLeft": -31,
       "category": "伙伴关系/生态运营",
       "riskLevel": "high",
       "riskLabel": "中高风险",
@@ -4056,7 +4056,7 @@
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-18 尚未到期。",
-      "daysLeft": 18,
+      "daysLeft": 17,
       "category": "战略传播/公共事务",
       "riskLevel": "medium",
       "riskLabel": "可验证",
@@ -4100,6 +4100,60 @@
         "hasCoverLetter": false
       },
       "materials": null
+    },
+    {
+      "id": "BRUNSWICK-SG-EXECUTIVE-8653108002",
+      "title": "东南亚战略传播与公共事务执行顾问",
+      "titleEn": "Executive",
+      "company": "Brunswick Group",
+      "location": "新加坡",
+      "workMode": "Singapore office / office-based",
+      "contract": "Full-time",
+      "deadline": "",
+      "postedDate": "2026-09-01",
+      "link": "https://job-boards.greenhouse.io/brunswickgroup/jobs/8653108002",
+      "source": "Brunswick Group / Greenhouse",
+      "matchScore": 4,
+      "matchNote": "岗位要求1–3年经验，核心覆盖新加坡及东南亚政策、媒体与市场监测，战略传播材料、stakeholder engagement、客户关系及多任务项目交付，直接承接候选人的公共政策训练、国际机构沟通、双语材料和大型多方项目经验。主要补强点是企业声誉、危机与交易场景，以及新加坡本地媒体和商业网络；国际学习经历和亚洲语言均为加分项。",
+      "workPermitRisk": "可验证",
+      "workPermitNote": "岗位明确常驻新加坡，官方JD及申请表未说明Employment Pass sponsorship、relocation或必须已有当地工作权；岗位级别与主线高度匹配，值得优先投递并在首轮沟通时确认EP支持，未确认前不能视为低风险。",
+      "reportedDate": "2026-09-01",
+      "expired": false,
+      "status": "active",
+      "statusLabel": "待复核",
+      "statusReason": "官方 JD 未写明截止日期，按仍在有效岗位池处理；日报检索时需复核官方链接。",
+      "daysLeft": null,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true
+      },
+      "materials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002",
+        "files": [
+          {
+            "name": "CV_Changhang_LIU_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002/CV_Changhang_LIU_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002",
+            "kind": "cv",
+            "modifiedAt": "2026-08-09T15:04:32.046Z"
+          },
+          {
+            "name": "Cover_Letter_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "path": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002/Cover_Letter_2026-08-09_brunswick-sg-executive-8653108002.docx",
+            "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/application-materials/2026-08-09/brunswick-sg-executive-8653108002",
+            "kind": "coverLetter",
+            "modifiedAt": "2026-08-09T15:04:32.023Z"
+          }
+        ],
+        "generatedAt": "2026-08-09T15:04:32.046Z",
+        "hasCv": true,
+        "hasCoverLetter": true
+      }
     }
   ]
 }
