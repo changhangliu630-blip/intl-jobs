@@ -1,23 +1,33 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-09-06",
-  "generatedAt": "2026-09-06T17:16:58+08:00",
-  "auditDate": "2026-09-06",
+  "lastUpdated": "2026-09-07",
+  "generatedAt": "2026-09-07T08:14:40+08:00",
+  "auditDate": "2026-09-07",
   "source": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/foreign-jobs/source/jobs.local.json",
   "publicUrl": "https://changhangliu630-blip.github.io/intl-jobs/foreign-jobs/",
   "counts": {
-    "total": 78,
-    "active": 73,
+    "total": 79,
+    "active": 74,
     "closing": 0,
     "expired": 5,
-    "highMatch": 41,
-    "lowRisk": 20,
+    "highMatch": 42,
+    "lowRisk": 21,
     "verifiableRisk": 32,
     "highRisk": 26,
     "withMaterials": 71
   },
   "highlights": {
     "priority": [
+      {
+        "id": "BRITISH-COUNCIL-CN-COMMS-MANAGER-50194",
+        "title": "中国区传播经理",
+        "titleEn": "Communications Manager",
+        "company": "British Council",
+        "location": "中国北京",
+        "matchScore": 5,
+        "riskLabel": "低风险",
+        "category": "战略传播/公共事务"
+      },
       {
         "id": "SWIRE-HK-SENIOR-OFFICER-GROUP-PA-3505",
         "title": "集团公共事务高级主任",
@@ -54,16 +64,6 @@
         "titleEn": "Account Director",
         "company": "Brunswick Group",
         "location": "中国北京",
-        "matchScore": 4,
-        "riskLabel": "低风险",
-        "category": "战略传播/公共事务"
-      },
-      {
-        "id": "BRUNSWICK-SG-EXECUTIVE-8657775002",
-        "title": "资本市场、监管与利益相关方咨询执行顾问",
-        "titleEn": "Executive",
-        "company": "Brunswick Group",
-        "location": "新加坡",
         "matchScore": 4,
         "riskLabel": "低风险",
         "category": "战略传播/公共事务"
@@ -2426,7 +2426,7 @@
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-01 已过。",
-      "daysLeft": -36,
+      "daysLeft": -37,
       "category": "伙伴关系/生态运营",
       "riskLevel": "high",
       "riskLabel": "中高风险",
@@ -4056,7 +4056,7 @@
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-18 尚未到期。",
-      "daysLeft": 12,
+      "daysLeft": 11,
       "category": "战略传播/公共事务",
       "riskLevel": "medium",
       "riskLabel": "可验证",
@@ -4154,6 +4154,39 @@
         "hasCv": true,
         "hasCoverLetter": true
       }
+    },
+    {
+      "id": "BRITISH-COUNCIL-CN-COMMS-MANAGER-50194",
+      "title": "中国区传播经理",
+      "titleEn": "Communications Manager",
+      "company": "British Council",
+      "location": "中国北京",
+      "workMode": "Beijing office / China-based",
+      "contract": "Full-time / Indefinite",
+      "deadline": "2026-09-15",
+      "postedDate": "2026-09-01",
+      "link": "https://careers.britishcouncil.org/careers/job/563705892691003-communications-manager-china?domain=britishcouncil.org",
+      "source": "British Council Careers / Eightfold",
+      "matchScore": 5,
+      "matchNote": "岗位负责英国文化教育协会中国区整合传播，核心覆盖外部活动、stakeholder communications、issues management、战略叙事、领导层与内部传播，并维护政府、伙伴、客户、员工和媒体信任，直接承接候选人的CSC国际项目、多方机构沟通、公共政策训练与双语材料经验。候选人需重点证明在大型复杂机构中统筹传播、处理声誉与议题风险的能力；相比纯媒体公关岗，该岗位与国际教育及公共事务主线衔接更自然。",
+      "workPermitRisk": "低风险",
+      "workPermitNote": "岗位明确位于北京且写明不提供工作许可赞助，申请人必须已有在中国生活和工作的权利；候选人在中国大陆工作，因此不存在跨境签证前置障碍，但申请材料中应清晰确认中国工作权。",
+      "reportedDate": "2026-09-07",
+      "expired": false,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 2026-09-15 尚未到期。",
+      "daysLeft": 8,
+      "category": "战略传播/公共事务",
+      "riskLevel": "low",
+      "riskLabel": "低风险",
+      "materialStatus": {
+        "state": "missing",
+        "label": "未生成材料",
+        "hasCv": false,
+        "hasCoverLetter": false
+      },
+      "materials": null
     }
   ]
 }
