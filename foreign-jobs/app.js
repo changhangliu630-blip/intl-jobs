@@ -340,6 +340,13 @@ function getMaterialFile(job, kind) {
   return job.materials?.files?.find((file) => file.kind === kind) || null;
 }
 
+function materialKindLabel(kind) {
+  if (kind === "cv") return "CV";
+  if (kind === "coverLetter") return "Cover Letter";
+  if (kind === "personalStatement") return "Personal Statement";
+  return "支持材料";
+}
+
 async function openMaterial(file, label) {
   if (!file?.path) {
     showToast(`这个岗位还没有现成的 ${label} 文件`);
@@ -372,16 +379,17 @@ function renderMaterials(job) {
       <div class="materials empty">
         <span>申请材料</span>
         <strong>未生成</strong>
-        <p>优先岗位可在日报链路中生成 Cover Letter 和定制 CV。</p>
+        <p>优先岗位可在日报链路中生成 CV、Cover Letter 和 PS。</p>
       </div>
     `;
   }
 
   const cvFile = getMaterialFile(job, "cv");
   const clFile = getMaterialFile(job, "coverLetter");
+  const psFile = getMaterialFile(job, "personalStatement");
   const fileList = job.materials.files.map((file) => `
     <li>
-      <span>${escapeHtml(file.kind === "coverLetter" ? "Cover Letter" : file.kind === "cv" ? "CV" : "支持材料")}</span>
+      <span>${escapeHtml(materialKindLabel(file.kind))}</span>
       <strong>${escapeHtml(file.name)}</strong>
     </li>
   `).join("");
@@ -396,6 +404,7 @@ function renderMaterials(job) {
       <div class="material-openers" aria-label="申请材料打开按钮">
         ${cvFile ? `<button type="button" class="material-button" data-open-material="cv" data-job-id="${escapeHtml(job.id)}" title="双击打开或定位 CV">CV</button>` : ""}
         ${clFile ? `<button type="button" class="material-button" data-open-material="coverLetter" data-job-id="${escapeHtml(job.id)}" title="双击打开或定位 Cover Letter">CL</button>` : ""}
+        ${psFile ? `<button type="button" class="material-button" data-open-material="personalStatement" data-job-id="${escapeHtml(job.id)}" title="双击打开或定位 Personal Statement">PS</button>` : ""}
       </div>
       <p class="materials-helper">单击提示，双击打开/定位文件；若本机助手未连接，会复制 Mac 定位命令。</p>
     </div>
@@ -522,7 +531,7 @@ function bindFilters() {
   document.addEventListener("click", async (event) => {
     const materialButton = event.target.closest("[data-open-material]");
     if (materialButton) {
-      const label = materialButton.dataset.openMaterial === "cv" ? "CV" : "Cover Letter";
+      const label = materialKindLabel(materialButton.dataset.openMaterial);
       showToast(`双击 ${label} 按钮即可打开/定位文件`);
       return;
     }
@@ -580,7 +589,7 @@ function bindFilters() {
     const job = state.jobs.find((item) => item.id === materialButton.dataset.jobId);
     if (!job) return;
     const kind = materialButton.dataset.openMaterial;
-    const label = kind === "cv" ? "CV" : "Cover Letter";
+    const label = materialKindLabel(kind);
     await openMaterial(getMaterialFile(job, kind), label);
   });
 }

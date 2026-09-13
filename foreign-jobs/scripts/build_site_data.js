@@ -156,6 +156,7 @@ function walkFiles(rootDir) {
 function classifyMaterial(filePath) {
   const name = path.basename(filePath).toLowerCase();
   if (/^cv(?:[_\-\s.]|$)|(?:^|[_\-\s.])cv(?:[_\-\s.]|$)|resume|résumé/.test(name)) return "cv";
+  if (/personal[_\-\s.]*statement|^ps(?:[_\-\s.]|$)|(?:^|[_\-\s.])ps(?:[_\-\s.]|$)/.test(name)) return "personalStatement";
   if (/cover(?:[_\-\s.]|$)|letter|cover_letter/.test(name)) return "coverLetter";
   return "support";
 }
@@ -209,12 +210,14 @@ function collectMaterials(jobs) {
 
     const hasCv = records.some((file) => file.kind === "cv");
     const hasCoverLetter = records.some((file) => file.kind === "coverLetter");
+    const hasPersonalStatement = records.some((file) => file.kind === "personalStatement");
     materials.set(job.id, {
       directory: records[0].directory,
       files: records,
       generatedAt: records[0].modifiedAt,
       hasCv,
-      hasCoverLetter
+      hasCoverLetter,
+      hasPersonalStatement
     });
   }
 
@@ -227,22 +230,25 @@ function materialStatus(material) {
       state: "missing",
       label: "未生成材料",
       hasCv: false,
-      hasCoverLetter: false
+      hasCoverLetter: false,
+      hasPersonalStatement: false
     };
   }
-  if (material.hasCv && material.hasCoverLetter) {
+  if (material.hasCv && material.hasCoverLetter && material.hasPersonalStatement) {
     return {
       state: "ready",
       label: "材料齐全",
       hasCv: true,
-      hasCoverLetter: true
+      hasCoverLetter: true,
+      hasPersonalStatement: true
     };
   }
   return {
     state: "partial",
-    label: material.hasCoverLetter ? "已有 Cover Letter" : "材料不完整",
+    label: material.hasCv && material.hasPersonalStatement ? "已有 CV/PS" : material.hasCoverLetter ? "已有 Cover Letter" : "材料不完整",
     hasCv: material.hasCv,
-    hasCoverLetter: material.hasCoverLetter
+    hasCoverLetter: material.hasCoverLetter,
+    hasPersonalStatement: material.hasPersonalStatement
   };
 }
 
