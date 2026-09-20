@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-19T08:38:40+08:00",
-  "auditDate": "2026-09-19",
-  "sourceLastUpdated": "2026-09-19",
+  "generatedAt": "2026-09-20T08:39:25+08:00",
+  "auditDate": "2026-09-20",
+  "sourceLastUpdated": "2026-09-20",
   "sourcesUsed": [
     "/Users/Archer/.qclaw/workspace/intl-jobs/jobs.json",
     "/Users/Archer/Desktop/Adventurer Guild/intl-jobs-site/source/jobs.local.json"
   ],
   "counts": {
-    "total": 104,
-    "active": 14,
+    "total": 107,
+    "active": 17,
     "closing": 0,
     "expired": 78,
     "unavailable": 2,
     "unknown": 10,
-    "highMatchActive": 14
+    "highMatchActive": 17
   },
   "highlights": [
     "站点构建已支持 qclaw 主数据源与工作区镜像源自动回退。",
@@ -50,12 +50,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -826,
+      "daysLeft": -827,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2024-06-15 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNGC-PE-MANAGER",
@@ -86,12 +86,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -442,
+      "daysLeft": -443,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2025-07-04 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNGC-COMMS-SR",
@@ -122,12 +122,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -901,
+      "daysLeft": -902,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2024-04-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNGC-PROG-SR",
@@ -158,12 +158,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -1389,
+      "daysLeft": -1390,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2022-11-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WIPO-TA-MANAGER-P4",
@@ -193,12 +193,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -119,
+      "daysLeft": -120,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-05-23 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNFPA-COMMS-P3-IST",
@@ -228,12 +228,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -122,
+      "daysLeft": -123,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-05-20 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PO-P2-SUDAN",
@@ -263,12 +263,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -109,
+      "daysLeft": -110,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-02 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-ES-P3-GENEVA",
@@ -298,12 +298,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -103,
+      "daysLeft": -104,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-08 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-FRS-P3-ROME",
@@ -333,12 +333,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -104,
+      "daysLeft": -105,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-07 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNEP-APMO-P2-NAIROBI",
@@ -367,12 +367,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -85,
+      "daysLeft": -86,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-26 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNIDO-ERO-P3-VIENNA",
@@ -401,12 +401,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -99,
+      "daysLeft": -100,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNEP-IPBES-APIO-P2-BONN",
@@ -435,12 +435,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -101,
+      "daysLeft": -102,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-10 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IYF-PO-GUSP-REMOTE",
@@ -474,7 +474,7 @@
       "statusLabel": "链接失效",
       "statusReason": "原招聘链接在 2026-06-07 核查时返回 404，视为已下线。",
       "verification": "HTTP 404 on recruiting.paylocity.com",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IYF-PC-MXBRA",
@@ -508,7 +508,7 @@
       "statusLabel": "链接失效",
       "statusReason": "原招聘链接在 2026-06-07 核查时返回 404，视为已下线。",
       "verification": "HTTP 404 on recruiting.paylocity.com",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "GATES-ASO-FSO-SEATTLE",
@@ -537,12 +537,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -103,
+      "daysLeft": -104,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-08 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNFCCC-ACO-P2-BONN",
@@ -571,12 +571,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -97,
+      "daysLeft": -98,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-CS-ENG-P3-GENEVA",
@@ -605,12 +605,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -100,
+      "daysLeft": -101,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-11 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "MERCYCORPS-SSPM-EU-BRUSSELS",
@@ -639,12 +639,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -96,
+      "daysLeft": -97,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-15 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "HGBF-PO-CHEVYCHASE",
@@ -673,12 +673,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -99,
+      "daysLeft": -100,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNDOS-APMO-P2-NY",
@@ -707,12 +707,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -90,
+      "daysLeft": -91,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-21 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNEP-APMO-P2-PARIS-LCI",
@@ -741,12 +741,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -80,
+      "daysLeft": -81,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-FA-DB-GS5-BKK",
@@ -775,12 +775,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -101,
+      "daysLeft": -102,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-10 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "TAF-GCO-JAKARTA",
@@ -809,12 +809,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -99,
+      "daysLeft": -100,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ICRC-PPP-SPEC-GVA",
@@ -843,12 +843,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -97,
+      "daysLeft": -98,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-INNOV-P3-STHLM-ALUMNI",
@@ -877,12 +877,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -95,
+      "daysLeft": -96,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-16 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PO-CSO-NO1-MAPUTO",
@@ -911,12 +911,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -90,
+      "daysLeft": -91,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-21 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "PLAN-CAS-MAKATI",
@@ -950,7 +950,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "TAF-APMO-PARTISIPASI-JKT",
@@ -984,7 +984,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "PLAN-LRM-MAKATI",
@@ -1018,7 +1018,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "PLAN-GFAO-MAKATI",
@@ -1052,7 +1052,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNDP-PDS-NOC-BEIJING",
@@ -1081,12 +1081,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -97,
+      "daysLeft": -98,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PARTNERSHIPS-P3-KINSHASA-DRC",
@@ -1115,12 +1115,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -88,
+      "daysLeft": -89,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-23 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-COMMS-P3-BUNIA-DRC",
@@ -1149,12 +1149,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -87,
+      "daysLeft": -88,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-24 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "INTERACTION-MPEC-DC",
@@ -1183,12 +1183,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -75,
+      "daysLeft": -76,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-06 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "EO-COORD-NORTH-ASIA-SHANGHAI",
@@ -1222,7 +1222,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "EO-COORD-EVENTS-JNA-APAC-SHANGHAI",
@@ -1256,7 +1256,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WELLCOME-FUNDING-MANAGER-LONDON",
@@ -1285,12 +1285,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -75,
+      "daysLeft": -76,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-06 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WELLCOME-CCA-MANAGER-LONDON",
@@ -1319,12 +1319,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -82,
+      "daysLeft": -83,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-29 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PCO-P2-KINGSTON-MCO",
@@ -1353,12 +1353,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -81,
+      "daysLeft": -82,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IUCN-GLOBAL-OCEAN-POLICY-OFFICER-BRUSSELS",
@@ -1387,12 +1387,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -75,
+      "daysLeft": -76,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-06 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "MERCYCORPS-BDPR-MANAGER-KINSHASA",
@@ -1426,7 +1426,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PROGRAMME-PLANNING-P3-BUNIA",
@@ -1455,12 +1455,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -83,
+      "daysLeft": -84,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-28 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PUBLIC-PARTNERSHIP-P2-BRUSSELS",
@@ -1498,12 +1498,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -80,
+      "daysLeft": -81,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "PLAN-UNHCR-LIVELIHOOD-PC-CAIRO",
@@ -1532,12 +1532,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -78,
+      "daysLeft": -79,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-03 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PROGRAMME-OFFICER-P1-BANGKOK-HEHC",
@@ -1566,12 +1566,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -76,
+      "daysLeft": -77,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-05 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "GATES-CONVENINGS-COORDINATOR-SEATTLE",
@@ -1605,7 +1605,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IRC-GRANTS-COORDINATOR-LEBANON",
@@ -1634,12 +1634,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -81,
+      "daysLeft": -82,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-06-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-COMMS-P3-KYIV-UKRAINE",
@@ -1668,12 +1668,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -72,
+      "daysLeft": -73,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-09 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNDP-DIGITAL-FUNDRAISING-IPSA10-HOMEBASED",
@@ -1702,12 +1702,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -79,
+      "daysLeft": -80,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-02 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PUBLIC-PARTNERSHIP-P2-WASHINGTON-DC",
@@ -1736,12 +1736,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -74,
+      "daysLeft": -75,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-07 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "JUSTDIGGIT-PARTNERSHIPS-MANAGER-FOUNDATIONS-2026",
@@ -1770,12 +1770,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -50,
+      "daysLeft": -51,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-31 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IRC-EMERGENCY-GRANTS-COORDINATOR-GLOBAL-SURGE",
@@ -1813,12 +1813,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -19,
+      "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-31 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "GATES-ACO-SOCIAL-MEDIA-2026",
@@ -1847,12 +1847,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -72,
+      "daysLeft": -73,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-09 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "OSF-ASSOCIATE-PROGRAM-MANAGEMENT-HIGHER-ED-2026",
@@ -1881,12 +1881,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -72,
+      "daysLeft": -73,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-09 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "HI-PROGRAMME-FUNDING-OFFICER-UK-2026",
@@ -1915,12 +1915,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -66,
+      "daysLeft": -67,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-15 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ADB-SENIOR-FINANCING-PARTNERSHIPS-ASSISTANT-260682",
@@ -1949,12 +1949,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -64,
+      "daysLeft": -65,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-17 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "THP-PARTNERSHIPS-OFFICER-NY-2026",
@@ -1988,7 +1988,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "THP-DEVELOPMENT-ASSOCIATE-NY-2026",
@@ -2022,7 +2022,7 @@
       "statusLabel": "待核查",
       "statusReason": "缺少明确截止日期，需要人工复核。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IRC-PARTNERSHIPS-COORDINATOR-KYIV-2026",
@@ -2051,12 +2051,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -50,
+      "daysLeft": -51,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-31 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "OSF-PROGRAM-MANAGER-CENTRAL-ASIA-2026",
@@ -2085,12 +2085,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -49,
+      "daysLeft": -50,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WELLCOME-CORPORATE-COMMS-MANAGER-2026",
@@ -2119,12 +2119,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -61,
+      "daysLeft": -62,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-20 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IASP-PARTNERSHIPS-COORDINATOR-REMOTE-2026",
@@ -2153,12 +2153,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -67,
+      "daysLeft": -68,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-14 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "APA-ENGAGEMENT-COMMS-OFFICER-BANGKOK-2026",
@@ -2187,12 +2187,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -66,
+      "daysLeft": -67,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-15 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ITC-ASSOC-PROGRAMME-OFFICER-MTH-P2-280818",
@@ -2221,12 +2221,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -65,
+      "daysLeft": -66,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-16 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "HG-FOUNDATION-PROGRAMME-OFFICER-LONDON-2026",
@@ -2255,12 +2255,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -48,
+      "daysLeft": -49,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-02 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ILO-KOREA-PARTNERSHIP-PROGRAMME-TECHNICAL-OFFICER-P2-13728",
@@ -2289,12 +2289,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -58,
+      "daysLeft": -59,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-23 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "HEALTH-FOUNDATION-PROGRAMME-OFFICER-HEALTH-INEQUALITIES-869",
@@ -2323,12 +2323,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -59,
+      "daysLeft": -60,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-22 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-CORPORATE-ALLIANCES-SPECIALIST-P3-ROME-594321",
@@ -2357,12 +2357,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -57,
+      "daysLeft": -58,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-24 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "IIAS-COMMUNICATIONS-CONTENT-SUPPORT-OFFICER-2026",
@@ -2402,12 +2402,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -19,
+      "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-31 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "RES-PROGRAMME-OFFICER-DOCTORAL-TRAINING-2026",
@@ -2437,12 +2437,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -57,
+      "daysLeft": -58,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-24 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PARTNERSHIPS-OFFICER-P2-INNOVATIVE-FINANCE-HELSINKI-594567",
@@ -2471,12 +2471,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -48,
+      "daysLeft": -49,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-02 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "CCBE-COMMUNICATIONS-OFFICER-BRUSSELS-2026",
@@ -2515,12 +2515,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -41,
+      "daysLeft": -42,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-09 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "CCAPP-COMMUNICATIONS-OFFICER-BEIJING-2026",
@@ -2560,12 +2560,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": 94,
+      "daysLeft": 93,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-12-22 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "GREENPEACE-INTERNATIONAL-MEDIA-COMMS-OFFICER-BEIJING-2026",
@@ -2603,12 +2603,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -42,
+      "daysLeft": -43,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-08 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-HEALTH-KNOWLEDGE-MANAGEMENT-NO1-BEIJING-594552",
@@ -2637,12 +2637,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -51,
+      "daysLeft": -52,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-30 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNITAR-ASSOCIATE-PROGRAMME-OFFICER-P2-MDP-2026-005",
@@ -2671,12 +2671,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -50,
+      "daysLeft": -51,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-07-31 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ISUN-HOSPITAL-SCHOOL-COMMUNICATIONS-OFFICER-BEIJING-2026",
@@ -2714,12 +2714,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -19,
+      "daysLeft": -20,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-31 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNITAR-UNOSAT-ASSOCIATE-PROGRAMME-OFFICER-P2-2026-009",
@@ -2757,12 +2757,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -30,
+      "daysLeft": -31,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-20 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "OPPORTUNITY-INTERNATIONAL-UK-PROGRAMME-OFFICER-2026",
@@ -2791,12 +2791,12 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": -47,
+      "daysLeft": -48,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-03 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "USPG-DIGITAL-COMMUNICATIONS-OFFICER-2026",
@@ -2835,12 +2835,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -38,
+      "daysLeft": -39,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-12 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ITC-ASSOCIATE-PROGRAMME-OFFICER-DECI-SEC-P2-278066",
@@ -2878,12 +2878,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -30,
+      "daysLeft": -31,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-20 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "COEFFICIENT-GIVING-COMMUNICATIONS-OFFICER-MEDIA-RELATIONS-2026",
@@ -2921,12 +2921,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -40,
+      "daysLeft": -41,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-10 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ICON-MARKETING-COMMUNICATIONS-OFFICER-2026",
@@ -2964,12 +2964,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -33,
+      "daysLeft": -34,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-17 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "GAYO-AYCF-COMMUNICATIONS-YOUTH-ENGAGEMENT-OFFICER-2026",
@@ -3007,12 +3007,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -43,
+      "daysLeft": -44,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-07 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNITAR-SOCIAL-DEVELOPMENT-ASSOCIATE-PROGRAMME-OFFICER-P2-2026-008",
@@ -3050,12 +3050,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -24,
+      "daysLeft": -25,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-08-26 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WEF-ECP-STRATEGY-OFFICE-GREATER-CHINA-R4214",
@@ -3098,7 +3098,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WEF-ECP-REGIONS-TRADE-GEOPOLITICS-GREATER-CHINA-R4228",
@@ -3141,7 +3141,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WEF-ECP-INDUSTRIAL-TECH-TRANSFORMATION-GREATER-CHINA-R4218",
@@ -3184,7 +3184,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WEF-ECP-NATURE-CLIMATE-GREATER-CHINA-R4211",
@@ -3227,7 +3227,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ELECTRIFICATION-ALLIANCE-JUNIOR-COMMS-EVENTS-OFFICER-2026",
@@ -3265,12 +3265,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -10,
+      "daysLeft": -11,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-09-09 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "PLAN-POLICY-ADVOCACY-STRATEGIC-PARTNERSHIPS-CLIMATE-2026",
@@ -3313,7 +3313,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-08-28 21:59（英国时间） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "PLAN-THAILAND-GRANT-STAKEHOLDER-ENGAGEMENT-COORDINATOR-2026",
@@ -3351,12 +3351,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -18,
+      "daysLeft": -19,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-09-01 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "CIE-COMMUNICATIONS-OFFICER-VIENNA-2026",
@@ -3394,12 +3394,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -2,
+      "daysLeft": -3,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-09-17 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ICOS-IRELAND-FELLOWS-PROGRAMME-OFFICER-2026",
@@ -3437,12 +3437,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -6,
+      "daysLeft": -7,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-09-13 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "RCPCH-GLOBAL-PROGRAMME-COORDINATOR-2026",
@@ -3480,12 +3480,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -6,
+      "daysLeft": -7,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-09-13 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UN-YOUTH-OFFICE-ASSOCIATE-COMMUNICATIONS-OFFICER-P2-284104",
@@ -3528,7 +3528,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-10 23:59（纽约时间） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNICEF-PEOPLE-CULTURE-OUTREACH-EMPLOYER-BRANDING-P2-595530",
@@ -3571,7 +3571,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-17 23:55（中欧夏令时） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "NDB-JUNIOR-PROFESSIONAL-PUBLIC-SECTOR-DIGITAL-INFRASTRUCTURE-1964",
@@ -3605,7 +3605,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-15 23:59（中国标准时间） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "WBG-YOUNG-PROFESSIONALS-PROGRAM-2026",
@@ -3648,7 +3648,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-30 23:59（UTC） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "UNODC-ASSISTANT-PROGRAMME-OFFICER-P1-284624",
@@ -3686,12 +3686,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": -1,
+      "daysLeft": -2,
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-09-18 已过。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "ADB-YOUNG-PROFESSIONAL-260870",
@@ -3729,12 +3729,12 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": 11,
+      "daysLeft": 10,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-30 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "AMNESTY-PROGRAMME-OFFICER-CHARITABLE-TRUSTS-4271",
@@ -3777,7 +3777,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-24 23:59（英国时间） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "GLOBAL-WITNESS-STRATEGIC-COMMUNICATIONS-OFFICER-2026",
@@ -3820,7 +3820,7 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-27 00:00（GMT） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
     },
     {
       "id": "AMNESTY-GOVERNANCE-COORDINATOR-4269",
@@ -3863,7 +3863,136 @@
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-09-30 23:59（英国时间） 尚未到期。",
       "verification": "Source file",
-      "auditDate": "2026-09-19"
+      "auditDate": "2026-09-20"
+    },
+    {
+      "id": "KETTERING-DEFENDING-DEMOCRACY-PROGRAM-ASSOCIATE-2026",
+      "title": "捍卫包容性民主项目助理",
+      "titleEn": "Defending Inclusive Democracy Program Associate",
+      "organization": "查尔斯·凯特林基金会（Charles F. Kettering Foundation）",
+      "location": "美国华盛顿特区（需现场办公）",
+      "contract": "全职正式岗位",
+      "grade": "Program Associate",
+      "salary": "未注明",
+      "deadline": "未注明（官网仍开放，建议尽快申请）",
+      "link": "https://kettering.bamboohr.com/careers/38",
+      "source": "Kettering Foundation 官方 BambooHR 招聘页及可信招聘页",
+      "matchScore": 4,
+      "matchNote": "岗位负责项目计划、进度与交付物跟踪、跨内外部利益相关者协调、会议纪要与行动项、简报和报告，要求3至5年项目协调、非营利、高等教育或公共政策经验，与候选人的CSC项目管理、跨机构协作及官方材料能力高度契合。主要风险是美国华盛顿特区到岗及工作许可未说明，且需补强民主治理议题、CRM和Monday.com证据。",
+      "requirements": "本科必需、研究生优先；3至5年项目协调、项目管理、非营利管理、高等教育、慈善或公共政策相关经验；能够起草和传达复杂政策内容，管理多项目，并使用项目管理或CRM系统。",
+      "reported": true,
+      "reportedDate": "2026-09-20",
+      "applyMethod": "通过Kettering Foundation官方BambooHR职位页在线申请；未列固定截止日期，建议尽快提交。",
+      "sourceCategory": "Foundation",
+      "localMaterials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/kettering-defending-democracy-program-associate-2026",
+        "directoryUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/kettering-defending-democracy-program-associate-2026",
+        "cv": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/kettering-defending-democracy-program-associate-2026/CV_Changhang_LIU_2026-09-20_kettering-defending-democracy-program-associate-2026.docx",
+        "cvUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/kettering-defending-democracy-program-associate-2026/CV_Changhang_LIU_2026-09-20_kettering-defending-democracy-program-associate-2026.docx",
+        "coverLetter": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/kettering-defending-democracy-program-associate-2026/Cover_Letter_2026-09-20_kettering-defending-democracy-program-associate-2026.docx",
+        "coverLetterUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/kettering-defending-democracy-program-associate-2026/Cover_Letter_2026-09-20_kettering-defending-democracy-program-associate-2026.docx",
+        "generatedAt": "2026-09-20T00:37:14.737Z",
+        "date": "2026-09-20"
+      },
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true,
+        "needsRefresh": false
+      },
+      "daysLeft": null,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
+      "verification": "Source file",
+      "auditDate": "2026-09-20"
+    },
+    {
+      "id": "WAVERLEY-STREET-PROGRAM-ASSOCIATE-GLOBAL-PROGRAMS-2026",
+      "title": "全球项目助理",
+      "titleEn": "Program Associate, Global Programs",
+      "organization": "Waverley Street Foundation",
+      "location": "美国旧金山湾区（混合办公，每周至少3天到办公室）",
+      "contract": "全职正式岗位",
+      "grade": "Program Associate",
+      "salary": "$85,000–$95,000/年",
+      "deadline": "滚动审理（建议尽快申请）",
+      "link": "https://the360group.us/portal/",
+      "source": "The 360 Group官方申请门户及可信招聘页",
+      "matchScore": 4,
+      "matchNote": "岗位要求2至3年慈善、资助或相关项目管理经验，负责跨国项目协调、会议与行动跟踪、伙伴和受资助方关系、尽调研究及对外材料，候选人的年限、国际协作、活动交付和双语写作高度可迁移。主要短板是缺少直接grantmaking/due diligence与气候、能源和农业内容经验，并存在旧金山到岗及美国工作许可风险。",
+      "requirements": "2至3年慈善、资助或相关领域的项目管理/行政支持经验；优秀写作编辑、研究、尽调和数据管理能力；复杂多利益相关者项目经历；有海外或跨国团队经验，葡萄牙语或西班牙语为加分项。",
+      "reported": true,
+      "reportedDate": "2026-09-20",
+      "applyMethod": "通过The 360 Group官方申请门户提交申请材料和兴趣信；滚动审理，越早申请越有利。",
+      "sourceCategory": "Foundation",
+      "localMaterials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/waverley-street-program-associate-global-programs-2026",
+        "directoryUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/waverley-street-program-associate-global-programs-2026",
+        "cv": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/waverley-street-program-associate-global-programs-2026/CV_Changhang_LIU_2026-09-20_waverley-street-program-associate-global-programs-2026.docx",
+        "cvUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/waverley-street-program-associate-global-programs-2026/CV_Changhang_LIU_2026-09-20_waverley-street-program-associate-global-programs-2026.docx",
+        "coverLetter": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/waverley-street-program-associate-global-programs-2026/Cover_Letter_2026-09-20_waverley-street-program-associate-global-programs-2026.docx",
+        "coverLetterUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/waverley-street-program-associate-global-programs-2026/Cover_Letter_2026-09-20_waverley-street-program-associate-global-programs-2026.docx",
+        "generatedAt": "2026-09-20T00:37:14.898Z",
+        "date": "2026-09-20"
+      },
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true,
+        "needsRefresh": false
+      },
+      "daysLeft": null,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 滚动审理（建议尽快申请） 尚未到期。",
+      "verification": "Source file",
+      "auditDate": "2026-09-20"
+    },
+    {
+      "id": "HILTON-PROGRAM-ASSOCIATE-CATHOLIC-SISTERS-AFRICA-GLOBAL-2026",
+      "title": "天主教修女非洲及全球项目助理",
+      "titleEn": "Program Associate, Catholic Sisters, Africa/Global",
+      "organization": "康拉德·希尔顿基金会（Conrad N. Hilton Foundation）",
+      "location": "美国加州 Westlake Village（每周一至周三现场办公）",
+      "contract": "全职正式岗位",
+      "grade": "Program Associate",
+      "salary": "未注明",
+      "deadline": "未注明（官网申请入口开放，建议尽快申请）",
+      "link": "https://secure10.saashr.com/ta/6198075.careers?CareersSearch=",
+      "source": "Hilton Foundation官方招聘系统及可信招聘页",
+      "matchScore": 4,
+      "matchNote": "岗位覆盖资助流程与预算跟踪、伙伴和申请人联络、会议及访问协调、项目传播和研究，强调跨文化协作与双语能力，和候选人的多机构协调、活动管理、中英文材料及教育青年背景高度契合。主要短板是要求至少4年相关经验而候选人约3年，且缺少直接基金会资助管理经验；另有加州到岗和美国工作许可风险。",
+      "requirements": "至少4年非营利或社会使命机构相关经验；具备复杂预算和工作计划管理、写作传播、跨文化利益相关者沟通和数据库能力；双语能力；能够每周至少3天现场办公并接受少量出差。",
+      "reported": true,
+      "reportedDate": "2026-09-20",
+      "applyMethod": "通过Conrad N. Hilton Foundation官方招聘系统在线申请；当前入口开放，未列固定截止日期。",
+      "sourceCategory": "Foundation",
+      "localMaterials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/hilton-program-associate-catholic-sisters-africa-global-2026",
+        "directoryUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/hilton-program-associate-catholic-sisters-africa-global-2026",
+        "cv": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/hilton-program-associate-catholic-sisters-africa-global-2026/CV_Changhang_LIU_2026-09-20_hilton-program-associate-catholic-sisters-africa-global-2026.docx",
+        "cvUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/hilton-program-associate-catholic-sisters-africa-global-2026/CV_Changhang_LIU_2026-09-20_hilton-program-associate-catholic-sisters-africa-global-2026.docx",
+        "coverLetter": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/hilton-program-associate-catholic-sisters-africa-global-2026/Cover_Letter_2026-09-20_hilton-program-associate-catholic-sisters-africa-global-2026.docx",
+        "coverLetterUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-09-20/hilton-program-associate-catholic-sisters-africa-global-2026/Cover_Letter_2026-09-20_hilton-program-associate-catholic-sisters-africa-global-2026.docx",
+        "generatedAt": "2026-09-20T00:37:15.087Z",
+        "date": "2026-09-20"
+      },
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true,
+        "needsRefresh": false
+      },
+      "daysLeft": null,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 未注明（官网申请入口开放，建议尽快申请） 尚未到期。",
+      "verification": "Source file",
+      "auditDate": "2026-09-20"
     }
   ]
 }
