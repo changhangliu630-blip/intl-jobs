@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T08:35:32+08:00",
+  "generatedAt": "2026-10-03T11:15:54+08:00",
   "auditDate": "2026-10-03",
   "sourceLastUpdated": "2026-10-02",
   "sourcesUsed": [
@@ -8,12 +8,12 @@
   ],
   "counts": {
     "total": 113,
-    "active": 22,
+    "active": 5,
     "closing": 0,
-    "expired": 79,
+    "expired": 89,
     "unavailable": 2,
-    "unknown": 10,
-    "highMatchActive": 22
+    "unknown": 17,
+    "highMatchActive": 5
   },
   "highlights": [
     "站点构建已支持 qclaw 主数据源与工作区镜像源自动回退。",
@@ -3094,9 +3094,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“未注明（官网仍开放，建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3137,9 +3137,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“未注明（官网仍开放，建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3180,9 +3180,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“未注明（官网仍开放，建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3223,9 +3223,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“未注明（官网仍开放，建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3308,10 +3308,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-08-28 21:59（英国时间） 尚未到期。",
+      "daysLeft": -36,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-08-28 21:59（英国时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3523,10 +3523,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-10 23:59（纽约时间） 尚未到期。",
+      "daysLeft": -23,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-10 23:59（纽约时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3566,10 +3566,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-17 23:55（中欧夏令时） 尚未到期。",
+      "daysLeft": -16,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-17 23:55（中欧夏令时） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3600,10 +3600,10 @@
         "hasCoverLetter": false,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-15 23:59（中国标准时间） 尚未到期。",
+      "daysLeft": -18,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-15 23:59（中国标准时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3643,10 +3643,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-30 23:59（UTC） 尚未到期。",
+      "daysLeft": -3,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-30 23:59（UTC） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3772,10 +3772,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-24 23:59（英国时间） 尚未到期。",
+      "daysLeft": -9,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-24 23:59（英国时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3815,10 +3815,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-27 00:00（GMT） 尚未到期。",
+      "daysLeft": -6,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-27 00:00（GMT） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3858,10 +3858,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-09-30 23:59（英国时间） 尚未到期。",
+      "daysLeft": -3,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-09-30 23:59（英国时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3902,9 +3902,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 未注明（官网仍开放，建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“未注明（官网仍开放，建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3945,9 +3945,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 滚动审理（建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“滚动审理（建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -3988,9 +3988,9 @@
         "needsRefresh": false
       },
       "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 未注明（官网申请入口开放，建议尽快申请） 尚未到期。",
+      "status": "unknown",
+      "statusLabel": "待核查",
+      "statusReason": "无法从截止日期“未注明（官网申请入口开放，建议尽快申请）”提取 YYYY-MM-DD，需人工复核。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -4030,10 +4030,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-10-02 23:55（斐济时间） 尚未到期。",
+      "daysLeft": -1,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-10-02 23:55（斐济时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -4073,10 +4073,10 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
-      "status": "active",
-      "statusLabel": "有效",
-      "statusReason": "截止日期 2026-10-01 21:59（英国时间） 尚未到期。",
+      "daysLeft": -2,
+      "status": "expired",
+      "statusLabel": "已过期",
+      "statusReason": "截止日期 2026-10-01 21:59（英国时间） 已过。",
       "verification": "Source file",
       "auditDate": "2026-10-03"
     },
@@ -4158,7 +4158,7 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
+      "daysLeft": 15,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-10-18（具体时刻以FAO门户个人时区显示为准；建议10月17日前提交） 尚未到期。",
@@ -4200,7 +4200,7 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
+      "daysLeft": 5,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-10-08（时刻未披露） 尚未到期。",
@@ -4242,7 +4242,7 @@
         "hasCoverLetter": true,
         "needsRefresh": false
       },
-      "daysLeft": null,
+      "daysLeft": 10,
       "status": "active",
       "statusLabel": "有效",
       "statusReason": "截止日期 2026-10-13（巴黎午夜；建议北京时间10月13日内提交） 尚未到期。",
