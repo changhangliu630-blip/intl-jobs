@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-11T21:22:05+08:00",
+  "generatedAt": "2026-11-11T21:50:53+08:00",
   "auditDate": "2026-11-11",
-  "sourceLastUpdated": "2026-11-03",
+  "sourceLastUpdated": "2026-11-11",
   "sourcesUsed": [
     "/Users/Archer/.qclaw/workspace/intl-jobs/jobs.json",
     "/Users/Archer/Desktop/Adventurer Guild/intl-jobs-site/source/jobs.local.json"
   ],
   "counts": {
-    "total": 121,
-    "active": 2,
+    "total": 122,
+    "active": 3,
     "closing": 0,
     "expired": 100,
     "unavailable": 2,
     "unknown": 17,
-    "highMatchActive": 2
+    "highMatchActive": 3
   },
   "highlights": [
     "站点构建已支持 qclaw 主数据源与工作区镜像源自动回退。",
@@ -4542,6 +4542,48 @@
       "status": "expired",
       "statusLabel": "已过期",
       "statusReason": "截止日期 2026-11-10 23:59（UTC+2） 已过。",
+      "verification": "Source file",
+      "auditDate": "2026-11-11"
+    },
+    {
+      "id": "ILO-RESOURCE-MOBILIZATION-OFFICER-P2-DC-PARTNERSHIPS-P-2026-01",
+      "title": "资源动员官员",
+      "titleEn": "Resource Mobilization Officer P2 (DC)",
+      "organization": "International Labour Organization (ILO)",
+      "location": "瑞士日内瓦",
+      "contract": "P-2固定期技术合作任用，一年；直接遴选，不保证续约或转为长期ILO职业任用",
+      "grade": "P-2",
+      "deadline": "2026-11-20（日内瓦当地时间午夜）",
+      "link": "https://jobs.ilo.org/job/Resource-Mobilization-Officer-P2-(DC)/13936-en_GB",
+      "source": "ILO Careers 官方职位详情，Vacancy DC/PARTNERSHIPS/P/2026/01，Job ID 13936；2026-11-11核验",
+      "matchScore": 3,
+      "matchNote": "资源动员策略、发展伙伴关系、捐助方情报、提案支持、项目启动/收尾、捐助方报告、正式函件及能力建设职责，与CSC跨机构伙伴协调、中英文正式材料、项目跟进和国际组织活动交付高度相关，三年相关经验可积极论证。关键资格风险是公告明确要求英语优秀且法语或西语达到工作能力；候选人当前可核验西语为基础水平，不能声称满足，须在申请中如实填写并决定是否以学习计划冲刺。另缺少直接拨款管理、捐助方谈判和ILO财务规则经验。",
+      "requirements": "经济学、社会科学、国际研究或相关领域本科；至少三年伙伴关系与发展合作相关经验，最好含grant management；英语优秀；法语或西语工作能力。需具发展伙伴/捐助机构、拨款管理及机构财务规则知识。",
+      "applyMethod": "通过 ILO Careers 在线申请。若决定冲刺，重点呈现CSC国际组织和高校伙伴协调、第6与第7届UN Job Fair、正式双语函件/简报、项目实施跟进及十年国际组织实习项目评估质量把关；语言字段必须如实填写，不得将基础西语写为 working knowledge。",
+      "sourceCategory": "IGO/UN",
+      "reported": true,
+      "reportedDate": "2026-11-11",
+      "localMaterials": {
+        "directory": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-11-11/ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01",
+        "directoryUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-11-11/ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01",
+        "cv": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-11-11/ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01/CV_Changhang_LIU_2026-11-11_ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01.docx",
+        "cvUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-11-11/ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01/CV_Changhang_LIU_2026-11-11_ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01.docx",
+        "coverLetter": "/Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-11-11/ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01/Cover_Letter_2026-11-11_ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01.docx",
+        "coverLetterUri": "file:///Users/Archer/Desktop/Adventurer Guild/automation-outputs/intl-jobs/application-materials/2026-11-11/ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01/Cover_Letter_2026-11-11_ilo-resource-mobilization-officer-p2-dc-partnerships-p-2026-01.docx",
+        "generatedAt": "2026-11-11T13:50:52.956Z",
+        "date": "2026-11-11"
+      },
+      "materialStatus": {
+        "state": "ready",
+        "label": "材料齐全",
+        "hasCv": true,
+        "hasCoverLetter": true,
+        "needsRefresh": false
+      },
+      "daysLeft": 9,
+      "status": "active",
+      "statusLabel": "有效",
+      "statusReason": "截止日期 2026-11-20（日内瓦当地时间午夜） 尚未到期。",
       "verification": "Source file",
       "auditDate": "2026-11-11"
     },
